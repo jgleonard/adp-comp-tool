@@ -1,0 +1,14 @@
+[ 1098729ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/adp-comp-tool/node_modules/.vite/deps/react-dom_client.js?v=20961a76:20100
+[ 1111720ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:3000/adp-comp-tool/@vite/client:963
+[ 1111723ms] [ERROR] WebSocket connection to 'ws://localhost:3000/adp-comp-tool/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/adp-comp-tool/@vite/client:1034
+[ 1112727ms] [ERROR] WebSocket connection to 'ws://localhost:3000/adp-comp-tool/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/adp-comp-tool/@vite/client:1034
+[ 1113730ms] [ERROR] WebSocket connection to 'ws://localhost:3000/adp-comp-tool/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/adp-comp-tool/@vite/client:1034
+[ 1114734ms] [ERROR] WebSocket connection to 'ws://localhost:3000/adp-comp-tool/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/adp-comp-tool/@vite/client:1034
+[ 1115737ms] [ERROR] WebSocket connection to 'ws://localhost:3000/adp-comp-tool/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/adp-comp-tool/@vite/client:1034
+[ 1116741ms] [ERROR] WebSocket connection to 'ws://localhost:3000/adp-comp-tool/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/adp-comp-tool/@vite/client:1034
+[ 1117746ms] [ERROR] WebSocket connection to 'ws://localhost:3000/adp-comp-tool/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/adp-comp-tool/@vite/client:1034
+[ 1118750ms] [ERROR] WebSocket connection to 'ws://localhost:3000/adp-comp-tool/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/adp-comp-tool/@vite/client:1034
+[ 1119754ms] [ERROR] WebSocket connection to 'ws://localhost:3000/adp-comp-tool/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/adp-comp-tool/@vite/client:1034
+[ 1120760ms] [ERROR] WebSocket connection to 'ws://localhost:3000/adp-comp-tool/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/adp-comp-tool/@vite/client:1034
+[ 1121766ms] [ERROR] WebSocket connection to 'ws://localhost:3000/adp-comp-tool/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/adp-comp-tool/@vite/client:1034
+[ 1122773ms] [ERROR] WebSocket connection to 'ws://localhost:3000/adp-comp-tool/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/adp-comp-tool/@vite/client:1034

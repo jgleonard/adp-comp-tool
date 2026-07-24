@@ -39,13 +39,13 @@ export default function PlayerTable({
 
   return (
     <div className="overflow-x-auto rounded-lg border border-gray-200/80 bg-white">
-      <table className="w-full border-collapse text-sm">
+      <table className="table-auto border-collapse text-sm">
         <thead>
           <tr className="border-b border-gray-200">
-            <th className="sticky left-0 z-20 bg-gray-50 py-2.5 px-3 text-center font-medium text-xs uppercase tracking-wider text-slate-light w-10">
+            <th className="sticky left-0 z-20 bg-gray-50/95 py-2.5 px-3 text-center font-medium text-xs uppercase tracking-wider text-slate-light w-10">
               #
             </th>
-            <th className="sticky left-12 z-20 bg-gray-50 py-2.5 pl-1 pr-3 text-left font-medium text-xs uppercase tracking-wider text-slate-light md:left-20">
+            <th className="sticky left-10 z-20 bg-gray-50/95 py-2.5 pl-1 pr-3 text-left font-medium text-xs uppercase tracking-wider text-slate-light">
               <button
                 type="button"
                 onClick={() => handleSort('name')}
@@ -55,11 +55,11 @@ export default function PlayerTable({
                 <SortArrow field="name" config={sortConfig} />
               </button>
             </th>
-            <th className="sticky left-48 z-20 bg-gray-50 py-2.5 pr-3 text-center font-medium text-xs uppercase tracking-wider text-slate-light sm:hidden md:left-52">
+            <th className="py-2.5 px-2 text-center font-medium text-xs uppercase tracking-wider text-slate-light sm:hidden">
               Pos
             </th>
             {activeSources.map(source => (
-              <th key={source.name} className="py-2.5 px-3 text-center font-medium text-xs uppercase tracking-wider text-slate-light">
+              <th key={source.name} className="py-2.5 px-3 text-center font-medium text-xs uppercase tracking-wider text-slate-light whitespace-nowrap">
                 <button
                   type="button"
                   onClick={() => handleSort(source.name)}
@@ -70,7 +70,7 @@ export default function PlayerTable({
                 </button>
               </th>
             ))}
-            <th className="py-2.5 px-3 text-center font-medium text-xs uppercase tracking-wider text-slate-light">
+            <th className="py-2.5 px-3 text-center font-medium text-xs uppercase tracking-wider text-slate-light whitespace-nowrap">
               <button
                 type="button"
                 onClick={() => handleSort('medianAdp')}
@@ -80,7 +80,7 @@ export default function PlayerTable({
                 <SortArrow field="medianAdp" config={sortConfig} />
               </button>
             </th>
-            <th className="py-2.5 px-3 text-center font-medium text-xs uppercase tracking-wider text-slate-light">
+            <th className="py-2.5 px-3 text-center font-medium text-xs uppercase tracking-wider text-slate-light whitespace-nowrap">
               <button
                 type="button"
                 onClick={() => handleSort('bestAdp')}
@@ -90,7 +90,7 @@ export default function PlayerTable({
                 <SortArrow field="bestAdp" config={sortConfig} />
               </button>
             </th>
-            <th className="py-2.5 px-3 text-center font-medium text-xs uppercase tracking-wider text-slate-light">
+            <th className="py-2.5 px-3 text-center font-medium text-xs uppercase tracking-wider text-slate-light whitespace-nowrap">
               <button
                 type="button"
                 onClick={() => handleSort('worstAdp')}
@@ -100,7 +100,7 @@ export default function PlayerTable({
                 <SortArrow field="worstAdp" config={sortConfig} />
               </button>
             </th>
-            <th className="py-2.5 px-3 text-center font-medium text-xs uppercase tracking-wider text-slate-light">
+            <th className="py-2.5 px-3 text-center font-medium text-xs uppercase tracking-wider text-slate-light whitespace-nowrap">
               <button
                 type="button"
                 onClick={() => handleSort('adpSpread')}
