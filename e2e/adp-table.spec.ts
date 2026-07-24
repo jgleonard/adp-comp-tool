@@ -18,8 +18,10 @@ test.describe('ADP Table', () => {
 
   test('shows column headers', async ({ page }) => {
     await expect(page.getByRole('columnheader', { name: 'Name' })).toBeVisible();
-    await expect(page.getByRole('columnheader', { name: 'Pos' })).toBeVisible();
     await expect(page.getByRole('columnheader', { name: 'Median' })).toBeVisible();
+    await expect(page.getByRole('columnheader', { name: 'Best' })).toBeVisible();
+    await expect(page.getByRole('columnheader', { name: 'Worst' })).toBeVisible();
+    await expect(page.getByRole('columnheader', { name: 'Spread' })).toBeVisible();
   });
 
   test('sorts by clicking Median header', async ({ page }) => {
