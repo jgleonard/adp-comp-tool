@@ -1,5 +1,6 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import { PlayerData, SourceName, SourceInfo } from '../types';
+import { computeDynamicAdpForAll } from '../utils/dynamicAdp';
 
 import mergedData from '../data/merged.json';
 
@@ -16,14 +17,14 @@ const SOURCE_INFOS: SourceInfo[] = [
 ];
 
 export function useAdpData() {
-  const [players, setPlayers] = useState<PlayerData[]>([]);
+  const [rawPlayers, setRawPlayers] = useState<PlayerData[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [sources, setSources] = useState<SourceInfo[]>(SOURCE_INFOS);
   const [lastUpdated, setLastUpdated] = useState<string>('');
 
   useEffect(() => {
     const data = mergedData as unknown as MergedData;
-    setPlayers(data.players);
+    setRawPlayers(data.players);
     setLastUpdated(data.lastUpdated);
     setIsLoading(false);
   }, []);
@@ -33,6 +34,16 @@ export function useAdpData() {
       prev.map(s => (s.name === name ? { ...s, active: !s.active } : s)),
     );
   }, []);
+
+  const activeSourceNames = useMemo(
+    () => sources.filter(s => s.active).map(s => s.name),
+    [sources],
+  );
+
+  const players = useMemo(
+    () => computeDynamicAdpForAll(rawPlayers, activeSourceNames),
+    [rawPlayers, activeSourceNames],
+  );
 
   return { players, isLoading, sources, toggleSource, lastUpdated };
 }

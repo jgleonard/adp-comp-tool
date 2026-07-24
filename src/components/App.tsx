@@ -24,7 +24,7 @@ export default function App() {
   const { players, isLoading, sources, toggleSource, lastUpdated } = useAdpData();
 
   const [filterState, setFilterState] = useState<FilterState>(DEFAULT_FILTERS);
-  const [sortConfig, setSortConfig] = useState<SortConfig | null>(null);
+  const [sortConfig, setSortConfig] = useState<SortConfig | null>({ field: 'medianAdp', direction: 'asc' });
   const [selectedPlayer, setSelectedPlayer] = useState<PlayerData | null>(null);
 
   const { filteredPlayers, togglePosition } = useFilters(players, filterState);
