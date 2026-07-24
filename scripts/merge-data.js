@@ -7,7 +7,7 @@ const DATA_DIR = path.join(__dirname, '../src/data');
 const SOURCES = ['sleeper', 'mfl', 'espn', 'fantasypros'];
 
 function median(arr) {
-  const sorted = arr.sort((a, b) => a - b);
+  const sorted = [...arr].sort((a, b) => a - b);
   const mid = Math.floor(sorted.length / 2);
   return sorted.length % 2 !== 0 ? sorted[mid] : Math.round((sorted[mid - 1] + sorted[mid]) / 2);
 }
@@ -18,8 +18,13 @@ function loadSource(name) {
     console.warn(`[merge] ${name}.json not found, skipping`);
     return null;
   }
-  const content = fs.readFileSync(filePath, 'utf-8');
-  return JSON.parse(content);
+  return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+}
+
+function canonicalKey(player) {
+  const name = (player.name || '').toLowerCase().replace(/['']/g, '').replace(/[^a-z0-9]/g, ' ').trim();
+  const position = (player.position || '').toUpperCase();
+  return `${name}|${position}`;
 }
 
 function main() {
@@ -33,8 +38,9 @@ function main() {
   for (const src of SOURCES) {
     if (!sourceData[src]) continue;
     for (const entry of sourceData[src]) {
-      if (!playerMap.has(entry.id)) {
-        playerMap.set(entry.id, {
+      const key = canonicalKey(entry);
+      if (!playerMap.has(key)) {
+        playerMap.set(key, {
           id: entry.id,
           name: entry.name,
           position: entry.position,
@@ -42,13 +48,14 @@ function main() {
           adp: {},
         });
       }
-      playerMap.get(entry.id).adp[src] = entry.adp;
+      const merged = playerMap.get(key);
+      merged.adp[src] = entry.adp;
     }
   }
 
   const players = [];
   for (const player of playerMap.values()) {
-    const values = SOURCES.map(s => player.adp[s]).filter(v => v !== null && v !== undefined);
+    const values = SOURCES.map(s => player.adp[s]).filter(v => v != null);
 
     players.push({
       id: player.id,

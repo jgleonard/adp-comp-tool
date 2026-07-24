@@ -6,8 +6,8 @@ export default function Footer({ lastUpdated }: FooterProps) {
   return (
     <footer className="bg-navy text-slate-light text-center py-4 px-4 text-sm">
       <div className="max-w-7xl mx-auto">
-        <p className="mb-1">Data updated: {lastUpdated}</p>
-        <p className="text-xs text-slate-light">
+        <p className="mb-1.5 text-xs sm:text-sm">Data updated: {lastUpdated}</p>
+        <p className="text-xs">
           Sources:{' '}
           <a
             href="https://sleeper.app"

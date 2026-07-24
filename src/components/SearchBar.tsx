@@ -46,9 +46,9 @@ export default function SearchBar({ value, onChange }: SearchBarProps) {
 
   return (
     <div className="relative w-full">
-      <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+      <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3.5">
         <svg
-          className="h-5 w-5 text-slate"
+          className="h-5 w-5 text-slate-light"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -66,13 +66,13 @@ export default function SearchBar({ value, onChange }: SearchBarProps) {
         value={localValue}
         onChange={handleChange}
         placeholder="Search players..."
-        className="w-full rounded-lg border border-gray-300 bg-card py-2.5 pl-10 pr-10 text-sm shadow-sm outline-none transition-smooth focus:border-blue focus:ring-1 focus:ring-blue placeholder:text-slate-light"
+        className="w-full rounded-lg border border-gray-200 bg-card py-2.5 pl-10 pr-10 text-sm shadow-sm outline-none transition-smooth focus:border-blue focus:ring-2 focus:ring-blue/20 placeholder:text-slate-light"
       />
       {localValue && (
         <button
           type="button"
           onClick={handleClear}
-          className="absolute inset-y-0 right-0 flex items-center pr-3 text-slate hover:text-navy transition-smooth"
+          className="absolute inset-y-0 right-0 flex items-center pr-3 text-slate-light hover:text-navy transition-smooth"
           aria-label="Clear search"
         >
           <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">

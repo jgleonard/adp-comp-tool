@@ -5,6 +5,10 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '../src/data');
 
+// MFL ADP API endpoint (public, no auth required)
+const MFL_ADP_URL = 'https://api.myfantasyleague.com/2026/export?TYPE=adp&JSON=1';
+const MFL_PLAYERS_URL = 'https://api.myfantasyleague.com/2026/export?TYPE=players&JSON=1';
+
 const PLAYERS = [
   { name: "Josh Allen", position: "QB", team: "BUF", id: "qb_josh_allen" },
   { name: "Lamar Jackson", position: "QB", team: "BAL", id: "qb_lamar_jackson" },
@@ -208,20 +212,131 @@ function getAdp(p) {
   return Math.max(1, Math.min(200, base + jitter));
 }
 
+// MFL team code mapping to standard 3-letter codes
+const TEAM_MAP = {
+  'ARI': 'ARI', 'ATL': 'ATL', 'BAL': 'BAL', 'BUF': 'BUF', 'CAR': 'CAR',
+  'CHI': 'CHI', 'CIN': 'CIN', 'CLE': 'CLE', 'DAL': 'DAL', 'DEN': 'DEN',
+  'DET': 'DET', 'GB': 'GB', 'HOU': 'HOU', 'IND': 'IND', 'JAX': 'JAX',
+  'KC': 'KC', 'LV': 'LV', 'LAC': 'LAC', 'LAR': 'LAR', 'MIA': 'MIA',
+  'MIN': 'MIN', 'NE': 'NE', 'NO': 'NO', 'NYG': 'NYG', 'NYJ': 'NYJ',
+  'PHI': 'PHI', 'PIT': 'PIT', 'SEA': 'SEA', 'SF': 'SF', 'TB': 'TB',
+  'TEN': 'TEN', 'WAS': 'WAS', 'WSH': 'WAS',
+  // MFL-specific codes
+  'SFO': 'SF', 'LVR': 'LV', 'KCC': 'KC', 'TBB': 'TB', 'NEP': 'NE',
+  'GBP': 'GB', 'NOS': 'NO', 'STL': 'LAR', 'OAK': 'LV', 'SD': 'LAC',
+  'MIA': 'MIA', 'MIL': 'GB', 'SEA': 'SEA', 'PHX': 'ARI', 'TB': 'TB',
+};
+
+// Position mapping - MFL uses PK for kickers, we use K
+const POSITION_MAP = {
+  'QB': 'QB', 'RB': 'RB', 'WR': 'WR', 'TE': 'TE',
+  'PK': 'K', 'K': 'K',
+  'DEF': 'DEF', 'DST': 'DEF',
+};
+
+const VALID_POSITIONS = new Set(['QB', 'RB', 'WR', 'TE', 'K', 'DEF']);
+
+async function fetchMflData() {
+  try {
+    console.log('[mfl] Fetching from MFL API...');
+    const [adpResp, playersResp] = await Promise.all([
+      fetch(MFL_ADP_URL, { signal: AbortSignal.timeout(15000) }),
+      fetch(MFL_PLAYERS_URL, { signal: AbortSignal.timeout(15000) }),
+    ]);
+
+    if (!adpResp.ok || !playersResp.ok) {
+      console.log(`[mfl] API returned ${adpResp.status}/${playersResp.status}, using fallback`);
+      return null;
+    }
+
+    const [adpRaw, playersRaw] = await Promise.all([
+      adpResp.json(),
+      playersResp.json(),
+    ]);
+
+    console.log('[mfl] Successfully fetched from MFL API');
+    return { adp: adpRaw, players: playersRaw };
+  } catch (err) {
+    console.log(`[mfl] API unavailable (${err.message}), using fallback data`);
+    return null;
+  }
+}
+
+function parseMflData(raw) {
+  if (!raw || !raw.adp || !raw.players) return null;
+
+  const adpPlayers = raw.adp.adp?.player;
+  const playerArr = raw.players.players?.player;
+
+  if (!adpPlayers || !Array.isArray(adpPlayers)) return null;
+
+  const infoMap = {};
+  if (Array.isArray(playerArr)) {
+    for (const p of playerArr) {
+      if (p.id) {
+        infoMap[p.id] = p;
+      }
+    }
+  }
+
+  const results = adpPlayers
+    .filter(p => p.id && p.averagePick != null)
+    .map(p => {
+      const info = infoMap[p.id] || {};
+      const rawPosition = info.position || 'Unknown';
+      const position = POSITION_MAP[rawPosition] || rawPosition;
+
+      if (!VALID_POSITIONS.has(position)) return null;
+
+      const rawTeam = info.team || 'Unknown';
+      const team = TEAM_MAP[rawTeam] || rawTeam;
+
+      const rawName = info.name || 'Unknown';
+      const name = rawName.includes(',')
+        ? rawName.split(',').map(s => s.trim()).reverse().join(' ')
+        : rawName;
+
+      return {
+        id: p.id.toString(),
+        name,
+        position,
+        team,
+        adp: Math.round(Number(p.averagePick) * 100) / 100,
+        drafts: Number(p.draftsSelectedIn) ?? 0,
+        minPick: p.minPick ? Number(p.minPick) : null,
+        maxPick: p.maxPick ? Number(p.maxPick) : null,
+      };
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.adp - b.adp);
+
+  return results;
+}
+
 async function main() {
   const OUT = path.join(DATA_DIR, 'mfl.json');
   fs.mkdirSync(DATA_DIR, { recursive: true });
 
-  try {
-    const resp = await fetch('https://www.mfl.com/draftcenter/adp', { signal: AbortSignal.timeout(8000) });
-    if (resp.ok) console.log('[mfl] Fetched from MFL API');
-  } catch {
-    console.log('[mfl] API unavailable, using sample data');
-  }
+  const raw = await fetchMflData();
 
-  const data = PLAYERS.map(p => ({
-    id: p.id, name: p.name, position: p.position, team: p.team, adp: getAdp(p),
-  }));
+  let data;
+  if (raw) {
+    const parsed = parseMflData(raw);
+    if (parsed && parsed.length > 0) {
+      data = parsed;
+      console.log(`[mfl] Parsed ${data.length} players from API`);
+    } else {
+      data = PLAYERS.map(p => ({
+        id: p.id, name: p.name, position: p.position, team: p.team, adp: getAdp(p),
+      }));
+      console.log(`[mfl] API returned no parseable data, using fallback for ${data.length} players`);
+    }
+  } else {
+    data = PLAYERS.map(p => ({
+      id: p.id, name: p.name, position: p.position, team: p.team, adp: getAdp(p),
+    }));
+    console.log(`[mfl] Using fallback data for ${data.length} players`);
+  }
 
   fs.writeFileSync(OUT, JSON.stringify(data, null, 2));
   console.log(`[mfl] Wrote ${data.length} players to mfl.json`);

@@ -80,13 +80,29 @@ export default function App() {
     <div className="min-h-screen bg-surface">
       <Header />
 
-      <main className="mx-auto max-w-7xl px-4 py-6">
+      <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         {/* Controls card */}
-        <div className="mb-6 space-y-4 rounded-lg border border-gray-200 bg-card p-4 shadow-sm md:space-y-0 md:p-6">
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <SearchBar value={filterState.search} onChange={handleSearchChange} />
-            <SourceToggle sources={sources} onToggle={handleSourceToggle} />
+        <div className="mb-6 rounded-xl border border-gray-200 bg-card p-4 shadow-sm sm:p-6">
+          {/* Top row: Search + Source toggles */}
+          <div className="grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2">
+            <div>
+              <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate">
+                Search
+              </label>
+              <SearchBar value={filterState.search} onChange={handleSearchChange} />
+            </div>
+            <div>
+              <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate">
+                Data Sources
+              </label>
+              <SourceToggle sources={sources} onToggle={handleSourceToggle} />
+            </div>
           </div>
+
+          {/* Divider */}
+          <div className="my-5 border-t border-gray-100" />
+
+          {/* Filters section */}
           <Filters
             filterState={filterState}
             onPositionToggle={handlePositionToggle}
@@ -99,7 +115,7 @@ export default function App() {
 
         {/* Table count */}
         <div className="mb-3 flex items-center justify-between px-1">
-          <span className="text-sm text-slate">
+          <span className="text-sm font-medium text-slate">
             {sortedPlayers.length} player{sortedPlayers.length !== 1 ? 's' : ''}
           </span>
           {(filterState.positions.length > 0 || filterState.search) && (
@@ -108,7 +124,7 @@ export default function App() {
               onClick={() =>
                 setFilterState({ ...DEFAULT_FILTERS, maxAdp: 500 })
               }
-              className="text-xs font-medium text-blue hover:text-navy transition-smooth"
+              className="rounded-full bg-blue/10 px-3 py-1 text-xs font-semibold text-blue hover:bg-blue/20 transition-smooth"
             >
               Clear filters
             </button>

@@ -33,7 +33,7 @@ export default function PlayerTable({
   const activeSources = sources.filter(s => s.active);
 
   return (
-    <div className="overflow-x-auto rounded-lg border border-gray-200 shadow-sm">
+    <div className="overflow-x-auto rounded-xl border border-gray-200 shadow-sm">
       <table className="w-full border-collapse text-sm">
         <thead>
           <tr className="bg-navy text-white">
@@ -107,9 +107,15 @@ export default function PlayerTable({
             <tr>
               <td
                 colSpan={4 + activeSources.length + 4}
-                className="py-8 text-center text-slate"
+                className="py-16 text-center text-slate"
               >
-                No players match the current filters.
+                <div className="flex flex-col items-center gap-2">
+                  <svg className="h-8 w-8 text-slate-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                  <span className="text-sm font-medium">No players match the current filters.</span>
+                  <span className="text-xs text-slate-light">Try adjusting your search or filter criteria.</span>
+                </div>
               </td>
             </tr>
           ) : (
