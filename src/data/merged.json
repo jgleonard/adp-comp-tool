@@ -1,0 +1,2437 @@
+{
+  "lastUpdated": "2026-07-24T16:14:10.352Z",
+  "players": [
+    {
+      "id": "rb_christian_mccaffrey",
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "team": "SF",
+      "adp": {
+        "sleeper": 1,
+        "mfl": 2,
+        "espn": 2,
+        "fantasypros": 4
+      },
+      "medianAdp": 2,
+      "bestAdp": 1,
+      "worstAdp": 4,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_justin_jefferson",
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "team": "MIN",
+      "adp": {
+        "sleeper": 3,
+        "mfl": 1,
+        "espn": 3,
+        "fantasypros": 4
+      },
+      "medianAdp": 3,
+      "bestAdp": 1,
+      "worstAdp": 4,
+      "adpSpread": 3
+    },
+    {
+      "id": "rb_saquon_barkley",
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "team": "PHI",
+      "adp": {
+        "sleeper": 4,
+        "mfl": 4,
+        "espn": 5,
+        "fantasypros": 8
+      },
+      "medianAdp": 5,
+      "bestAdp": 4,
+      "worstAdp": 8,
+      "adpSpread": 4
+    },
+    {
+      "id": "wr_ceedee_lamb",
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "team": "DAL",
+      "adp": {
+        "sleeper": 3,
+        "mfl": 5,
+        "espn": 5,
+        "fantasypros": 5
+      },
+      "medianAdp": 5,
+      "bestAdp": 3,
+      "worstAdp": 5,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_jamarr_chase",
+      "name": "Ja'Marr Chase",
+      "position": "WR",
+      "team": "CIN",
+      "adp": {
+        "sleeper": 4,
+        "mfl": 2,
+        "espn": 5,
+        "fantasypros": 5
+      },
+      "medianAdp": 5,
+      "bestAdp": 2,
+      "worstAdp": 5,
+      "adpSpread": 3
+    },
+    {
+      "id": "qb_josh_allen",
+      "name": "Josh Allen",
+      "position": "QB",
+      "team": "BUF",
+      "adp": {
+        "sleeper": 6,
+        "mfl": 6,
+        "espn": 6,
+        "fantasypros": 8
+      },
+      "medianAdp": 6,
+      "bestAdp": 6,
+      "worstAdp": 8,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_amonra_stbrown",
+      "name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "team": "DET",
+      "adp": {
+        "sleeper": 6,
+        "mfl": 7,
+        "espn": 7,
+        "fantasypros": 8
+      },
+      "medianAdp": 7,
+      "bestAdp": 6,
+      "worstAdp": 8,
+      "adpSpread": 2
+    },
+    {
+      "id": "qb_lamar_jackson",
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "adp": {
+        "sleeper": 9,
+        "mfl": 7,
+        "espn": 8,
+        "fantasypros": 9
+      },
+      "medianAdp": 9,
+      "bestAdp": 7,
+      "worstAdp": 9,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_tyreek_hill",
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "team": "MIA",
+      "adp": {
+        "sleeper": 10,
+        "mfl": 9,
+        "espn": 11,
+        "fantasypros": 10
+      },
+      "medianAdp": 10,
+      "bestAdp": 9,
+      "worstAdp": 11,
+      "adpSpread": 2
+    },
+    {
+      "id": "qb_jalen_hurts",
+      "name": "Jalen Hurts",
+      "position": "QB",
+      "team": "PHI",
+      "adp": {
+        "sleeper": 10,
+        "mfl": 11,
+        "espn": 10,
+        "fantasypros": 12
+      },
+      "medianAdp": 11,
+      "bestAdp": 10,
+      "worstAdp": 12,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_jonathan_taylor",
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "team": "IND",
+      "adp": {
+        "sleeper": 11,
+        "mfl": 10,
+        "espn": 12,
+        "fantasypros": 14
+      },
+      "medianAdp": 12,
+      "bestAdp": 10,
+      "worstAdp": 14,
+      "adpSpread": 4
+    },
+    {
+      "id": "rb_derrick_henry",
+      "name": "Derrick Henry",
+      "position": "RB",
+      "team": "BAL",
+      "adp": {
+        "sleeper": 12,
+        "mfl": 13,
+        "espn": 12,
+        "fantasypros": 13
+      },
+      "medianAdp": 13,
+      "bestAdp": 12,
+      "worstAdp": 13,
+      "adpSpread": 1
+    },
+    {
+      "id": "wr_aj_brown",
+      "name": "A.J. Brown",
+      "position": "WR",
+      "team": "PHI",
+      "adp": {
+        "sleeper": 14,
+        "mfl": 12,
+        "espn": 13,
+        "fantasypros": 14
+      },
+      "medianAdp": 14,
+      "bestAdp": 12,
+      "worstAdp": 14,
+      "adpSpread": 2
+    },
+    {
+      "id": "qb_patrick_mahomes",
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "team": "KC",
+      "adp": {
+        "sleeper": 15,
+        "mfl": 15,
+        "espn": 15,
+        "fantasypros": 17
+      },
+      "medianAdp": 15,
+      "bestAdp": 15,
+      "worstAdp": 17,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_breece_hall",
+      "name": "Breece Hall",
+      "position": "RB",
+      "team": "NYJ",
+      "adp": {
+        "sleeper": 15,
+        "mfl": 16,
+        "espn": 17,
+        "fantasypros": 17
+      },
+      "medianAdp": 17,
+      "bestAdp": 15,
+      "worstAdp": 17,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_puka_nacua",
+      "name": "Puka Nacua",
+      "position": "WR",
+      "team": "LAR",
+      "adp": {
+        "sleeper": 16,
+        "mfl": 16,
+        "espn": 18,
+        "fantasypros": 19
+      },
+      "medianAdp": 17,
+      "bestAdp": 16,
+      "worstAdp": 19,
+      "adpSpread": 3
+    },
+    {
+      "id": "qb_joe_burrow",
+      "name": "Joe Burrow",
+      "position": "QB",
+      "team": "CIN",
+      "adp": {
+        "sleeper": 16,
+        "mfl": 17,
+        "espn": 18,
+        "fantasypros": 18
+      },
+      "medianAdp": 18,
+      "bestAdp": 16,
+      "worstAdp": 18,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_josh_jacobs",
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "team": "LV",
+      "adp": {
+        "sleeper": 17,
+        "mfl": 17,
+        "espn": 20,
+        "fantasypros": 21
+      },
+      "medianAdp": 19,
+      "bestAdp": 17,
+      "worstAdp": 21,
+      "adpSpread": 4
+    },
+    {
+      "id": "qb_jared_goff",
+      "name": "Jared Goff",
+      "position": "QB",
+      "team": "DET",
+      "adp": {
+        "sleeper": 19,
+        "mfl": 19,
+        "espn": 21,
+        "fantasypros": 21
+      },
+      "medianAdp": 20,
+      "bestAdp": 19,
+      "worstAdp": 21,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_bijan_robinson",
+      "name": "Bijan Robinson",
+      "position": "RB",
+      "team": "ATL",
+      "adp": {
+        "sleeper": 18,
+        "mfl": 20,
+        "espn": 21,
+        "fantasypros": 21
+      },
+      "medianAdp": 21,
+      "bestAdp": 18,
+      "worstAdp": 21,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_garrett_wilson",
+      "name": "Garrett Wilson",
+      "position": "WR",
+      "team": "NYJ",
+      "adp": {
+        "sleeper": 22,
+        "mfl": 20,
+        "espn": 22,
+        "fantasypros": 24
+      },
+      "medianAdp": 22,
+      "bestAdp": 20,
+      "worstAdp": 24,
+      "adpSpread": 4
+    },
+    {
+      "id": "qb_justin_herbert",
+      "name": "Justin Herbert",
+      "position": "QB",
+      "team": "LAC",
+      "adp": {
+        "sleeper": 23,
+        "mfl": 22,
+        "espn": 22,
+        "fantasypros": 24
+      },
+      "medianAdp": 23,
+      "bestAdp": 22,
+      "worstAdp": 24,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_brandon_aiyuk",
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "team": "SF",
+      "adp": {
+        "sleeper": 23,
+        "mfl": 24,
+        "espn": 24,
+        "fantasypros": 27
+      },
+      "medianAdp": 24,
+      "bestAdp": 23,
+      "worstAdp": 27,
+      "adpSpread": 4
+    },
+    {
+      "id": "wr_marvin_harrison",
+      "name": "Marvin Harrison Jr.",
+      "position": "WR",
+      "team": "ARI",
+      "adp": {
+        "sleeper": 24,
+        "mfl": 24,
+        "espn": 23,
+        "fantasypros": 24
+      },
+      "medianAdp": 24,
+      "bestAdp": 23,
+      "worstAdp": 24,
+      "adpSpread": 1
+    },
+    {
+      "id": "rb_kenneth_walker",
+      "name": "Kenneth Walker III",
+      "position": "RB",
+      "team": "SEA",
+      "adp": {
+        "sleeper": 26,
+        "mfl": 26,
+        "espn": 27,
+        "fantasypros": 28
+      },
+      "medianAdp": 27,
+      "bestAdp": 26,
+      "worstAdp": 28,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_davante_adams",
+      "name": "Davante Adams",
+      "position": "WR",
+      "team": "LV",
+      "adp": {
+        "sleeper": 26,
+        "mfl": 25,
+        "espn": 28,
+        "fantasypros": 28
+      },
+      "medianAdp": 27,
+      "bestAdp": 25,
+      "worstAdp": 28,
+      "adpSpread": 3
+    },
+    {
+      "id": "rb_kyren_williams",
+      "name": "Kyren Williams",
+      "position": "RB",
+      "team": "LAR",
+      "adp": {
+        "sleeper": 27,
+        "mfl": 27,
+        "espn": 28,
+        "fantasypros": 29
+      },
+      "medianAdp": 28,
+      "bestAdp": 27,
+      "worstAdp": 29,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_tee_higgins",
+      "name": "Tee Higgins",
+      "position": "WR",
+      "team": "CIN",
+      "adp": {
+        "sleeper": 26,
+        "mfl": 28,
+        "espn": 28,
+        "fantasypros": 28
+      },
+      "medianAdp": 28,
+      "bestAdp": 26,
+      "worstAdp": 28,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_chris_olave",
+      "name": "Chris Olave",
+      "position": "WR",
+      "team": "ATL",
+      "adp": {
+        "sleeper": 29,
+        "mfl": 29,
+        "espn": 32,
+        "fantasypros": 31
+      },
+      "medianAdp": 30,
+      "bestAdp": 29,
+      "worstAdp": 32,
+      "adpSpread": 3
+    },
+    {
+      "id": "qb_jayden_daniels",
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "team": "WAS",
+      "adp": {
+        "sleeper": 30,
+        "mfl": 30,
+        "espn": 31,
+        "fantasypros": 31
+      },
+      "medianAdp": 31,
+      "bestAdp": 30,
+      "worstAdp": 31,
+      "adpSpread": 1
+    },
+    {
+      "id": "wr_drake_london",
+      "name": "Drake London",
+      "position": "WR",
+      "team": "ATL",
+      "adp": {
+        "sleeper": 31,
+        "mfl": 31,
+        "espn": 33,
+        "fantasypros": 34
+      },
+      "medianAdp": 32,
+      "bestAdp": 31,
+      "worstAdp": 34,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_jaylen_waddle",
+      "name": "Jaylen Waddle",
+      "position": "WR",
+      "team": "MIA",
+      "adp": {
+        "sleeper": 34,
+        "mfl": 35,
+        "espn": 35,
+        "fantasypros": 37
+      },
+      "medianAdp": 35,
+      "bestAdp": 34,
+      "worstAdp": 37,
+      "adpSpread": 3
+    },
+    {
+      "id": "qb_cj_stroud",
+      "name": "C.J. Stroud",
+      "position": "QB",
+      "team": "HOU",
+      "adp": {
+        "sleeper": 35,
+        "mfl": 34,
+        "espn": 37,
+        "fantasypros": 38
+      },
+      "medianAdp": 36,
+      "bestAdp": 34,
+      "worstAdp": 38,
+      "adpSpread": 4
+    },
+    {
+      "id": "te_travis_kelce",
+      "name": "Travis Kelce",
+      "position": "TE",
+      "team": "KC",
+      "adp": {
+        "sleeper": 37,
+        "mfl": 37,
+        "espn": 36,
+        "fantasypros": 37
+      },
+      "medianAdp": 37,
+      "bestAdp": 36,
+      "worstAdp": 37,
+      "adpSpread": 1
+    },
+    {
+      "id": "wr_malik_nabers",
+      "name": "Malik Nabers",
+      "position": "WR",
+      "team": "NYG",
+      "adp": {
+        "sleeper": 39,
+        "mfl": 39,
+        "espn": 39,
+        "fantasypros": 41
+      },
+      "medianAdp": 39,
+      "bestAdp": 39,
+      "worstAdp": 41,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_devonta_smith",
+      "name": "DeVonta Smith",
+      "position": "WR",
+      "team": "PHI",
+      "adp": {
+        "sleeper": 40,
+        "mfl": 39,
+        "espn": 41,
+        "fantasypros": 43
+      },
+      "medianAdp": 41,
+      "bestAdp": 39,
+      "worstAdp": 43,
+      "adpSpread": 4
+    },
+    {
+      "id": "qb_anthony_richardson",
+      "name": "Anthony Richardson",
+      "position": "QB",
+      "team": "IND",
+      "adp": {
+        "sleeper": 41,
+        "mfl": 41,
+        "espn": 42,
+        "fantasypros": 43
+      },
+      "medianAdp": 42,
+      "bestAdp": 41,
+      "worstAdp": 43,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_rashee_rice",
+      "name": "Rashee Rice",
+      "position": "WR",
+      "team": "KC",
+      "adp": {
+        "sleeper": 43,
+        "mfl": 43,
+        "espn": 43,
+        "fantasypros": 44
+      },
+      "medianAdp": 43,
+      "bestAdp": 43,
+      "worstAdp": 44,
+      "adpSpread": 1
+    },
+    {
+      "id": "wr_zay_flowers",
+      "name": "Zay Flowers",
+      "position": "WR",
+      "team": "BAL",
+      "adp": {
+        "sleeper": 44,
+        "mfl": 44,
+        "espn": 44,
+        "fantasypros": 47
+      },
+      "medianAdp": 44,
+      "bestAdp": 44,
+      "worstAdp": 47,
+      "adpSpread": 3
+    },
+    {
+      "id": "qb_kirk_cousins",
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "team": "ATL",
+      "adp": {
+        "sleeper": 45,
+        "mfl": 44,
+        "espn": 47,
+        "fantasypros": 46
+      },
+      "medianAdp": 46,
+      "bestAdp": 44,
+      "worstAdp": 47,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_calvin_ridley",
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "team": "TEN",
+      "adp": {
+        "sleeper": 47,
+        "mfl": 46,
+        "espn": 47,
+        "fantasypros": 48
+      },
+      "medianAdp": 47,
+      "bestAdp": 46,
+      "worstAdp": 48,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_tony_pollard",
+      "name": "Tony Pollard",
+      "position": "RB",
+      "team": "TEN",
+      "adp": {
+        "sleeper": 49,
+        "mfl": 49,
+        "espn": 50,
+        "fantasypros": 49
+      },
+      "medianAdp": 49,
+      "bestAdp": 49,
+      "worstAdp": 50,
+      "adpSpread": 1
+    },
+    {
+      "id": "te_brock_bowers",
+      "name": "Brock Bowers",
+      "position": "TE",
+      "team": "LV",
+      "adp": {
+        "sleeper": 49,
+        "mfl": 48,
+        "espn": 48,
+        "fantasypros": 51
+      },
+      "medianAdp": 49,
+      "bestAdp": 48,
+      "worstAdp": 51,
+      "adpSpread": 3
+    },
+    {
+      "id": "qb_drake_maye",
+      "name": "Drake Maye",
+      "position": "QB",
+      "team": "NE",
+      "adp": {
+        "sleeper": 50,
+        "mfl": 50,
+        "espn": 51,
+        "fantasypros": 52
+      },
+      "medianAdp": 51,
+      "bestAdp": 50,
+      "worstAdp": 52,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_najee_harris",
+      "name": "Najee Harris",
+      "position": "RB",
+      "team": "PIT",
+      "adp": {
+        "sleeper": 51,
+        "mfl": 51,
+        "espn": 52,
+        "fantasypros": 53
+      },
+      "medianAdp": 52,
+      "bestAdp": 51,
+      "worstAdp": 53,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_rhamondre_stevenson",
+      "name": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE",
+      "adp": {
+        "sleeper": 52,
+        "mfl": 53,
+        "espn": 53,
+        "fantasypros": 54
+      },
+      "medianAdp": 53,
+      "bestAdp": 52,
+      "worstAdp": 54,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_michael_pittman",
+      "name": "Michael Pittman Jr.",
+      "position": "WR",
+      "team": "IND",
+      "adp": {
+        "sleeper": 53,
+        "mfl": 53,
+        "espn": 55,
+        "fantasypros": 55
+      },
+      "medianAdp": 54,
+      "bestAdp": 53,
+      "worstAdp": 55,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_rachaad_white",
+      "name": "Rachaad White",
+      "position": "RB",
+      "team": "TB",
+      "adp": {
+        "sleeper": 54,
+        "mfl": 56,
+        "espn": 56,
+        "fantasypros": 58
+      },
+      "medianAdp": 56,
+      "bestAdp": 54,
+      "worstAdp": 58,
+      "adpSpread": 4
+    },
+    {
+      "id": "te_mark_andrews",
+      "name": "Mark Andrews",
+      "position": "TE",
+      "team": "BAL",
+      "adp": {
+        "sleeper": 57,
+        "mfl": 55,
+        "espn": 56,
+        "fantasypros": 59
+      },
+      "medianAdp": 57,
+      "bestAdp": 55,
+      "worstAdp": 59,
+      "adpSpread": 4
+    },
+    {
+      "id": "wr_stefon_diggs",
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "team": "HOU",
+      "adp": {
+        "sleeper": 58,
+        "mfl": 59,
+        "espn": 59,
+        "fantasypros": 61
+      },
+      "medianAdp": 59,
+      "bestAdp": 58,
+      "worstAdp": 61,
+      "adpSpread": 3
+    },
+    {
+      "id": "rb_james_conner",
+      "name": "James Conner",
+      "position": "RB",
+      "team": "ARI",
+      "adp": {
+        "sleeper": 61,
+        "mfl": 59,
+        "espn": 61,
+        "fantasypros": 62
+      },
+      "medianAdp": 61,
+      "bestAdp": 59,
+      "worstAdp": 62,
+      "adpSpread": 3
+    },
+    {
+      "id": "te_dalton_kincaid",
+      "name": "Dalton Kincaid",
+      "position": "TE",
+      "team": "BUF",
+      "adp": {
+        "sleeper": 62,
+        "mfl": 62,
+        "espn": 64,
+        "fantasypros": 65
+      },
+      "medianAdp": 63,
+      "bestAdp": 62,
+      "worstAdp": 65,
+      "adpSpread": 3
+    },
+    {
+      "id": "te_sam_laporta",
+      "name": "Sam LaPorta",
+      "position": "TE",
+      "team": "DET",
+      "adp": {
+        "sleeper": 65,
+        "mfl": 65,
+        "espn": 64,
+        "fantasypros": 65
+      },
+      "medianAdp": 65,
+      "bestAdp": 64,
+      "worstAdp": 65,
+      "adpSpread": 1
+    },
+    {
+      "id": "wr_jordan_addison",
+      "name": "Jordan Addison",
+      "position": "WR",
+      "team": "MIN",
+      "adp": {
+        "sleeper": 65,
+        "mfl": 65,
+        "espn": 67,
+        "fantasypros": 68
+      },
+      "medianAdp": 66,
+      "bestAdp": 65,
+      "worstAdp": 68,
+      "adpSpread": 3
+    },
+    {
+      "id": "qb_baker_mayfield",
+      "name": "Baker Mayfield",
+      "position": "QB",
+      "team": "TB",
+      "adp": {
+        "sleeper": 64,
+        "mfl": 66,
+        "espn": 67,
+        "fantasypros": 67
+      },
+      "medianAdp": 67,
+      "bestAdp": 64,
+      "worstAdp": 67,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_jaxon_smithnjigba",
+      "name": "Jaxon Smith-Njigba",
+      "position": "WR",
+      "team": "SEA",
+      "adp": {
+        "sleeper": 69,
+        "mfl": 67,
+        "espn": 68,
+        "fantasypros": 69
+      },
+      "medianAdp": 69,
+      "bestAdp": 67,
+      "worstAdp": 69,
+      "adpSpread": 2
+    },
+    {
+      "id": "qb_russell_wilson",
+      "name": "Russell Wilson",
+      "position": "QB",
+      "team": "PIT",
+      "adp": {
+        "sleeper": 69,
+        "mfl": 71,
+        "espn": 72,
+        "fantasypros": 72
+      },
+      "medianAdp": 72,
+      "bestAdp": 69,
+      "worstAdp": 72,
+      "adpSpread": 3
+    },
+    {
+      "id": "te_tj_hockenson",
+      "name": "T.J. Hockenson",
+      "position": "TE",
+      "team": "WAS",
+      "adp": {
+        "sleeper": 71,
+        "mfl": 72,
+        "espn": 72,
+        "fantasypros": 73
+      },
+      "medianAdp": 72,
+      "bestAdp": 71,
+      "worstAdp": 73,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_jaylen_watson",
+      "name": "Jaylen Watson",
+      "position": "RB",
+      "team": "CLE",
+      "adp": {
+        "sleeper": 74,
+        "mfl": 74,
+        "espn": 75,
+        "fantasypros": 76
+      },
+      "medianAdp": 75,
+      "bestAdp": 74,
+      "worstAdp": 76,
+      "adpSpread": 2
+    },
+    {
+      "id": "te_george_kittle",
+      "name": "George Kittle",
+      "position": "TE",
+      "team": "SF",
+      "adp": {
+        "sleeper": 74,
+        "mfl": 74,
+        "espn": 76,
+        "fantasypros": 77
+      },
+      "medianAdp": 75,
+      "bestAdp": 74,
+      "worstAdp": 77,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_rome_odunze",
+      "name": "Rome Odunze",
+      "position": "WR",
+      "team": "CHI",
+      "adp": {
+        "sleeper": 79,
+        "mfl": 79,
+        "espn": 78,
+        "fantasypros": 80
+      },
+      "medianAdp": 79,
+      "bestAdp": 78,
+      "worstAdp": 80,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_brian_robinson",
+      "name": "Brian Robinson",
+      "position": "RB",
+      "team": "WAS",
+      "adp": {
+        "sleeper": 79,
+        "mfl": 79,
+        "espn": 81,
+        "fantasypros": 82
+      },
+      "medianAdp": 80,
+      "bestAdp": 79,
+      "worstAdp": 82,
+      "adpSpread": 3
+    },
+    {
+      "id": "rb_isiah_pacheco",
+      "name": "Isiah Pacheco",
+      "position": "RB",
+      "team": "KC",
+      "adp": {
+        "sleeper": 84,
+        "mfl": 85,
+        "espn": 87,
+        "fantasypros": 86
+      },
+      "medianAdp": 86,
+      "bestAdp": 84,
+      "worstAdp": 87,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_adonai_mitchell",
+      "name": "Adonai Mitchell",
+      "position": "WR",
+      "team": "HOU",
+      "adp": {
+        "sleeper": 88,
+        "mfl": 88,
+        "espn": 88,
+        "fantasypros": 90
+      },
+      "medianAdp": 88,
+      "bestAdp": 88,
+      "worstAdp": 90,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_javonte_williams",
+      "name": "Javonte Williams",
+      "position": "RB",
+      "team": "DEN",
+      "adp": {
+        "sleeper": 89,
+        "mfl": 89,
+        "espn": 91,
+        "fantasypros": 91
+      },
+      "medianAdp": 90,
+      "bestAdp": 89,
+      "worstAdp": 91,
+      "adpSpread": 2
+    },
+    {
+      "id": "qb_bo_nix",
+      "name": "Bo Nix",
+      "position": "QB",
+      "team": "DEN",
+      "adp": {
+        "sleeper": 91,
+        "mfl": 89,
+        "espn": 90,
+        "fantasypros": 91
+      },
+      "medianAdp": 91,
+      "bestAdp": 89,
+      "worstAdp": 91,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_ricky_pearsall",
+      "name": "Ricky Pearsall",
+      "position": "WR",
+      "team": "SF",
+      "adp": {
+        "sleeper": 89,
+        "mfl": 90,
+        "espn": 91,
+        "fantasypros": 91
+      },
+      "medianAdp": 91,
+      "bestAdp": 89,
+      "worstAdp": 91,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_devin_singletary",
+      "name": "Devin Singletary",
+      "position": "RB",
+      "team": "BUF",
+      "adp": {
+        "sleeper": 91,
+        "mfl": 92,
+        "espn": 93,
+        "fantasypros": 95
+      },
+      "medianAdp": 93,
+      "bestAdp": 91,
+      "worstAdp": 95,
+      "adpSpread": 4
+    },
+    {
+      "id": "qb_jj_mccarthy",
+      "name": "J.J. McCarthy",
+      "position": "QB",
+      "team": "DET",
+      "adp": {
+        "sleeper": 94,
+        "mfl": 95,
+        "espn": 96,
+        "fantasypros": 96
+      },
+      "medianAdp": 96,
+      "bestAdp": 94,
+      "worstAdp": 96,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_dontayvion_wicks",
+      "name": "Dontayvion Wicks",
+      "position": "WR",
+      "team": "GB",
+      "adp": {
+        "sleeper": 96,
+        "mfl": 94,
+        "espn": 95,
+        "fantasypros": 96
+      },
+      "medianAdp": 96,
+      "bestAdp": 94,
+      "worstAdp": 96,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_tyjae_spears",
+      "name": "Tyjae Spears",
+      "position": "RB",
+      "team": "TEN",
+      "adp": {
+        "sleeper": 96,
+        "mfl": 96,
+        "espn": 97,
+        "fantasypros": 97
+      },
+      "medianAdp": 97,
+      "bestAdp": 96,
+      "worstAdp": 97,
+      "adpSpread": 1
+    },
+    {
+      "id": "qb_shedeur_sanders",
+      "name": "Shedeur Sanders",
+      "position": "QB",
+      "team": "DEN",
+      "adp": {
+        "sleeper": 100,
+        "mfl": 99,
+        "espn": 100,
+        "fantasypros": 102
+      },
+      "medianAdp": 100,
+      "bestAdp": 99,
+      "worstAdp": 102,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_olamide_zaccheaus",
+      "name": "Olamide Zaccheaus",
+      "position": "WR",
+      "team": "CAR",
+      "adp": {
+        "sleeper": 100,
+        "mfl": 101,
+        "espn": 100,
+        "fantasypros": 103
+      },
+      "medianAdp": 101,
+      "bestAdp": 100,
+      "worstAdp": 103,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_jerry_jeudy",
+      "name": "Jerry Jeudy",
+      "position": "WR",
+      "team": "CLE",
+      "adp": {
+        "sleeper": 99,
+        "mfl": 99,
+        "espn": 102,
+        "fantasypros": 102
+      },
+      "medianAdp": 101,
+      "bestAdp": 99,
+      "worstAdp": 102,
+      "adpSpread": 3
+    },
+    {
+      "id": "te_pat_freiermuth",
+      "name": "Pat Freiermuth",
+      "position": "TE",
+      "team": "PIT",
+      "adp": {
+        "sleeper": 99,
+        "mfl": 101,
+        "espn": 100,
+        "fantasypros": 102
+      },
+      "medianAdp": 101,
+      "bestAdp": 99,
+      "worstAdp": 102,
+      "adpSpread": 3
+    },
+    {
+      "id": "rb_tyler_allgeier",
+      "name": "Tyler Allgeier",
+      "position": "RB",
+      "team": "ATL",
+      "adp": {
+        "sleeper": 106,
+        "mfl": 104,
+        "espn": 106,
+        "fantasypros": 107
+      },
+      "medianAdp": 106,
+      "bestAdp": 104,
+      "worstAdp": 107,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_xavier_legette",
+      "name": "Xavier Legette",
+      "position": "WR",
+      "team": "CAR",
+      "adp": {
+        "sleeper": 106,
+        "mfl": 105,
+        "espn": 105,
+        "fantasypros": 106
+      },
+      "medianAdp": 106,
+      "bestAdp": 105,
+      "worstAdp": 106,
+      "adpSpread": 1
+    },
+    {
+      "id": "wr_christian_kirk",
+      "name": "Christian Kirk",
+      "position": "WR",
+      "team": "JAX",
+      "adp": {
+        "sleeper": 105,
+        "mfl": 106,
+        "espn": 107,
+        "fantasypros": 108
+      },
+      "medianAdp": 107,
+      "bestAdp": 105,
+      "worstAdp": 108,
+      "adpSpread": 3
+    },
+    {
+      "id": "qb_bryce_young",
+      "name": "Bryce Young",
+      "position": "QB",
+      "team": "CAR",
+      "adp": {
+        "sleeper": 110,
+        "mfl": 109,
+        "espn": 111,
+        "fantasypros": 113
+      },
+      "medianAdp": 111,
+      "bestAdp": 109,
+      "worstAdp": 113,
+      "adpSpread": 4
+    },
+    {
+      "id": "rb_cj_beans",
+      "name": "C.J. Beans",
+      "position": "RB",
+      "team": "MIN",
+      "adp": {
+        "sleeper": 109,
+        "mfl": 109,
+        "espn": 112,
+        "fantasypros": 113
+      },
+      "medianAdp": 111,
+      "bestAdp": 109,
+      "worstAdp": 113,
+      "adpSpread": 4
+    },
+    {
+      "id": "te_dalton_schultz",
+      "name": "Dalton Schultz",
+      "position": "TE",
+      "team": "DAL",
+      "adp": {
+        "sleeper": 111,
+        "mfl": 109,
+        "espn": 112,
+        "fantasypros": 111
+      },
+      "medianAdp": 111,
+      "bestAdp": 109,
+      "worstAdp": 112,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_mvs",
+      "name": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "SF",
+      "adp": {
+        "sleeper": 109,
+        "mfl": 111,
+        "espn": 112,
+        "fantasypros": 112
+      },
+      "medianAdp": 112,
+      "bestAdp": 109,
+      "worstAdp": 112,
+      "adpSpread": 3
+    },
+    {
+      "id": "def_sf",
+      "name": "San Francisco 49ers",
+      "position": "DEF",
+      "team": "SF",
+      "adp": {
+        "sleeper": 110,
+        "mfl": 111,
+        "espn": 112,
+        "fantasypros": 112
+      },
+      "medianAdp": 112,
+      "bestAdp": 110,
+      "worstAdp": 112,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_eric_gray",
+      "name": "Eric Gray",
+      "position": "RB",
+      "team": "TB",
+      "adp": {
+        "sleeper": 114,
+        "mfl": 114,
+        "espn": 116,
+        "fantasypros": 117
+      },
+      "medianAdp": 115,
+      "bestAdp": 114,
+      "worstAdp": 117,
+      "adpSpread": 3
+    },
+    {
+      "id": "def_bal",
+      "name": "Baltimore Ravens",
+      "position": "DEF",
+      "team": "BAL",
+      "adp": {
+        "sleeper": 114,
+        "mfl": 114,
+        "espn": 115,
+        "fantasypros": 118
+      },
+      "medianAdp": 115,
+      "bestAdp": 114,
+      "worstAdp": 118,
+      "adpSpread": 4
+    },
+    {
+      "id": "qb_daniel_jones",
+      "name": "Daniel Jones",
+      "position": "QB",
+      "team": "NYG",
+      "adp": {
+        "sleeper": 116,
+        "mfl": 116,
+        "espn": 116,
+        "fantasypros": 116
+      },
+      "medianAdp": 116,
+      "bestAdp": 116,
+      "worstAdp": 116,
+      "adpSpread": 0
+    },
+    {
+      "id": "te_jayden_reed",
+      "name": "Jayden Reed",
+      "position": "TE",
+      "team": "GB",
+      "adp": {
+        "sleeper": 114,
+        "mfl": 115,
+        "espn": 117,
+        "fantasypros": 117
+      },
+      "medianAdp": 116,
+      "bestAdp": 114,
+      "worstAdp": 117,
+      "adpSpread": 3
+    },
+    {
+      "id": "def_phi",
+      "name": "Philadelphia Eagles",
+      "position": "DEF",
+      "team": "PHI",
+      "adp": {
+        "sleeper": 114,
+        "mfl": 114,
+        "espn": 117,
+        "fantasypros": 118
+      },
+      "medianAdp": 116,
+      "bestAdp": 114,
+      "worstAdp": 118,
+      "adpSpread": 4
+    },
+    {
+      "id": "wr_rashod_bateman",
+      "name": "Rashod Bateman",
+      "position": "WR",
+      "team": "BAL",
+      "adp": {
+        "sleeper": 114,
+        "mfl": 116,
+        "espn": 117,
+        "fantasypros": 118
+      },
+      "medianAdp": 117,
+      "bestAdp": 114,
+      "worstAdp": 118,
+      "adpSpread": 4
+    },
+    {
+      "id": "qb_geno_smith",
+      "name": "Geno Smith",
+      "position": "QB",
+      "team": "SEA",
+      "adp": {
+        "sleeper": 119,
+        "mfl": 119,
+        "espn": 121,
+        "fantasypros": 122
+      },
+      "medianAdp": 120,
+      "bestAdp": 119,
+      "worstAdp": 122,
+      "adpSpread": 3
+    },
+    {
+      "id": "te_cole_turner",
+      "name": "Cole Turner",
+      "position": "TE",
+      "team": "CHI",
+      "adp": {
+        "sleeper": 121,
+        "mfl": 121,
+        "espn": 120,
+        "fantasypros": 121
+      },
+      "medianAdp": 121,
+      "bestAdp": 120,
+      "worstAdp": 121,
+      "adpSpread": 1
+    },
+    {
+      "id": "k_justin_tucker",
+      "name": "Justin Tucker",
+      "position": "K",
+      "team": "BAL",
+      "adp": {
+        "sleeper": 121,
+        "mfl": 120,
+        "espn": 120,
+        "fantasypros": 122
+      },
+      "medianAdp": 121,
+      "bestAdp": 120,
+      "worstAdp": 122,
+      "adpSpread": 2
+    },
+    {
+      "id": "def_pit",
+      "name": "Pittsburgh Steelers",
+      "position": "DEF",
+      "team": "PIT",
+      "adp": {
+        "sleeper": 119,
+        "mfl": 121,
+        "espn": 121,
+        "fantasypros": 122
+      },
+      "medianAdp": 121,
+      "bestAdp": 119,
+      "worstAdp": 122,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_dyami_brown",
+      "name": "Dyami Brown",
+      "position": "WR",
+      "team": "SEA",
+      "adp": {
+        "sleeper": 124,
+        "mfl": 124,
+        "espn": 126,
+        "fantasypros": 128
+      },
+      "medianAdp": 125,
+      "bestAdp": 124,
+      "worstAdp": 128,
+      "adpSpread": 4
+    },
+    {
+      "id": "rb_gus_edwards",
+      "name": "Gus Edwards",
+      "position": "RB",
+      "team": "LAC",
+      "adp": {
+        "sleeper": 125,
+        "mfl": 124,
+        "espn": 127,
+        "fantasypros": 127
+      },
+      "medianAdp": 126,
+      "bestAdp": 124,
+      "worstAdp": 127,
+      "adpSpread": 3
+    },
+    {
+      "id": "def_cin",
+      "name": "Cincinnati Bengals",
+      "position": "DEF",
+      "team": "CIN",
+      "adp": {
+        "sleeper": 127,
+        "mfl": 127,
+        "espn": 129,
+        "fantasypros": 130
+      },
+      "medianAdp": 128,
+      "bestAdp": 127,
+      "worstAdp": 130,
+      "adpSpread": 3
+    },
+    {
+      "id": "k_harrison_butker",
+      "name": "Harrison Butker",
+      "position": "K",
+      "team": "KC",
+      "adp": {
+        "sleeper": 128,
+        "mfl": 129,
+        "espn": 130,
+        "fantasypros": 131
+      },
+      "medianAdp": 130,
+      "bestAdp": 128,
+      "worstAdp": 131,
+      "adpSpread": 3
+    },
+    {
+      "id": "qb_will_levis",
+      "name": "Will Levis",
+      "position": "QB",
+      "team": "TEN",
+      "adp": {
+        "sleeper": 131,
+        "mfl": 131,
+        "espn": 132,
+        "fantasypros": 131
+      },
+      "medianAdp": 131,
+      "bestAdp": 131,
+      "worstAdp": 132,
+      "adpSpread": 1
+    },
+    {
+      "id": "te_dawson_knox",
+      "name": "Dawson Knox",
+      "position": "TE",
+      "team": "BUF",
+      "adp": {
+        "sleeper": 131,
+        "mfl": 129,
+        "espn": 130,
+        "fantasypros": 131
+      },
+      "medianAdp": 131,
+      "bestAdp": 129,
+      "worstAdp": 131,
+      "adpSpread": 2
+    },
+    {
+      "id": "k_jake_elliott",
+      "name": "Jake Elliott",
+      "position": "K",
+      "team": "PHI",
+      "adp": {
+        "sleeper": 132,
+        "mfl": 133,
+        "espn": 133,
+        "fantasypros": 133
+      },
+      "medianAdp": 133,
+      "bestAdp": 132,
+      "worstAdp": 133,
+      "adpSpread": 1
+    },
+    {
+      "id": "def_buf",
+      "name": "Buffalo Bills",
+      "position": "DEF",
+      "team": "BUF",
+      "adp": {
+        "sleeper": 133,
+        "mfl": 132,
+        "espn": 133,
+        "fantasypros": 135
+      },
+      "medianAdp": 133,
+      "bestAdp": 132,
+      "worstAdp": 135,
+      "adpSpread": 3
+    },
+    {
+      "id": "rb_tank_dell",
+      "name": "Tank Dell",
+      "position": "RB",
+      "team": "HOU",
+      "adp": {
+        "sleeper": 136,
+        "mfl": 135,
+        "espn": 135,
+        "fantasypros": 137
+      },
+      "medianAdp": 136,
+      "bestAdp": 135,
+      "worstAdp": 137,
+      "adpSpread": 2
+    },
+    {
+      "id": "k_chase_mclaughlin",
+      "name": "Chase McLaughlin",
+      "position": "K",
+      "team": "TB",
+      "adp": {
+        "sleeper": 136,
+        "mfl": 137,
+        "espn": 137,
+        "fantasypros": 138
+      },
+      "medianAdp": 137,
+      "bestAdp": 136,
+      "worstAdp": 138,
+      "adpSpread": 2
+    },
+    {
+      "id": "def_dal",
+      "name": "Dallas Cowboys",
+      "position": "DEF",
+      "team": "DAL",
+      "adp": {
+        "sleeper": 136,
+        "mfl": 137,
+        "espn": 136,
+        "fantasypros": 139
+      },
+      "medianAdp": 137,
+      "bestAdp": 136,
+      "worstAdp": 139,
+      "adpSpread": 3
+    },
+    {
+      "id": "qb_derek_carr",
+      "name": "Derek Carr",
+      "position": "QB",
+      "team": "LV",
+      "adp": {
+        "sleeper": 140,
+        "mfl": 140,
+        "espn": 140,
+        "fantasypros": 142
+      },
+      "medianAdp": 140,
+      "bestAdp": 140,
+      "worstAdp": 142,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_trent_mckinney",
+      "name": "Trent McKinney",
+      "position": "WR",
+      "team": "KC",
+      "adp": {
+        "sleeper": 140,
+        "mfl": 140,
+        "espn": 142,
+        "fantasypros": 143
+      },
+      "medianAdp": 141,
+      "bestAdp": 140,
+      "worstAdp": 143,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_ryan_williams",
+      "name": "Ryan Williams",
+      "position": "WR",
+      "team": "KC",
+      "adp": {
+        "sleeper": 140,
+        "mfl": 140,
+        "espn": 141,
+        "fantasypros": 142
+      },
+      "medianAdp": 141,
+      "bestAdp": 140,
+      "worstAdp": 142,
+      "adpSpread": 2
+    },
+    {
+      "id": "te_chig_okonkwo",
+      "name": "Chig Okonkwo",
+      "position": "TE",
+      "team": "KC",
+      "adp": {
+        "sleeper": 139,
+        "mfl": 141,
+        "espn": 141,
+        "fantasypros": 142
+      },
+      "medianAdp": 141,
+      "bestAdp": 139,
+      "worstAdp": 142,
+      "adpSpread": 3
+    },
+    {
+      "id": "k_cairo_santos",
+      "name": "Cairo Santos",
+      "position": "K",
+      "team": "CHI",
+      "adp": {
+        "sleeper": 140,
+        "mfl": 141,
+        "espn": 141,
+        "fantasypros": 142
+      },
+      "medianAdp": 141,
+      "bestAdp": 140,
+      "worstAdp": 142,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_israel_abelman",
+      "name": "Israel Abelman",
+      "position": "RB",
+      "team": "IND",
+      "adp": {
+        "sleeper": 140,
+        "mfl": 141,
+        "espn": 142,
+        "fantasypros": 142
+      },
+      "medianAdp": 142,
+      "bestAdp": 140,
+      "worstAdp": 142,
+      "adpSpread": 2
+    },
+    {
+      "id": "def_mia",
+      "name": "Miami Dolphins",
+      "position": "DEF",
+      "team": "MIA",
+      "adp": {
+        "sleeper": 143,
+        "mfl": 142,
+        "espn": 144,
+        "fantasypros": 145
+      },
+      "medianAdp": 144,
+      "bestAdp": 142,
+      "worstAdp": 145,
+      "adpSpread": 3
+    },
+    {
+      "id": "te_greg_dulcich",
+      "name": "Greg Dulcich",
+      "position": "TE",
+      "team": "DEN",
+      "adp": {
+        "sleeper": 144,
+        "mfl": 145,
+        "espn": 145,
+        "fantasypros": 146
+      },
+      "medianAdp": 145,
+      "bestAdp": 144,
+      "worstAdp": 146,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_zach_wilson",
+      "name": "Zach Wilson",
+      "position": "RB",
+      "team": "MIA",
+      "adp": {
+        "sleeper": 146,
+        "mfl": 144,
+        "espn": 146,
+        "fantasypros": 148
+      },
+      "medianAdp": 146,
+      "bestAdp": 144,
+      "worstAdp": 148,
+      "adpSpread": 4
+    },
+    {
+      "id": "wr_allen_robinson",
+      "name": "Allen Robinson",
+      "position": "WR",
+      "team": "CHI",
+      "adp": {
+        "sleeper": 146,
+        "mfl": 146,
+        "espn": 146,
+        "fantasypros": 147
+      },
+      "medianAdp": 146,
+      "bestAdp": 146,
+      "worstAdp": 147,
+      "adpSpread": 1
+    },
+    {
+      "id": "wr_dontae_celek",
+      "name": "Dontae Celek",
+      "position": "WR",
+      "team": "LV",
+      "adp": {
+        "sleeper": 145,
+        "mfl": 144,
+        "espn": 147,
+        "fantasypros": 147
+      },
+      "medianAdp": 146,
+      "bestAdp": 144,
+      "worstAdp": 147,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_samori_toure",
+      "name": "Samori Toure",
+      "position": "WR",
+      "team": "BAL",
+      "adp": {
+        "sleeper": 146,
+        "mfl": 144,
+        "espn": 145,
+        "fantasypros": 146
+      },
+      "medianAdp": 146,
+      "bestAdp": 144,
+      "worstAdp": 146,
+      "adpSpread": 2
+    },
+    {
+      "id": "k_greg_zuerlein",
+      "name": "Greg Zuerlein",
+      "position": "K",
+      "team": "BAL",
+      "adp": {
+        "sleeper": 149,
+        "mfl": 148,
+        "espn": 148,
+        "fantasypros": 149
+      },
+      "medianAdp": 149,
+      "bestAdp": 148,
+      "worstAdp": 149,
+      "adpSpread": 1
+    },
+    {
+      "id": "def_kc",
+      "name": "Kansas City Chiefs",
+      "position": "DEF",
+      "team": "KC",
+      "adp": {
+        "sleeper": 149,
+        "mfl": 148,
+        "espn": 148,
+        "fantasypros": 150
+      },
+      "medianAdp": 149,
+      "bestAdp": 148,
+      "worstAdp": 150,
+      "adpSpread": 2
+    },
+    {
+      "id": "wr_troy_franklin",
+      "name": "Troy Franklin",
+      "position": "WR",
+      "team": "DEN",
+      "adp": {
+        "sleeper": 150,
+        "mfl": 150,
+        "espn": 150,
+        "fantasypros": 152
+      },
+      "medianAdp": 150,
+      "bestAdp": 150,
+      "worstAdp": 152,
+      "adpSpread": 2
+    },
+    {
+      "id": "qb_sam_darnold",
+      "name": "Sam Darnold",
+      "position": "QB",
+      "team": "TB",
+      "adp": {
+        "sleeper": 150,
+        "mfl": 149,
+        "espn": 151,
+        "fantasypros": 151
+      },
+      "medianAdp": 151,
+      "bestAdp": 149,
+      "worstAdp": 151,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_isaac_guerendo",
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "team": "SF",
+      "adp": {
+        "sleeper": 149,
+        "mfl": 149,
+        "espn": 152,
+        "fantasypros": 153
+      },
+      "medianAdp": 151,
+      "bestAdp": 149,
+      "worstAdp": 153,
+      "adpSpread": 4
+    },
+    {
+      "id": "te_tyler_conklin",
+      "name": "Tyler Conklin",
+      "position": "TE",
+      "team": "NYJ",
+      "adp": {
+        "sleeper": 151,
+        "mfl": 150,
+        "espn": 150,
+        "fantasypros": 151
+      },
+      "medianAdp": 151,
+      "bestAdp": 150,
+      "worstAdp": 151,
+      "adpSpread": 1
+    },
+    {
+      "id": "te_ej_pearson",
+      "name": "E.J. Pearson",
+      "position": "TE",
+      "team": "KC",
+      "adp": {
+        "sleeper": 149,
+        "mfl": 151,
+        "espn": 150,
+        "fantasypros": 153
+      },
+      "medianAdp": 151,
+      "bestAdp": 149,
+      "worstAdp": 153,
+      "adpSpread": 4
+    },
+    {
+      "id": "def_gb",
+      "name": "Green Bay Packers",
+      "position": "DEF",
+      "team": "GB",
+      "adp": {
+        "sleeper": 150,
+        "mfl": 150,
+        "espn": 152,
+        "fantasypros": 153
+      },
+      "medianAdp": 151,
+      "bestAdp": 150,
+      "worstAdp": 153,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_grayson_white",
+      "name": "Grayson White",
+      "position": "WR",
+      "team": "BUF",
+      "adp": {
+        "sleeper": 154,
+        "mfl": 154,
+        "espn": 157,
+        "fantasypros": 156
+      },
+      "medianAdp": 155,
+      "bestAdp": 154,
+      "worstAdp": 157,
+      "adpSpread": 3
+    },
+    {
+      "id": "def_lar",
+      "name": "Los Angeles Rams",
+      "position": "DEF",
+      "team": "LAR",
+      "adp": {
+        "sleeper": 154,
+        "mfl": 155,
+        "espn": 155,
+        "fantasypros": 157
+      },
+      "medianAdp": 155,
+      "bestAdp": 154,
+      "worstAdp": 157,
+      "adpSpread": 3
+    },
+    {
+      "id": "rb_roschon_johnson",
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "team": "CHI",
+      "adp": {
+        "sleeper": 155,
+        "mfl": 156,
+        "espn": 155,
+        "fantasypros": 157
+      },
+      "medianAdp": 156,
+      "bestAdp": 155,
+      "worstAdp": 157,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_jalen_tate",
+      "name": "Jalen Tate",
+      "position": "RB",
+      "team": "CHI",
+      "adp": {
+        "sleeper": 155,
+        "mfl": 156,
+        "espn": 156,
+        "fantasypros": 158
+      },
+      "medianAdp": 156,
+      "bestAdp": 155,
+      "worstAdp": 158,
+      "adpSpread": 3
+    },
+    {
+      "id": "te_tucker_kraft",
+      "name": "Tucker Kraft",
+      "position": "TE",
+      "team": "GB",
+      "adp": {
+        "sleeper": 156,
+        "mfl": 156,
+        "espn": 156,
+        "fantasypros": 158
+      },
+      "medianAdp": 156,
+      "bestAdp": 156,
+      "worstAdp": 158,
+      "adpSpread": 2
+    },
+    {
+      "id": "k_daniel_carlson",
+      "name": "Daniel Carlson",
+      "position": "K",
+      "team": "LV",
+      "adp": {
+        "sleeper": 154,
+        "mfl": 155,
+        "espn": 156,
+        "fantasypros": 156
+      },
+      "medianAdp": 156,
+      "bestAdp": 154,
+      "worstAdp": 156,
+      "adpSpread": 2
+    },
+    {
+      "id": "def_lac",
+      "name": "LA Chargers",
+      "position": "DEF",
+      "team": "LAC",
+      "adp": {
+        "sleeper": 156,
+        "mfl": 155,
+        "espn": 156,
+        "fantasypros": 157
+      },
+      "medianAdp": 156,
+      "bestAdp": 155,
+      "worstAdp": 157,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_jake_matthews",
+      "name": "Jake Matthews",
+      "position": "RB",
+      "team": "TEN",
+      "adp": {
+        "sleeper": 157,
+        "mfl": 159,
+        "espn": 160,
+        "fantasypros": 161
+      },
+      "medianAdp": 160,
+      "bestAdp": 157,
+      "worstAdp": 161,
+      "adpSpread": 4
+    },
+    {
+      "id": "wr_malik_washington",
+      "name": "Malik Washington",
+      "position": "WR",
+      "team": "JAX",
+      "adp": {
+        "sleeper": 159,
+        "mfl": 160,
+        "espn": 160,
+        "fantasypros": 162
+      },
+      "medianAdp": 160,
+      "bestAdp": 159,
+      "worstAdp": 162,
+      "adpSpread": 3
+    },
+    {
+      "id": "rb_zoe_thomforde",
+      "name": "Zoe Thomforde",
+      "position": "RB",
+      "team": "NE",
+      "adp": {
+        "sleeper": 159,
+        "mfl": 161,
+        "espn": 160,
+        "fantasypros": 162
+      },
+      "medianAdp": 161,
+      "bestAdp": 159,
+      "worstAdp": 162,
+      "adpSpread": 3
+    },
+    {
+      "id": "te_john_bates",
+      "name": "John Bates",
+      "position": "TE",
+      "team": "LV",
+      "adp": {
+        "sleeper": 161,
+        "mfl": 161,
+        "espn": 160,
+        "fantasypros": 162
+      },
+      "medianAdp": 161,
+      "bestAdp": 160,
+      "worstAdp": 162,
+      "adpSpread": 2
+    },
+    {
+      "id": "te_hunter_long",
+      "name": "Hunter Long",
+      "position": "TE",
+      "team": "NYJ",
+      "adp": {
+        "sleeper": 160,
+        "mfl": 159,
+        "espn": 161,
+        "fantasypros": 163
+      },
+      "medianAdp": 161,
+      "bestAdp": 159,
+      "worstAdp": 163,
+      "adpSpread": 4
+    },
+    {
+      "id": "k_evan_mcpherson",
+      "name": "Evan McPherson",
+      "position": "K",
+      "team": "CIN",
+      "adp": {
+        "sleeper": 159,
+        "mfl": 161,
+        "espn": 160,
+        "fantasypros": 162
+      },
+      "medianAdp": 161,
+      "bestAdp": 159,
+      "worstAdp": 162,
+      "adpSpread": 3
+    },
+    {
+      "id": "def_det",
+      "name": "Detroit Lions",
+      "position": "DEF",
+      "team": "DET",
+      "adp": {
+        "sleeper": 161,
+        "mfl": 161,
+        "espn": 160,
+        "fantasypros": 163
+      },
+      "medianAdp": 161,
+      "bestAdp": 160,
+      "worstAdp": 163,
+      "adpSpread": 3
+    },
+    {
+      "id": "def_cle",
+      "name": "Cleveland Browns",
+      "position": "DEF",
+      "team": "CLE",
+      "adp": {
+        "sleeper": 160,
+        "mfl": 160,
+        "espn": 162,
+        "fantasypros": 163
+      },
+      "medianAdp": 161,
+      "bestAdp": 160,
+      "worstAdp": 163,
+      "adpSpread": 3
+    },
+    {
+      "id": "rb_jaleel_mclaughlin",
+      "name": "Jaleel McLaughlin",
+      "position": "RB",
+      "team": "NYG",
+      "adp": {
+        "sleeper": 166,
+        "mfl": 164,
+        "espn": 165,
+        "fantasypros": 166
+      },
+      "medianAdp": 166,
+      "bestAdp": 164,
+      "worstAdp": 166,
+      "adpSpread": 2
+    },
+    {
+      "id": "te_johnny_mundt",
+      "name": "Johnny Mundt",
+      "position": "TE",
+      "team": "MIN",
+      "adp": {
+        "sleeper": 164,
+        "mfl": 164,
+        "espn": 167,
+        "fantasypros": 168
+      },
+      "medianAdp": 166,
+      "bestAdp": 164,
+      "worstAdp": 168,
+      "adpSpread": 4
+    },
+    {
+      "id": "k_cameron_dicker",
+      "name": "Cameron Dicker",
+      "position": "K",
+      "team": "LAC",
+      "adp": {
+        "sleeper": 165,
+        "mfl": 165,
+        "espn": 166,
+        "fantasypros": 167
+      },
+      "medianAdp": 166,
+      "bestAdp": 165,
+      "worstAdp": 167,
+      "adpSpread": 2
+    },
+    {
+      "id": "def_ne",
+      "name": "New England Patriots",
+      "position": "DEF",
+      "team": "NE",
+      "adp": {
+        "sleeper": 166,
+        "mfl": 166,
+        "espn": 166,
+        "fantasypros": 166
+      },
+      "medianAdp": 166,
+      "bestAdp": 166,
+      "worstAdp": 166,
+      "adpSpread": 0
+    },
+    {
+      "id": "te_cj_uzomah",
+      "name": "C.J. Uzomah",
+      "position": "TE",
+      "team": "CAR",
+      "adp": {
+        "sleeper": 166,
+        "mfl": 164,
+        "espn": 167,
+        "fantasypros": 167
+      },
+      "medianAdp": 167,
+      "bestAdp": 164,
+      "worstAdp": 167,
+      "adpSpread": 3
+    },
+    {
+      "id": "k_jason_myers",
+      "name": "Jason Myers",
+      "position": "K",
+      "team": "SEA",
+      "adp": {
+        "sleeper": 167,
+        "mfl": 168,
+        "espn": 169,
+        "fantasypros": 169
+      },
+      "medianAdp": 169,
+      "bestAdp": 167,
+      "worstAdp": 169,
+      "adpSpread": 2
+    },
+    {
+      "id": "rb_zack_martin",
+      "name": "Zack Martin",
+      "position": "RB",
+      "team": "DAL",
+      "adp": {
+        "sleeper": 169,
+        "mfl": 170,
+        "espn": 172,
+        "fantasypros": 171
+      },
+      "medianAdp": 171,
+      "bestAdp": 169,
+      "worstAdp": 172,
+      "adpSpread": 3
+    },
+    {
+      "id": "wr_tank_dell",
+      "name": "Tank Dell",
+      "position": "WR",
+      "team": "HOU",
+      "adp": {
+        "sleeper": 171,
+        "mfl": 169,
+        "espn": 170,
+        "fantasypros": 171
+      },
+      "medianAdp": 171,
+      "bestAdp": 169,
+      "worstAdp": 171,
+      "adpSpread": 2
+    },
+    {
+      "id": "k_brandon_aubrey",
+      "name": "Brandon Aubrey",
+      "position": "K",
+      "team": "DAL",
+      "adp": {
+        "sleeper": 172,
+        "mfl": 171,
+        "espn": 173,
+        "fantasypros": 175
+      },
+      "medianAdp": 173,
+      "bestAdp": 171,
+      "worstAdp": 175,
+      "adpSpread": 4
+    },
+    {
+      "id": "qb_pj_walsh",
+      "name": "P.J. Walsh",
+      "position": "QB",
+      "team": "JAX",
+      "adp": {
+        "sleeper": 175,
+        "mfl": 174,
+        "espn": 177,
+        "fantasypros": 177
+      },
+      "medianAdp": 176,
+      "bestAdp": 174,
+      "worstAdp": 177,
+      "adpSpread": 3
+    },
+    {
+      "id": "rb_tj_vasher",
+      "name": "T.J. Vasher",
+      "position": "RB",
+      "team": "MIA",
+      "adp": {
+        "sleeper": 175,
+        "mfl": 174,
+        "espn": 177,
+        "fantasypros": 176
+      },
+      "medianAdp": 176,
+      "bestAdp": 174,
+      "worstAdp": 177,
+      "adpSpread": 3
+    },
+    {
+      "id": "k_joshua_karty",
+      "name": "Joshua Karty",
+      "position": "K",
+      "team": "MIN",
+      "adp": {
+        "sleeper": 179,
+        "mfl": 179,
+        "espn": 180,
+        "fantasypros": 179
+      },
+      "medianAdp": 179,
+      "bestAdp": 179,
+      "worstAdp": 180,
+      "adpSpread": 1
+    },
+    {
+      "id": "rb_roschon_byrd",
+      "name": "Roschon Byrd",
+      "position": "RB",
+      "team": "DET",
+      "adp": {
+        "sleeper": 180,
+        "mfl": 180,
+        "espn": 180,
+        "fantasypros": 181
+      },
+      "medianAdp": 180,
+      "bestAdp": 180,
+      "worstAdp": 181,
+      "adpSpread": 1
+    }
+  ]
+}
