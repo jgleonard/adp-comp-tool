@@ -15,16 +15,17 @@ export default function SourceToggle({ sources, onToggle }: SourceToggleProps) {
   );
 
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-wrap items-center gap-1.5">
+      <span className="text-xs font-medium text-slate-light mr-1">Sources:</span>
       {sources.map(source => (
         <button
           key={source.name}
           type="button"
           onClick={() => handleClick(source.name)}
-          className={`flex items-center gap-2 rounded-full px-3.5 py-1.5 text-sm font-medium transition-smooth ${
+          className={`rounded-full px-2.5 py-0.5 text-xs font-medium transition-smooth ${
             source.active
               ? 'text-white shadow-sm'
-              : 'bg-gray-100 text-slate-light hover:bg-gray-200 hover:text-slate'
+              : 'border border-gray-200 bg-white text-slate-light hover:border-gray-300 hover:text-slate'
           }`}
           style={
             source.active
@@ -32,13 +33,6 @@ export default function SourceToggle({ sources, onToggle }: SourceToggleProps) {
               : undefined
           }
         >
-          <span
-            className={`inline-block h-3.5 w-3.5 rounded-full border-2 transition-smooth ${
-              source.active
-                ? 'border-white/60 bg-white'
-                : 'border-slate-light bg-transparent'
-            }`}
-          />
           {source.label}
         </button>
       ))}

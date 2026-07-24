@@ -5,6 +5,11 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '../src/data');
 
+// FantasyPros API requires authentication
+// Get free API key: https://secure.fantasypros.com/api-keys/request/
+const FANTASYPROS_BASE = 'https://api.fantasypros.com/public/v2/json/nfl/2026/consensus-rankings';
+const API_KEY = process.env.FANTASYPROS_API_KEY;
+
 const PLAYERS = [
   { name: "Josh Allen", position: "QB", team: "BUF", id: "qb_josh_allen" },
   { name: "Lamar Jackson", position: "QB", team: "BAL", id: "qb_lamar_jackson" },
@@ -208,20 +213,63 @@ function getAdp(p) {
   return Math.max(1, Math.min(200, base + jitter));
 }
 
+async function fetchFantasyProsAdp() {
+  if (!API_KEY) {
+    console.log('[fantasypros] No API key found. Get one at https://secure.fantasypros.com/api-keys/request/');
+    return null;
+  }
+
+  try {
+    console.log('[fantasypros] Fetching from FantasyPros API...');
+    const url = `${FANTASYPROS_BASE}?position=ALL&type=ADP`;
+    const resp = await fetch(url, {
+      headers: { 'x-api-key': API_KEY },
+      signal: AbortSignal.timeout(15000)
+    });
+
+    if (!resp.ok) {
+      console.log(`[fantasypros] API returned ${resp.status}`);
+      return null;
+    }
+
+    const data = await resp.json();
+    console.log(`[fantasypros] Successfully fetched ${data.count ?? 0} players`);
+    return data;
+  } catch (err) {
+    console.log(`[fantasypros] API unavailable (${err.message})`);
+    return null;
+  }
+}
+
 async function main() {
   const OUT = path.join(DATA_DIR, 'fantasypros.json');
   fs.mkdirSync(DATA_DIR, { recursive: true });
 
-  try {
-    const resp = await fetch('https://api.fantasypros.com/v1/football/adp', { signal: AbortSignal.timeout(8000) });
-    if (resp.ok) console.log('[fantasypros] Fetched from FantasyPros API');
-  } catch {
-    console.log('[fantasypros] API unavailable, using sample data');
-  }
+  const fpData = await fetchFantasyProsAdp();
 
-  const data = PLAYERS.map(p => ({
-    id: p.id, name: p.name, position: p.position, team: p.team, adp: getAdp(p),
-  }));
+  let data;
+  if (fpData && fpData.players && fpData.players.length > 0) {
+    data = fpData.players
+      .filter(p => p.rank_ecr != null)
+      .map(p => ({
+        id: `fp_${p.player_id}`,
+        name: p.player_name ?? 'Unknown',
+        position: p.player_position_id ?? 'Unknown',
+        team: p.player_team_id ?? 'Unknown',
+        adp: Math.round(Number(p.rank_ecr) * 100) / 100,
+      }))
+      .slice(0, 300);
+    console.log(`[fantasypros] Parsed ${data.length} players from API`);
+  } else {
+    data = PLAYERS.map(p => ({
+      id: p.id,
+      name: p.name,
+      position: p.position,
+      team: p.team,
+      adp: getAdp(p),
+    }));
+    console.log(`[fantasypros] Using sample data for ${data.length} players`);
+  }
 
   fs.writeFileSync(OUT, JSON.stringify(data, null, 2));
   console.log(`[fantasypros] Wrote ${data.length} players to fantasypros.json`);

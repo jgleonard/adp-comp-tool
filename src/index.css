@@ -1,21 +1,34 @@
 @import "tailwindcss";
 
 @theme {
-  --color-navy: #1a1a2e;
-  --color-navy-light: #16213e;
-  --color-blue: #0f3460;
-  --color-accent: #e94560;
-  --color-teal: #00d2d3;
-  --color-surface: #f8f9fa;
-  --color-card: #ffffff;
+  --color-navy: #0F172A;
+  --color-blue: #3B82F6;
+  --color-teal: #14B8A6;
   --color-slate: #475569;
-  --color-slate-light: #94a3b8;
-  --color-success: #10b981;
-  --color-warning: #f59e0b;
-  --color-danger: #ef4444;
+  --color-slate-light: #94A3B8;
+  --color-surface: #F8FAFC;
 
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --animate-fade-in: fade-in 0.2s ease-out;
+  --animate-slide-up: slide-up 0.25s ease-out;
+  --animate-modal-in: modal-in 0.2s ease-out;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes modal-in {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 * {
@@ -31,60 +44,65 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 4px;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
-  border-radius: 4px;
+  background: #CBD5E1;
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #a1a1a1;
+  background: #94A3B8;
 }
 
-/* Table row hover */
 .tr-hover:hover {
-  background-color: rgba(15, 52, 96, 0.05);
+  background-color: rgba(59, 130, 246, 0.04);
 }
 
-/* Number cell */
 .num-cell {
   font-family: var(--font-mono);
   font-weight: 500;
   text-align: right;
 }
 
-/* Smooth transitions */
 .transition-smooth {
-  transition: all 0.2s ease-in-out;
+  transition: all 0.15s ease;
 }
 
-/* Position badge */
 .pos-badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 2.5rem;
-  padding: 0.25rem 0.5rem;
+  min-width: 2.25rem;
+  padding: 0.15rem 0.45rem;
   border-radius: 0.375rem;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 0.025em;
 }
 
-.pos-QB { background-color: #dbeafe; color: #1e40af; }
-.pos-RB { background-color: #dcfce7; color: #166534; }
-.pos-WR { background-color: #fef3c7; color: #92400e; }
-.pos-TE { background-color: #f3e8ff; color: #6b21a8; }
-.pos-K  { background-color: #ffe4e6; color: #9f1239; }
-.pos-DEF{ background-color: #e0f2fe; color: #075985; }
-.pos-OP { background-color: #f1f5f9; color: #475569; }
+.pos-QB { background-color: #DBEAFE; color: #1D4ED8; }
+.pos-RB { background-color: #DCFCE7; color: #15803D; }
+.pos-WR { background-color: #FEF3C7; color: #B45309; }
+.pos-TE { background-color: #F3E8FF; color: #7C3AED; }
+.pos-K  { background-color: #FFE4E6; color: #BE123C; }
+.pos-DEF{ background-color: #E0F2FE; color: #0369A1; }
+.pos-OP { background-color: #F1F5F9; color: #475569; }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

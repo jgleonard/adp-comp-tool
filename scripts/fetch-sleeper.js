@@ -5,10 +5,12 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '../src/data');
 
-// Sleeper's current NFL ADP endpoint
-const SLEEPER_ADP_URL = 'https://api.sleeper.app/v1/public/nfl/draft/adp';
+// Note: Sleeper Projections uses api.sleeper.com, not api.sleeper.app
+const SLEEPER_PROJECTIONS_BASE = 'https://api.sleeper.com/projections/nfl/2026';
+const SLEEPER_PLAYERS_URL = 'https://api.sleeper.app/v1/players/nfl';
 
-// Fallback player roster with realistic base ADP values
+const POSITIONS = ['QB', 'RB', 'WR', 'TE', 'k'];
+
 const PLAYERS = [
   { name: "Josh Allen", position: "QB", team: "BUF", id: "qb_josh_allen" },
   { name: "Lamar Jackson", position: "QB", team: "BAL", id: "qb_lamar_jackson" },
@@ -212,17 +214,76 @@ function getAdp(p) {
   return Math.max(1, Math.min(200, base + jitter));
 }
 
-async function fetchSleeperAdp() {
+/**
+ * Fetch player lookup data from Sleeper public API
+ * Returns a map of player_id -> { first_name, last_name, position, team }
+ */
+async function fetchPlayerLookup() {
   try {
-    console.log('[sleeper] Fetching from Sleeper API...');
-    const resp = await fetch(SLEEPER_ADP_URL, { signal: AbortSignal.timeout(15000) });
+    console.log('[sleeper] Fetching player lookup data...');
+    const resp = await fetch(SLEEPER_PLAYERS_URL, { signal: AbortSignal.timeout(30000) });
     if (!resp.ok) {
-      console.log(`[sleeper] API returned ${resp.status}, using sample data`);
+      console.log(`[sleeper] Player lookup returned ${resp.status}`);
       return null;
     }
-    const raw = await resp.json();
-    console.log('[sleeper] Successfully fetched from Sleeper API');
-    return raw;
+    const playersObj = await resp.json();
+    console.log(`[sleeper] Fetched ${Object.keys(playersObj).length} players for lookup`);
+    return playersObj;
+  } catch (err) {
+    console.log(`[sleeper] Player lookup unavailable (${err.message})`);
+    return null;
+  }
+}
+
+/**
+ * Fetch ADP data from Sleeper Projections API for a specific position
+ * Returns array of player projection objects with ADP data
+ */
+async function fetchProjectionsByPosition(position) {
+  try {
+    const url = `${SLEEPER_PROJECTIONS_BASE}?season_type=regular&position=${position}&order_by=adp_ppr`;
+    console.log(`[sleeper] Fetching ${position} projections...`);
+    const resp = await fetch(url, { signal: AbortSignal.timeout(30000) });
+    if (!resp.ok) {
+      console.log(`[sleeper] ${position} projections returned ${resp.status}`);
+      return [];
+    }
+    const data = await resp.json();
+    console.log(`[sleeper] Fetched ${data.length} ${position} players`);
+    return data;
+  } catch (err) {
+    console.log(`[sleeper] ${position} projections unavailable (${err.message})`);
+    return [];
+  }
+}
+
+/**
+ * Fetch all ADP data from Sleeper Projections API
+ */
+async function fetchSleeperAdp() {
+  try {
+    console.log('[sleeper] Fetching from Sleeper Projections API...');
+    
+    // Fetch player lookup first
+    const playerLookup = await fetchPlayerLookup();
+    
+    // Fetch projections for each position
+    const allProjections = [];
+    for (const pos of POSITIONS) {
+      const projections = await fetchProjectionsByPosition(pos);
+      allProjections.push(...projections);
+      
+      // Rate limit: wait between requests
+      await new Promise(resolve => setTimeout(resolve, 1000));
+    }
+    
+    if (allProjections.length === 0) {
+      console.log('[sleeper] No projection data received');
+      return null;
+    }
+    
+    console.log(`[sleeper] Successfully fetched ${allProjections.length} total projections`);
+    return { projections: allProjections, playerLookup };
   } catch (err) {
     console.log(`[sleeper] API unavailable (${err.message}), using sample data`);
     return null;
@@ -233,25 +294,28 @@ async function main() {
   const OUT = path.join(DATA_DIR, 'sleeper.json');
   fs.mkdirSync(DATA_DIR, { recursive: true });
 
-  // Try to fetch real data from Sleeper API
   const sleeperData = await fetchSleeperAdp();
 
   let data;
-  if (sleeperData && Array.isArray(sleeperData)) {
-    // Parse Sleeper's response format
-    data = sleeperData
-      .filter(p => p.adp != null)
-      .map(p => ({
-        id: p.player_id?.toString() ?? '',
-        name: p.name ?? p.player_name ?? 'Unknown',
-        position: p.position ?? 'Unknown',
-        team: p.team ?? 'Unknown',
-        adp: Math.round(p.adp * 100) / 100,
-      }))
-      .slice(0, 200); // Take top 200 players
+  if (sleeperData && sleeperData.projections && sleeperData.projections.length > 0) {
+    data = sleeperData.projections
+      .filter(p => p.stats && (p.stats.adp_ppr != null || p.stats.adp_std != null))
+      .map(p => {
+        const adpValue = p.stats.adp_ppr ?? p.stats.adp_std ?? 999;
+        if (adpValue >= 999) return null;
+
+        return {
+          id: p.player_id?.toString() ?? '',
+          name: `${p.player?.first_name ?? ''} ${p.player?.last_name ?? ''}`.trim() || 'Unknown',
+          position: p.player?.position ?? 'Unknown',
+          team: p.player?.team ?? p.team ?? 'Unknown',
+          adp: Math.round(adpValue * 100) / 100,
+        };
+      })
+      .filter(p => p != null)
+      .slice(0, 300);
     console.log(`[sleeper] Parsed ${data.length} players from API`);
   } else {
-    // Fallback to sample data
     data = PLAYERS.map(p => ({
       id: p.id,
       name: p.name,

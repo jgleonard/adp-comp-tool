@@ -5,6 +5,7 @@ interface PlayerRowProps {
   rank: number;
   sources: SourceInfo[];
   minSources: number;
+  onClick: () => void;
 }
 
 function getAdpCellClass(adp: number | null): string {
@@ -12,23 +13,23 @@ function getAdpCellClass(adp: number | null): string {
     return 'text-gray-300';
   }
   if (adp <= 5) {
-    return 'text-green-700 bg-green-50';
+    return 'text-emerald-600';
   }
   if (adp <= 15) {
-    return 'text-emerald-700 bg-emerald-50';
+    return 'text-emerald-600/80';
   }
   if (adp <= 30) {
-    return 'text-yellow-700 bg-yellow-50';
+    return 'text-amber-600/80';
   }
-  return 'text-red-600 bg-red-50';
+  return 'text-red-500/70';
 }
 
 function formatAdp(adp: number | null): string {
-  if (adp == null) return '\u2014';
+  if (adp == null) return '—';
   return adp.toFixed(1);
 }
 
-export default function PlayerRow({ player, rank, sources, minSources }: PlayerRowProps) {
+export default function PlayerRow({ player, rank, sources, minSources, onClick }: PlayerRowProps) {
   const activeSources = sources.filter(s => s.active);
 
   const adpCount = [
@@ -45,48 +46,51 @@ export default function PlayerRow({ player, rank, sources, minSources }: PlayerR
   const isEven = rank % 2 === 0;
 
   return (
-    <tr className={`tr-hover transition-smooth ${isEven ? 'bg-gray-50/50' : 'bg-white'}`}>
-      <td className={`sticky left-0 z-10 py-2.5 pr-3 font-mono text-sm font-medium text-slate md:sticky ${isEven ? 'bg-gray-50/50' : 'bg-white'}`}>
+    <tr
+      className={`tr-hover cursor-pointer transition-colors ${isEven ? 'bg-gray-50/50' : 'bg-white'}`}
+      onClick={onClick}
+    >
+      <td className={`sticky left-0 z-10 py-3 pr-3 font-mono text-xs font-medium text-slate md:sticky ${isEven ? 'bg-gray-50/50' : 'bg-white'}`}>
         {rank}
       </td>
-      <td className={`sticky left-12 z-10 py-2.5 pl-1 pr-3 align-middle md:sticky md:left-20 ${isEven ? 'bg-gray-50/50' : 'bg-white'}`}>
+      <td className={`sticky left-12 z-10 py-3 pl-1 pr-3 align-middle md:sticky md:left-20 ${isEven ? 'bg-gray-50/50' : 'bg-white'}`}>
         <div className="flex items-center gap-2">
           <span className={`pos-badge hidden sm:inline-flex`}>
             {player.position}
           </span>
-          <div>
-            <span className="font-semibold text-navy">{player.name}</span>
-            <span className="ml-1.5 text-xs text-slate-light">{player.team}</span>
+          <div className="min-w-0">
+            <span className="text-sm font-semibold text-navy">{player.name}</span>
+            <span className="ml-1.5 text-xs font-medium text-slate-light">{player.team}</span>
           </div>
         </div>
       </td>
-      <td className={`sticky left-48 z-10 py-2.5 pr-3 sm:hidden md:sticky md:left-52 ${isEven ? 'bg-gray-50/50' : 'bg-white'}`}>
+      <td className={`sticky left-48 z-10 py-3 pr-3 sm:hidden md:sticky md:left-52 ${isEven ? 'bg-gray-50/50' : 'bg-white'}`}>
         <span className={`pos-badge`}>{player.position}</span>
       </td>
       {activeSources.map(source => (
-        <td key={source.name} className="py-2.5">
-          <span className={`inline-block w-full rounded-md px-2 py-0.5 font-mono text-sm text-right num-cell ${getAdpCellClass(player.adp[source.name])}`}>
+        <td key={source.name} className="py-3 px-2">
+          <span className={`font-mono text-xs tabular-nums text-right ${getAdpCellClass(player.adp[source.name])}`}>
             {formatAdp(player.adp[source.name])}
           </span>
         </td>
       ))}
-      <td className="py-2.5">
-        <span className={`inline-block w-full rounded-md px-2 py-0.5 font-mono text-sm text-right num-cell ${getAdpCellClass(player.medianAdp)}`}>
+      <td className="py-3 px-2">
+        <span className={`font-mono text-xs tabular-nums text-right font-semibold ${getAdpCellClass(player.medianAdp)}`}>
           {formatAdp(player.medianAdp)}
         </span>
       </td>
-      <td className="py-2.5">
-        <span className={`inline-block w-full rounded-md px-2 py-0.5 font-mono text-sm text-right num-cell ${getAdpCellClass(player.bestAdp)}`}>
+      <td className="py-3 px-2">
+        <span className={`font-mono text-xs tabular-nums text-right ${getAdpCellClass(player.bestAdp)}`}>
           {formatAdp(player.bestAdp)}
         </span>
       </td>
-      <td className="py-2.5">
-        <span className={`inline-block w-full rounded-md px-2 py-0.5 font-mono text-sm text-right num-cell ${getAdpCellClass(player.worstAdp)}`}>
+      <td className="py-3 px-2">
+        <span className={`font-mono text-xs tabular-nums text-right ${getAdpCellClass(player.worstAdp)}`}>
           {formatAdp(player.worstAdp)}
         </span>
       </td>
-      <td className="py-2.5">
-        <span className="inline-block w-full rounded-md px-2 py-0.5 font-mono text-sm text-right font-semibold text-slate num-cell">
+      <td className="py-3 px-2">
+        <span className="font-mono text-xs tabular-nums text-right font-semibold text-slate">
           {formatAdp(player.adpSpread)}
         </span>
       </td>

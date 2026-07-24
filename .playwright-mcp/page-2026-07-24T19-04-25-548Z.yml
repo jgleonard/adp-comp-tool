@@ -1,0 +1,111 @@
+- generic [ref=f7e3]:
+  - banner [ref=f7e4]:
+    - generic [ref=f7e11]:
+      - heading "ADP Comparison Tool" [level=1] [ref=f7e12]
+      - paragraph [ref=f7e13]: Sleeper • MFL • ESPN • FantasyPros
+  - main [ref=f7e14]:
+    - generic [ref=f7e15]:
+      - generic [ref=f7e16]:
+        - generic [ref=f7e17]:
+          - text: Search
+          - generic [ref=f7e18]:
+            - textbox "Search players..." [active] [ref=f7e22]: mahomes
+            - button "Clear search"
+        - generic [ref=f7e23]:
+          - text: Data Sources
+          - generic [ref=f7e24]:
+            - button "Sleeper" [ref=f7e25]
+            - button "MFL" [ref=f7e26]
+            - button "ESPN" [ref=f7e27]
+            - button "FantasyPros" [ref=f7e28]
+      - generic [ref=f7e30]:
+        - generic [ref=f7e31]:
+          - text: Position
+          - generic [ref=f7e32]:
+            - button "QB" [ref=f7e33]
+            - button "RB" [ref=f7e34]
+            - button "WR" [ref=f7e35]
+            - button "TE" [ref=f7e36]
+            - button "K" [ref=f7e37]
+            - button "DEF" [ref=f7e38]
+            - button "OP" [ref=f7e39]
+        - generic [ref=f7e40]:
+          - text: Min Sources
+          - generic [ref=f7e41]:
+            - button "1" [ref=f7e42]
+            - button "2" [ref=f7e43]
+            - button "3" [ref=f7e44]
+            - button "4" [ref=f7e45]
+        - generic [ref=f7e46]:
+          - text: ADP Range
+          - generic [ref=f7e47]:
+            - generic [ref=f7e48]:
+              - text: Min
+              - slider [ref=f7e49] [cursor=pointer]: "0"
+              - text: "0"
+            - generic [ref=f7e50]:
+              - text: Max
+              - slider [ref=f7e51] [cursor=pointer]: "500"
+              - text: "500"
+    - generic [ref=f7e52]:
+      - generic [ref=f7e53]: 1 player
+      - button "Clear filters" [ref=f7e5902]
+    - table [ref=f7e55]:
+      - rowgroup [ref=f7e56]:
+        - row [ref=f7e57]:
+          - columnheader "#" [ref=f7e58]
+          - columnheader [ref=f7e59]:
+            - button "Name" [ref=f7e60]
+          - columnheader "Pos" [ref=f7e61]
+          - columnheader [ref=f7e62]:
+            - button "Sleeper" [ref=f7e63]
+          - columnheader [ref=f7e64]:
+            - button "MFL" [ref=f7e65]
+          - columnheader [ref=f7e66]:
+            - button "ESPN" [ref=f7e67]
+          - columnheader [ref=f7e68]:
+            - button "FantasyPros" [ref=f7e69]
+          - columnheader [ref=f7e70]:
+            - button "Median" [ref=f7e71]
+          - columnheader [ref=f7e72]:
+            - button "Best" [ref=f7e73]
+          - columnheader [ref=f7e74]:
+            - button "Worst" [ref=f7e75]
+          - columnheader [ref=f7e76]:
+            - button "Spread" [ref=f7e77]
+      - rowgroup [ref=f7e78]:
+        - row [ref=f7e5903]:
+          - cell "1" [ref=f7e5904]
+          - cell "QB Patrick MahomesKC" [ref=f7e273]:
+            - generic [ref=f7e274]:
+              - generic [ref=f7e275]: QB
+              - generic [ref=f7e276]: Patrick MahomesKC
+          - cell "QB" [ref=f7e277]
+          - cell "14.0" [ref=f7e279]
+          - cell "46.1" [ref=f7e280]
+          - cell "16.0" [ref=f7e281]
+          - cell "15.0" [ref=f7e282]
+          - cell "16.0" [ref=f7e283]
+          - cell "14.0" [ref=f7e284]
+          - cell "46.1" [ref=f7e285]
+          - cell "32.1" [ref=f7e286]
+  - contentinfo [ref=f7e5887]:
+    - generic [ref=f7e5889]:
+      - paragraph [ref=f7e5890]: "Data updated: 2026-07-24T17:48:50.481Z"
+      - generic [ref=f7e5891]:
+        - text: "Sources:"
+        - generic [ref=f7e5892]:
+          - generic [ref=f7e5893]:
+            - link "Sleeper" [ref=f7e5894] [cursor=pointer]:
+              - /url: https://sleeper.app
+            - text: /
+          - generic [ref=f7e5895]:
+            - link "MFL" [ref=f7e5896] [cursor=pointer]:
+              - /url: https://www.mfl.com
+            - text: /
+          - generic [ref=f7e5897]:
+            - link "ESPN" [ref=f7e5898] [cursor=pointer]:
+              - /url: https://www.espn.com/fantasy/football
+            - text: /
+          - link "FantasyPros" [ref=f7e5900] [cursor=pointer]:
+            - /url: https://www.fantasypros.com

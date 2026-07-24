@@ -5,6 +5,9 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '../src/data');
 
+// ESPN fantasy football API is undocumented and requires league ID
+// No public ADP endpoint available, using realistic sample data
+
 const PLAYERS = [
   { name: "Josh Allen", position: "QB", team: "BUF", id: "qb_josh_allen" },
   { name: "Lamar Jackson", position: "QB", team: "BAL", id: "qb_lamar_jackson" },
@@ -212,15 +215,14 @@ async function main() {
   const OUT = path.join(DATA_DIR, 'espn.json');
   fs.mkdirSync(DATA_DIR, { recursive: true });
 
-  try {
-    const resp = await fetch('https://www.espn.com/fantasy/football/api/v2/adp', { signal: AbortSignal.timeout(8000) });
-    if (resp.ok) console.log('[espn] Fetched from ESPN API');
-  } catch {
-    console.log('[espn] API unavailable, using sample data');
-  }
+  console.log('[espn] ESPN has no public ADP API, using sample data');
 
   const data = PLAYERS.map(p => ({
-    id: p.id, name: p.name, position: p.position, team: p.team, adp: getAdp(p),
+    id: p.id,
+    name: p.name,
+    position: p.position,
+    team: p.team,
+    adp: getAdp(p),
   }));
 
   fs.writeFileSync(OUT, JSON.stringify(data, null, 2));

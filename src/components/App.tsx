@@ -5,10 +5,11 @@ import SearchBar from './SearchBar';
 import Filters from './Filters';
 import SourceToggle from './SourceToggle';
 import PlayerTable from './PlayerTable';
+import PlayerModal from './PlayerModal';
 import { useAdpData } from '../hooks/useAdpData';
 import { useFilters } from '../hooks/useFilters';
 import { useSorting } from '../hooks/useSorting';
-import { FilterState, Position, SortConfig, SortField, SourceName } from '../types';
+import { FilterState, PlayerData, Position, SortConfig, SortField, SourceName } from '../types';
 
 const DEFAULT_FILTERS: FilterState = {
   search: '',
@@ -24,6 +25,7 @@ export default function App() {
 
   const [filterState, setFilterState] = useState<FilterState>(DEFAULT_FILTERS);
   const [sortConfig, setSortConfig] = useState<SortConfig | null>(null);
+  const [selectedPlayer, setSelectedPlayer] = useState<PlayerData | null>(null);
 
   const { filteredPlayers, togglePosition } = useFilters(players, filterState);
   const { sortedPlayers, onSort } = useSorting(filteredPlayers, sortConfig);
@@ -68,41 +70,42 @@ export default function App() {
     [onSort],
   );
 
+  const handleRowClick = useCallback((player: PlayerData) => {
+    setSelectedPlayer(player);
+  }, []);
+
+  const handleCloseModal = useCallback(() => {
+    setSelectedPlayer(null);
+  }, []);
+
   if (isLoading) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-surface">
-        <div className="text-slate">Loading...</div>
+      <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50 gap-3">
+        <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue/10 animate-pulse-soft">
+          <svg className="h-5 w-5 text-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </div>
+        <p className="text-sm text-slate-light">Loading player data...</p>
       </div>
     );
   }
 
+  const hasActiveFilters = filterState.positions.length > 0 || filterState.search;
+
   return (
-    <div className="min-h-screen bg-surface">
+    <div className="min-h-screen bg-gray-50 flex flex-col">
       <Header />
 
-      <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        {/* Controls card */}
-        <div className="mb-6 rounded-xl border border-gray-200 bg-card p-4 shadow-sm sm:p-6">
-          {/* Top row: Search + Source toggles */}
-          <div className="grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2">
-            <div>
-              <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate">
-                Search
-              </label>
-              <SearchBar value={filterState.search} onChange={handleSearchChange} />
-            </div>
-            <div>
-              <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate">
-                Data Sources
-              </label>
-              <SourceToggle sources={sources} onToggle={handleSourceToggle} />
-            </div>
+      <main className="flex-1 mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+        <div className="bg-white rounded-xl border border-gray-200/80 p-4 sm:p-5 animate-slide-up">
+          <div className="grid grid-cols-1 gap-4 sm:gap-5 md:grid-cols-2">
+            <SearchBar value={filterState.search} onChange={handleSearchChange} />
+            <SourceToggle sources={sources} onToggle={handleSourceToggle} />
           </div>
 
-          {/* Divider */}
-          <div className="my-5 border-t border-gray-100" />
+          <div className="my-4 border-t border-gray-100" />
 
-          {/* Filters section */}
           <Filters
             filterState={filterState}
             onPositionToggle={handlePositionToggle}
@@ -113,35 +116,40 @@ export default function App() {
           />
         </div>
 
-        {/* Table count */}
-        <div className="mb-3 flex items-center justify-between px-1">
-          <span className="text-sm font-medium text-slate">
-            {sortedPlayers.length} player{sortedPlayers.length !== 1 ? 's' : ''}
+        <div className="mt-4 mb-3 flex items-center justify-between px-1">
+          <span className="text-sm text-slate-light">
+            <span className="font-semibold text-navy">{sortedPlayers.length}</span> player{sortedPlayers.length !== 1 ? 's' : ''}
           </span>
-          {(filterState.positions.length > 0 || filterState.search) && (
+          {hasActiveFilters && (
             <button
               type="button"
-              onClick={() =>
-                setFilterState({ ...DEFAULT_FILTERS, maxAdp: 500 })
-              }
-              className="rounded-full bg-blue/10 px-3 py-1 text-xs font-semibold text-blue hover:bg-blue/20 transition-smooth"
+              onClick={() => setFilterState({ ...DEFAULT_FILTERS, maxAdp: 500 })}
+              className="rounded-full px-3 py-1 text-xs font-medium text-slate hover:text-navy hover:bg-gray-200/60 transition-smooth"
             >
               Clear filters
             </button>
           )}
         </div>
 
-        {/* Player table */}
         <PlayerTable
           players={sortedPlayers}
           sortConfig={sortConfig}
           onSort={handleSort}
           sources={sources}
           minSources={filterState.minSources}
+          onRowClick={handleRowClick}
         />
       </main>
 
       <Footer lastUpdated={lastUpdated} />
+
+      {selectedPlayer && (
+        <PlayerModal
+          player={selectedPlayer}
+          sources={sources}
+          onClose={handleCloseModal}
+        />
+      )}
     </div>
   );
 }

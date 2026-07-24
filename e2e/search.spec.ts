@@ -35,6 +35,6 @@ test.describe('Search Functionality', () => {
     const searchInput = page.getByPlaceholder('Search players...');
     await searchInput.fill('xyznonexistent123');
     await page.waitForTimeout(1000);
-    await expect(page.getByText('No players match the current filters.')).toBeVisible();
+    await expect(page.getByText('No players found')).toBeVisible();
   });
 });
