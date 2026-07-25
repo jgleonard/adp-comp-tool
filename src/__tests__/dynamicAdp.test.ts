@@ -11,7 +11,6 @@ const makePlayer = (adp: Partial<PlayerData['adp']> = {}): PlayerData => ({
     sleeper: null,
     mfl: null,
     espn: null,
-    fantasypros: null,
     ...adp,
   },
   medianAdp: null,
@@ -22,7 +21,7 @@ const makePlayer = (adp: Partial<PlayerData['adp']> = {}): PlayerData => ({
 
 describe('computeDynamicAdp', () => {
   it('recomputes median based on active sources only', () => {
-    const player = makePlayer({ sleeper: 10, mfl: 20, espn: 30, fantasypros: 40 });
+    const player = makePlayer({ sleeper: 10, mfl: 20, espn: 30 });
     // Only sleeper and mfl active → median of [10, 20] = 15
     const result = computeDynamicAdp(player, ['sleeper', 'mfl']);
     expect(result.medianAdp).toBe(15);
@@ -52,13 +51,13 @@ describe('computeDynamicAdp', () => {
   });
 
   it('includes all sources when all are active', () => {
-    const player = makePlayer({ sleeper: 5, mfl: 15, espn: 10, fantasypros: 20 });
-    const result = computeDynamicAdp(player, ['sleeper', 'mfl', 'espn', 'fantasypros']);
-    // sorted: [5, 10, 15, 20] → median = (10+15)/2 = 12.5
-    expect(result.medianAdp).toBe(12.5);
+    const player = makePlayer({ sleeper: 5, mfl: 15, espn: 10 });
+    const result = computeDynamicAdp(player, ['sleeper', 'mfl', 'espn']);
+    // sorted: [5, 10, 15] → median = 10
+    expect(result.medianAdp).toBe(10);
     expect(result.bestAdp).toBe(5);
-    expect(result.worstAdp).toBe(20);
-    expect(result.adpSpread).toBe(15);
+    expect(result.worstAdp).toBe(15);
+    expect(result.adpSpread).toBe(10);
   });
 
   it('preserves original player fields', () => {

@@ -45,7 +45,6 @@ export function mergeData(input: RawPlayer[]): PlayerData[] {
       p.adp.sleeper,
       p.adp.mfl,
       p.adp.espn,
-      p.adp.fantasypros,
     ].filter((v): v is number => v != null);
 
     const best = computeBest(sources);
@@ -60,7 +59,6 @@ export function mergeData(input: RawPlayer[]): PlayerData[] {
         sleeper: p.adp.sleeper ?? null,
         mfl: p.adp.mfl ?? null,
         espn: p.adp.espn ?? null,
-        fantasypros: p.adp.fantasypros ?? null,
       },
       medianAdp: computeMedian(sources),
       bestAdp: best,

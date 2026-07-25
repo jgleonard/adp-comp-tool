@@ -9,29 +9,29 @@ const mockPlayers: PlayerData[] = [
     name: 'Josh Allen',
     position: 'QB',
     team: 'BUF',
-    adp: { sleeper: 7, mfl: 9, espn: 8, fantasypros: 10 },
+    adp: { sleeper: 7, mfl: 9, espn: 8 },
     medianAdp: 8,
     bestAdp: 7,
-    worstAdp: 10,
-    adpSpread: 3,
+    worstAdp: 9,
+    adpSpread: 2,
   },
   {
     id: 'rb_christian_mccaffrey',
     name: 'Christian McCaffrey',
     position: 'RB',
     team: 'SF',
-    adp: { sleeper: 2, mfl: 3, espn: 1, fantasypros: 4 },
-    medianAdp: 2.5,
+    adp: { sleeper: 2, mfl: 3, espn: 1 },
+    medianAdp: 2,
     bestAdp: 1,
-    worstAdp: 4,
-    adpSpread: 3,
+    worstAdp: 3,
+    adpSpread: 2,
   },
   {
     id: 'wr_justin_jefferson',
     name: 'Justin Jefferson',
     position: 'WR',
     team: 'MIN',
-    adp: { sleeper: 3, mfl: null, espn: 4, fantasypros: null },
+    adp: { sleeper: 3, mfl: null, espn: 4 },
     medianAdp: 3.5,
     bestAdp: 3,
     worstAdp: 4,
@@ -82,7 +82,7 @@ describe('useFilters', () => {
   });
 
   it('filters by min sources', () => {
-    const filterState: FilterState = { ...defaultFilterState, minSources: 4 };
+    const filterState: FilterState = { ...defaultFilterState, minSources: 3 };
     const { result } = renderHook(() => useFilters(mockPlayers, filterState));
     expect(result.current.filteredPlayers).toHaveLength(2);
     expect(result.current.filteredPlayers.every(p => p.id !== 'wr_justin_jefferson')).toBe(true);

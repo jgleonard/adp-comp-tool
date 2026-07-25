@@ -8,7 +8,6 @@ const SCRIPTS = [
   'fetch-sleeper.js',
   'fetch-mfl.js',
   'fetch-espn.js',
-  'fetch-fantasypros.js',
   'merge-data.js',
 ];
 

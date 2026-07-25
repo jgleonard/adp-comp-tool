@@ -13,7 +13,6 @@ const SOURCE_INFOS: SourceInfo[] = [
   { name: 'sleeper', label: 'Sleeper', color: '#00796b', active: true },
   { name: 'mfl', label: 'MFL', color: '#c62828', active: true },
   { name: 'espn', label: 'ESPN', color: '#d32f2f', active: true },
-  { name: 'fantasypros', label: 'FantasyPros', color: '#e65100', active: true },
 ];
 
 export function useAdpData() {

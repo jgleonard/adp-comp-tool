@@ -36,7 +36,6 @@ export default function PlayerRow({ player, rank, sources, minSources, onClick }
     player.adp.sleeper,
     player.adp.mfl,
     player.adp.espn,
-    player.adp.fantasypros,
   ].filter((v): v is number => v != null).length;
 
   if (adpCount < minSources) {

@@ -61,15 +61,15 @@ describe('mergeData', () => {
         name: 'Josh Allen',
         position: 'QB',
         team: 'BUF',
-        adp: { sleeper: 7, mfl: 9, espn: 8, fantasypros: 10 },
+        adp: { sleeper: 7, mfl: 9, espn: 8 },
       },
     ];
     const result = mergeData(input);
     expect(result).toHaveLength(1);
-    expect(result[0].medianAdp).toBe(8.5);
+    expect(result[0].medianAdp).toBe(8);
     expect(result[0].bestAdp).toBe(7);
-    expect(result[0].worstAdp).toBe(10);
-    expect(result[0].adpSpread).toBe(3);
+    expect(result[0].worstAdp).toBe(9);
+    expect(result[0].adpSpread).toBe(2);
   });
 
   it('handles null ADP values', () => {
@@ -79,7 +79,7 @@ describe('mergeData', () => {
         name: 'Josh Allen',
         position: 'QB',
         team: 'BUF',
-        adp: { sleeper: 7, mfl: null, espn: 8, fantasypros: null },
+        adp: { sleeper: 7, mfl: null, espn: 8 },
       },
     ];
     const result = mergeData(input);

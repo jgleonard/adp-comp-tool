@@ -1,12 +1,11 @@
 export type Position = 'QB' | 'RB' | 'WR' | 'TE' | 'K' | 'DEF' | 'OP';
 
-export type SourceName = 'sleeper' | 'mfl' | 'espn' | 'fantasypros';
+export type SourceName = 'sleeper' | 'mfl' | 'espn';
 
 export interface AdpSources {
   sleeper: number | null;
   mfl: number | null;
   espn: number | null;
-  fantasypros: number | null;
 }
 
 export interface PlayerData {

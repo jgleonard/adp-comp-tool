@@ -8,29 +8,29 @@ const mockPlayers: PlayerData[] = [
     name: 'Josh Allen',
     position: 'QB',
     team: 'BUF',
-    adp: { sleeper: 7, mfl: 9, espn: 8, fantasypros: 10 },
+    adp: { sleeper: 7, mfl: 9, espn: 8 },
     medianAdp: 8,
     bestAdp: 7,
-    worstAdp: 10,
-    adpSpread: 3,
+    worstAdp: 9,
+    adpSpread: 2,
   },
   {
     id: 'rb_christian_mccaffrey',
     name: 'Christian McCaffrey',
     position: 'RB',
     team: 'SF',
-    adp: { sleeper: 2, mfl: 3, espn: 1, fantasypros: 4 },
-    medianAdp: 2.5,
+    adp: { sleeper: 2, mfl: 3, espn: 1 },
+    medianAdp: 2,
     bestAdp: 1,
-    worstAdp: 4,
-    adpSpread: 3,
+    worstAdp: 3,
+    adpSpread: 2,
   },
   {
     id: 'wr_justin_jefferson',
     name: 'Justin Jefferson',
     position: 'WR',
     team: 'MIN',
-    adp: { sleeper: 3, mfl: null, espn: 4, fantasypros: null },
+    adp: { sleeper: 3, mfl: null, espn: 4 },
     medianAdp: 3.5,
     bestAdp: 3,
     worstAdp: 4,
@@ -82,8 +82,8 @@ describe('sortPlayers', () => {
   });
 
   it('puts null values at the end regardless of direction', () => {
-    const resultAsc = sortPlayers(mockPlayers, 'fantasypros', 'asc');
-    const resultDesc = sortPlayers(mockPlayers, 'fantasypros', 'desc');
+    const resultAsc = sortPlayers(mockPlayers, 'mfl', 'asc');
+    const resultDesc = sortPlayers(mockPlayers, 'mfl', 'desc');
     expect(resultAsc[2].name).toBe('Justin Jefferson');
     expect(resultDesc[2].name).toBe('Justin Jefferson');
   });
@@ -105,7 +105,7 @@ describe('sortPlayers', () => {
   it('sorts by ADP spread', () => {
     const result = sortPlayers(mockPlayers, 'adpSpread', 'asc');
     expect(result[0].name).toBe('Justin Jefferson');
-    expect(result[1].adpSpread).toBe(3);
-    expect(result[2].adpSpread).toBe(3);
+    expect(result[1].adpSpread).toBe(2);
+    expect(result[2].adpSpread).toBe(2);
   });
 });

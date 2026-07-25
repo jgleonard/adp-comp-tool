@@ -12,14 +12,12 @@ const SOURCE_LABELS: Record<string, string> = {
   sleeper: 'Sleeper',
   mfl: 'MFL',
   espn: 'ESPN',
-  fantasypros: 'FantasyPros',
 };
 
 const SOURCE_COLORS: Record<string, string> = {
   sleeper: '#3B82F6',
   mfl: '#10B981',
   espn: '#F59E0B',
-  fantasypros: '#8B5CF6',
 };
 
 function formatAdp(adp: number | null): string {
@@ -45,7 +43,6 @@ export default function PlayerModal({ player, sources, onClose }: PlayerModalPro
   if (player.adp.sleeper != null) chartData.sleeper = player.adp.sleeper;
   if (player.adp.mfl != null) chartData.mfl = player.adp.mfl;
   if (player.adp.espn != null) chartData.espn = player.adp.espn;
-  if (player.adp.fantasypros != null) chartData.fantasypros = player.adp.fantasypros;
 
   const adpValues = [
     { label: 'Median', value: player.medianAdp, color: '#0F172A', bold: true },

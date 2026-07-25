@@ -26,7 +26,6 @@ export function useFilters(players: PlayerData[], filterState: FilterState) {
             player.adp.sleeper,
             player.adp.mfl,
             player.adp.espn,
-            player.adp.fantasypros,
           ].filter((v): v is number => v != null);
           if (adpValues.length < filterState.minSources) return false;
         }

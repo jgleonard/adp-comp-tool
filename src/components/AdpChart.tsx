@@ -8,14 +8,12 @@ const SOURCE_COLORS: Record<string, string> = {
   sleeper: '#3B82F6',
   mfl: '#10B981',
   espn: '#F59E0B',
-  fantasypros: '#8B5CF6',
 };
 
 const SOURCE_LABELS: Record<string, string> = {
   sleeper: 'Sleeper',
   mfl: 'MFL',
   espn: 'ESPN',
-  fantasypros: 'FantasyPros',
 };
 
 export default function AdpChart({ sources }: AdpChartProps) {

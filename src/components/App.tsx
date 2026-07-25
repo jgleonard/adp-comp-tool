@@ -14,7 +14,7 @@ import { FilterState, PlayerData, Position, SortConfig, SortField, SourceName } 
 const DEFAULT_FILTERS: FilterState = {
   search: '',
   positions: [],
-  sources: ['sleeper', 'mfl', 'espn', 'fantasypros'],
+  sources: ['sleeper', 'mfl', 'espn'],
   minAdp: null,
   maxAdp: 500,
   minSources: 1,

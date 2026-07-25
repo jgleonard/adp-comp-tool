@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '../src/data');
-const SOURCES = ['sleeper', 'mfl', 'espn', 'fantasypros'];
+const SOURCES = ['sleeper', 'mfl', 'espn'];
 
 function median(arr) {
   const sorted = [...arr].sort((a, b) => a - b);
@@ -66,7 +66,6 @@ function main() {
         sleeper: player.adp.sleeper ?? null,
         mfl: player.adp.mfl ?? null,
         espn: player.adp.espn ?? null,
-        fantasypros: player.adp.fantasypros ?? null,
       },
       medianAdp: values.length >= 2 ? median(values) : null,
       bestAdp: values.length >= 1 ? Math.min(...values) : null,

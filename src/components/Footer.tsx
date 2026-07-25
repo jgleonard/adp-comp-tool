@@ -14,8 +14,6 @@ export default function Footer({ lastUpdated }: FooterProps) {
             <a href="https://www.mfl.com" target="_blank" rel="noopener noreferrer" className="hover:text-navy transition-colors">MFL</a>
             <span className="text-gray-300">·</span>
             <a href="https://www.espn.com/fantasy/football" target="_blank" rel="noopener noreferrer" className="hover:text-navy transition-colors">ESPN</a>
-            <span className="text-gray-300">·</span>
-            <a href="https://www.fantasypros.com" target="_blank" rel="noopener noreferrer" className="hover:text-navy transition-colors">FantasyPros</a>
           </div>
         </div>
       </div>

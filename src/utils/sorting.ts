@@ -22,8 +22,6 @@ function getCellValue(player: PlayerData, field: SortField): number | string | n
       return player.adp.mfl;
     case 'espn':
       return player.adp.espn;
-    case 'fantasypros':
-      return player.adp.fantasypros;
     default:
       return null;
   }
