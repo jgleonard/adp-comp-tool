@@ -5,228 +5,178 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '../src/data');
 
-// ESPN fantasy football API is undocumented and requires league ID
-// No public ADP endpoint available, using realistic sample data
+const ESPN_BASE = 'https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl';
 
-const PLAYERS = [
-  { name: "Josh Allen", position: "QB", team: "BUF", id: "qb_josh_allen" },
-  { name: "Lamar Jackson", position: "QB", team: "BAL", id: "qb_lamar_jackson" },
-  { name: "Jalen Hurts", position: "QB", team: "PHI", id: "qb_jalen_hurts" },
-  { name: "Patrick Mahomes", position: "QB", team: "KC", id: "qb_patrick_mahomes" },
-  { name: "Joe Burrow", position: "QB", team: "CIN", id: "qb_joe_burrow" },
-  { name: "C.J. Stroud", position: "QB", team: "HOU", id: "qb_cj_stroud" },
-  { name: "Bryce Young", position: "QB", team: "CAR", id: "qb_bryce_young" },
-  { name: "Daniel Jones", position: "QB", team: "NYG", id: "qb_daniel_jones" },
-  { name: "Derek Carr", position: "QB", team: "LV", id: "qb_derek_carr" },
-  { name: "Justin Herbert", position: "QB", team: "LAC", id: "qb_justin_herbert" },
-  { name: "Geno Smith", position: "QB", team: "SEA", id: "qb_geno_smith" },
-  { name: "Baker Mayfield", position: "QB", team: "TB", id: "qb_baker_mayfield" },
-  { name: "Anthony Richardson", position: "QB", team: "IND", id: "qb_anthony_richardson" },
-  { name: "Will Levis", position: "QB", team: "TEN", id: "qb_will_levis" },
-  { name: "Sam Darnold", position: "QB", team: "TB", id: "qb_sam_darnold" },
-  { name: "Jared Goff", position: "QB", team: "DET", id: "qb_jared_goff" },
-  { name: "Russell Wilson", position: "QB", team: "PIT", id: "qb_russell_wilson" },
-  { name: "Kirk Cousins", position: "QB", team: "ATL", id: "qb_kirk_cousins" },
-  { name: "Drake Maye", position: "QB", team: "NE", id: "qb_drake_maye" },
-  { name: "P.J. Walsh", position: "QB", team: "JAX", id: "qb_pj_walsh" },
-  { name: "J.J. McCarthy", position: "QB", team: "DET", id: "qb_jj_mccarthy" },
-  { name: "Bo Nix", position: "QB", team: "DEN", id: "qb_bo_nix" },
-  { name: "Shedeur Sanders", position: "QB", team: "DEN", id: "qb_shedeur_sanders" },
-  { name: "Jayden Daniels", position: "QB", team: "WAS", id: "qb_jayden_daniels" },
-  { name: "Christian McCaffrey", position: "RB", team: "SF", id: "rb_christian_mccaffrey" },
-  { name: "Derrick Henry", position: "RB", team: "BAL", id: "rb_derrick_henry" },
-  { name: "Saquon Barkley", position: "RB", team: "PHI", id: "rb_saquon_barkley" },
-  { name: "Jonathan Taylor", position: "RB", team: "IND", id: "rb_jonathan_taylor" },
-  { name: "Josh Jacobs", position: "RB", team: "LV", id: "rb_josh_jacobs" },
-  { name: "Breece Hall", position: "RB", team: "NYJ", id: "rb_breece_hall" },
-  { name: "Kenneth Walker III", position: "RB", team: "SEA", id: "rb_kenneth_walker" },
-  { name: "Rachaad White", position: "RB", team: "TB", id: "rb_rachaad_white" },
-  { name: "Tony Pollard", position: "RB", team: "TEN", id: "rb_tony_pollard" },
-  { name: "James Conner", position: "RB", team: "ARI", id: "rb_james_conner" },
-  { name: "Isiah Pacheco", position: "RB", team: "KC", id: "rb_isiah_pacheco" },
-  { name: "Gus Edwards", position: "RB", team: "LAC", id: "rb_gus_edwards" },
-  { name: "Zach Wilson", position: "RB", team: "MIA", id: "rb_zach_wilson" },
-  { name: "Roschon Johnson", position: "RB", team: "CHI", id: "rb_roschon_johnson" },
-  { name: "Jaleel McLaughlin", position: "RB", team: "NYG", id: "rb_jaleel_mclaughlin" },
-  { name: "Brian Robinson", position: "RB", team: "WAS", id: "rb_brian_robinson" },
-  { name: "Najee Harris", position: "RB", team: "PIT", id: "rb_najee_harris" },
-  { name: "Rhamondre Stevenson", position: "RB", team: "NE", id: "rb_rhamondre_stevenson" },
-  { name: "Bijan Robinson", position: "RB", team: "ATL", id: "rb_bijan_robinson" },
-  { name: "Jaylen Watson", position: "RB", team: "CLE", id: "rb_jaylen_watson" },
-  { name: "Tank Dell", position: "RB", team: "HOU", id: "rb_tank_dell" },
-  { name: "Zack Martin", position: "RB", team: "DAL", id: "rb_zack_martin" },
-  { name: "Jake Matthews", position: "RB", team: "TEN", id: "rb_jake_matthews" },
-  { name: "Roschon Byrd", position: "RB", team: "DET", id: "rb_roschon_byrd" },
-  { name: "Kyren Williams", position: "RB", team: "LAR", id: "rb_kyren_williams" },
-  { name: "Tyjae Spears", position: "RB", team: "TEN", id: "rb_tyjae_spears" },
-  { name: "C.J. Beans", position: "RB", team: "MIN", id: "rb_cj_beans" },
-  { name: "Tyler Allgeier", position: "RB", team: "ATL", id: "rb_tyler_allgeier" },
-  { name: "Isaac Guerendo", position: "RB", team: "SF", id: "rb_isaac_guerendo" },
-  { name: "Javonte Williams", position: "RB", team: "DEN", id: "rb_javonte_williams" },
-  { name: "Devin Singletary", position: "RB", team: "BUF", id: "rb_devin_singletary" },
-  { name: "Zoe Thomforde", position: "RB", team: "NE", id: "rb_zoe_thomforde" },
-  { name: "Eric Gray", position: "RB", team: "TB", id: "rb_eric_gray" },
-  { name: "Israel Abelman", position: "RB", team: "IND", id: "rb_israel_abelman" },
-  { name: "Jalen Tate", position: "RB", team: "CHI", id: "rb_jalen_tate" },
-  { name: "T.J. Vasher", position: "RB", team: "MIA", id: "rb_tj_vasher" },
-  { name: "Justin Jefferson", position: "WR", team: "MIN", id: "wr_justin_jefferson" },
-  { name: "CeeDee Lamb", position: "WR", team: "DAL", id: "wr_ceedee_lamb" },
-  { name: "Ja'Marr Chase", position: "WR", team: "CIN", id: "wr_jamarr_chase" },
-  { name: "Amon-Ra St. Brown", position: "WR", team: "DET", id: "wr_amonra_stbrown" },
-  { name: "Tyreek Hill", position: "WR", team: "MIA", id: "wr_tyreek_hill" },
-  { name: "A.J. Brown", position: "WR", team: "PHI", id: "wr_aj_brown" },
-  { name: "Puka Nacua", position: "WR", team: "LAR", id: "wr_puka_nacua" },
-  { name: "Brandon Aiyuk", position: "WR", team: "SF", id: "wr_brandon_aiyuk" },
-  { name: "Garrett Wilson", position: "WR", team: "NYJ", id: "wr_garrett_wilson" },
-  { name: "Davante Adams", position: "WR", team: "LV", id: "wr_davante_adams" },
-  { name: "Marvin Harrison Jr.", position: "WR", team: "ARI", id: "wr_marvin_harrison" },
-  { name: "Chris Olave", position: "WR", team: "ATL", id: "wr_chris_olave" },
-  { name: "Drake London", position: "WR", team: "ATL", id: "wr_drake_london" },
-  { name: "Rashee Rice", position: "WR", team: "KC", id: "wr_rashee_rice" },
-  { name: "Malik Nabers", position: "WR", team: "NYG", id: "wr_malik_nabers" },
-  { name: "Jaxon Smith-Njigba", position: "WR", team: "SEA", id: "wr_jaxon_smithnjigba" },
-  { name: "Ricky Pearsall", position: "WR", team: "SF", id: "wr_ricky_pearsall" },
-  { name: "Rome Odunze", position: "WR", team: "CHI", id: "wr_rome_odunze" },
-  { name: "Adonai Mitchell", position: "WR", team: "HOU", id: "wr_adonai_mitchell" },
-  { name: "Zay Flowers", position: "WR", team: "BAL", id: "wr_zay_flowers" },
-  { name: "Jaylen Waddle", position: "WR", team: "MIA", id: "wr_jaylen_waddle" },
-  { name: "Stefon Diggs", position: "WR", team: "HOU", id: "wr_stefon_diggs" },
-  { name: "Calvin Ridley", position: "WR", team: "TEN", id: "wr_calvin_ridley" },
-  { name: "Tee Higgins", position: "WR", team: "CIN", id: "wr_tee_higgins" },
-  { name: "Michael Pittman Jr.", position: "WR", team: "IND", id: "wr_michael_pittman" },
-  { name: "Olamide Zaccheaus", position: "WR", team: "CAR", id: "wr_olamide_zaccheaus" },
-  { name: "Christian Kirk", position: "WR", team: "JAX", id: "wr_christian_kirk" },
-  { name: "Rashod Bateman", position: "WR", team: "BAL", id: "wr_rashod_bateman" },
-  { name: "Trent McKinney", position: "WR", team: "KC", id: "wr_trent_mckinney" },
-  { name: "Allen Robinson", position: "WR", team: "CHI", id: "wr_allen_robinson" },
-  { name: "Jordan Addison", position: "WR", team: "MIN", id: "wr_jordan_addison" },
-  { name: "Dontayvion Wicks", position: "WR", team: "GB", id: "wr_dontayvion_wicks" },
-  { name: "Tank Dell", position: "WR", team: "HOU", id: "wr_tank_dell" },
-  { name: "Marquez Valdes-Scantling", position: "WR", team: "SF", id: "wr_mvs" },
-  { name: "Dyami Brown", position: "WR", team: "SEA", id: "wr_dyami_brown" },
-  { name: "DeVonta Smith", position: "WR", team: "PHI", id: "wr_devonta_smith" },
-  { name: "Jerry Jeudy", position: "WR", team: "CLE", id: "wr_jerry_jeudy" },
-  { name: "Dontae Celek", position: "WR", team: "LV", id: "wr_dontae_celek" },
-  { name: "Malik Washington", position: "WR", team: "JAX", id: "wr_malik_washington" },
-  { name: "Troy Franklin", position: "WR", team: "DEN", id: "wr_troy_franklin" },
-  { name: "Xavier Legette", position: "WR", team: "CAR", id: "wr_xavier_legette" },
-  { name: "Ryan Williams", position: "WR", team: "KC", id: "wr_ryan_williams" },
-  { name: "Grayson White", position: "WR", team: "BUF", id: "wr_grayson_white" },
-  { name: "Samori Toure", position: "WR", team: "BAL", id: "wr_samori_toure" },
-  { name: "Travis Kelce", position: "TE", team: "KC", id: "te_travis_kelce" },
-  { name: "Mark Andrews", position: "TE", team: "BAL", id: "te_mark_andrews" },
-  { name: "T.J. Hockenson", position: "TE", team: "WAS", id: "te_tj_hockenson" },
-  { name: "Dalton Kincaid", position: "TE", team: "BUF", id: "te_dalton_kincaid" },
-  { name: "Sam LaPorta", position: "TE", team: "DET", id: "te_sam_laporta" },
-  { name: "George Kittle", position: "TE", team: "SF", id: "te_george_kittle" },
-  { name: "Cole Turner", position: "TE", team: "CHI", id: "te_cole_turner" },
-  { name: "Tyler Conklin", position: "TE", team: "NYJ", id: "te_tyler_conklin" },
-  { name: "Dawson Knox", position: "TE", team: "BUF", id: "te_dawson_knox" },
-  { name: "Chig Okonkwo", position: "TE", team: "KC", id: "te_chig_okonkwo" },
-  { name: "Dalton Schultz", position: "TE", team: "DAL", id: "te_dalton_schultz" },
-  { name: "Jayden Reed", position: "TE", team: "GB", id: "te_jayden_reed" },
-  { name: "Pat Freiermuth", position: "TE", team: "PIT", id: "te_pat_freiermuth" },
-  { name: "John Bates", position: "TE", team: "LV", id: "te_john_bates" },
-  { name: "C.J. Uzomah", position: "TE", team: "CAR", id: "te_cj_uzomah" },
-  { name: "Tucker Kraft", position: "TE", team: "GB", id: "te_tucker_kraft" },
-  { name: "Brock Bowers", position: "TE", team: "LV", id: "te_brock_bowers" },
-  { name: "E.J. Pearson", position: "TE", team: "KC", id: "te_ej_pearson" },
-  { name: "Greg Dulcich", position: "TE", team: "DEN", id: "te_greg_dulcich" },
-  { name: "Hunter Long", position: "TE", team: "NYJ", id: "te_hunter_long" },
-  { name: "Johnny Mundt", position: "TE", team: "MIN", id: "te_johnny_mundt" },
-  { name: "Justin Tucker", position: "K", team: "BAL", id: "k_justin_tucker" },
-  { name: "Harrison Butker", position: "K", team: "KC", id: "k_harrison_butker" },
-  { name: "Jake Elliott", position: "K", team: "PHI", id: "k_jake_elliott" },
-  { name: "Chase McLaughlin", position: "K", team: "TB", id: "k_chase_mclaughlin" },
-  { name: "Cairo Santos", position: "K", team: "CHI", id: "k_cairo_santos" },
-  { name: "Greg Zuerlein", position: "K", team: "BAL", id: "k_greg_zuerlein" },
-  { name: "Daniel Carlson", position: "K", team: "LV", id: "k_daniel_carlson" },
-  { name: "Evan McPherson", position: "K", team: "CIN", id: "k_evan_mcpherson" },
-  { name: "Jason Myers", position: "K", team: "SEA", id: "k_jason_myers" },
-  { name: "Brandon Aubrey", position: "K", team: "DAL", id: "k_brandon_aubrey" },
-  { name: "Cameron Dicker", position: "K", team: "LAC", id: "k_cameron_dicker" },
-  { name: "Joshua Karty", position: "K", team: "MIN", id: "k_joshua_karty" },
-  { name: "San Francisco 49ers", position: "DEF", team: "SF", id: "def_sf" },
-  { name: "Baltimore Ravens", position: "DEF", team: "BAL", id: "def_bal" },
-  { name: "Pittsburgh Steelers", position: "DEF", team: "PIT", id: "def_pit" },
-  { name: "Cincinnati Bengals", position: "DEF", team: "CIN", id: "def_cin" },
-  { name: "Buffalo Bills", position: "DEF", team: "BUF", id: "def_buf" },
-  { name: "Dallas Cowboys", position: "DEF", team: "DAL", id: "def_dal" },
-  { name: "Miami Dolphins", position: "DEF", team: "MIA", id: "def_mia" },
-  { name: "Kansas City Chiefs", position: "DEF", team: "KC", id: "def_kc" },
-  { name: "Los Angeles Rams", position: "DEF", team: "LAR", id: "def_lar" },
-  { name: "Detroit Lions", position: "DEF", team: "DET", id: "def_det" },
-  { name: "Philadelphia Eagles", position: "DEF", team: "PHI", id: "def_phi" },
-  { name: "New England Patriots", position: "DEF", team: "NE", id: "def_ne" },
-  { name: "Green Bay Packers", position: "DEF", team: "GB", id: "def_gb" },
-  { name: "LA Chargers", position: "DEF", team: "LAC", id: "def_lac" },
-  { name: "Cleveland Browns", position: "DEF", team: "CLE", id: "def_cle" },
-];
-
-const BASE_ADP = {
-  qb_josh_allen: 7, qb_lamar_jackson: 9, qb_jalen_hurts: 11, qb_patrick_mahomes: 15,
-  qb_joe_burrow: 17, qb_cj_stroud: 36, qb_bryce_young: 111, qb_daniel_jones: 116,
-  qb_derek_carr: 141, qb_justin_herbert: 23, qb_geno_smith: 121, qb_baker_mayfield: 66,
-  qb_anthony_richardson: 41, qb_will_levis: 131, qb_sam_darnold: 151, qb_jared_goff: 21,
-  qb_russell_wilson: 71, qb_kirk_cousins: 46, qb_drake_maye: 51, qb_pj_walsh: 176,
-  qb_jj_mccarthy: 96, qb_bo_nix: 91, qb_shedeur_sanders: 101, qb_jayden_daniels: 31,
-  rb_christian_mccaffrey: 2, rb_derrick_henry: 13, rb_saquon_barkley: 6, rb_jonathan_taylor: 12,
-  rb_josh_jacobs: 19, rb_breece_hall: 16, rb_kenneth_walker: 26, rb_rachaad_white: 56,
-  rb_tony_pollard: 49, rb_james_conner: 61, rb_isiah_pacheco: 86, rb_gus_edwards: 126,
-  rb_zach_wilson: 146, rb_roschon_johnson: 156, rb_jaleel_mclaughlin: 166, rb_brian_robinson: 81,
-  rb_najee_harris: 51, rb_rhamondre_stevenson: 53, rb_bijan_robinson: 20, rb_jaylen_watson: 76,
-  rb_tank_dell: 136, rb_zack_martin: 171, rb_jake_matthews: 159, rb_roschon_byrd: 181,
-  rb_kyren_williams: 29, rb_tyjae_spears: 96, rb_cj_beans: 111, rb_tyler_allgeier: 106,
-  rb_isaac_guerendo: 151, rb_javonte_williams: 91, rb_devin_singletary: 93, rb_zoe_thomforde: 161,
-  rb_eric_gray: 116, rb_israel_abelman: 141, rb_jalen_tate: 156, rb_tj_vasher: 176,
-  wr_justin_jefferson: 3, wr_ceedee_lamb: 5, wr_jamarr_chase: 4, wr_amonra_stbrown: 8,
-  wr_tyreek_hill: 10, wr_aj_brown: 14, wr_puka_nacua: 18, wr_brandon_aiyuk: 25,
-  wr_garrett_wilson: 22, wr_davante_adams: 27, wr_marvin_harrison: 24, wr_chris_olave: 31,
-  wr_drake_london: 33, wr_rashee_rice: 43, wr_malik_nabers: 39, wr_jaxon_smithnjigba: 69,
-  wr_ricky_pearsall: 91, wr_rome_odunze: 79, wr_adonai_mitchell: 89, wr_zay_flowers: 45,
-  wr_jaylen_waddle: 35, wr_stefon_diggs: 59, wr_calvin_ridley: 47, wr_tee_higgins: 28,
-  wr_michael_pittman: 55, wr_olamide_zaccheaus: 101, wr_christian_kirk: 106,
-  wr_rashod_bateman: 116, wr_trent_mckinney: 141, wr_allen_robinson: 146,
-  wr_jordan_addison: 66, wr_dontayvion_wicks: 96, wr_mvs: 111, wr_dyami_brown: 126,
-  wr_devonta_smith: 41, wr_jerry_jeudy: 101, wr_dontae_celek: 146, wr_malik_washington: 161,
-  wr_troy_franklin: 151, wr_xavier_legette: 106, wr_ryan_williams: 141,
-  wr_grayson_white: 156, wr_samori_toure: 146,
-  te_travis_kelce: 37, te_mark_andrews: 57, te_tj_hockenson: 73, te_dalton_kincaid: 63,
-  te_sam_laporta: 65, te_george_kittle: 75, te_cole_turner: 121, te_tyler_conklin: 151,
-  te_dawson_knox: 131, te_chig_okonkwo: 141, te_dalton_schultz: 111, te_jayden_reed: 116,
-  te_pat_freiermuth: 101, te_john_bates: 161, te_cj_uzomah: 166, te_tucker_kraft: 156,
-  te_brock_bowers: 49, te_ej_pearson: 151, te_greg_dulcich: 146, te_hunter_long: 161,
-  te_johnny_mundt: 166,
-  k_justin_tucker: 121, k_harrison_butker: 129, k_jake_elliott: 133, k_chase_mclaughlin: 137,
-  k_cairo_santos: 141, k_greg_zuerlein: 149, k_daniel_carlson: 156, k_evan_mcpherson: 161,
-  k_jason_myers: 169, k_brandon_aubrey: 173, k_cameron_dicker: 166, k_joshua_karty: 179,
-  def_sf: 111, def_bal: 116, def_pit: 121, def_cin: 129, def_buf: 133, def_dal: 137,
-  def_mia: 143, def_kc: 149, def_lar: 156, def_det: 161, def_phi: 116, def_ne: 166,
-  def_gb: 151, def_lac: 156, def_cle: 161,
+const POSITION_MAP = {
+  1: 'QB',
+  2: 'RB',
+  3: 'WR',
+  4: 'TE',
+  5: 'K',
+  16: 'DEF',
 };
 
-function getAdp(p) {
-  const base = BASE_ADP[p.id] ?? 170;
-  const jitter = Math.floor(Math.random() * 3) - 1;
-  return Math.max(1, Math.min(200, base + jitter));
+const TEAM_MAP = {
+  0: null,
+  1: 'ATL',
+  2: 'BUF',
+  3: 'CHI',
+  4: 'CIN',
+  5: 'CLE',
+  6: 'DAL',
+  7: 'MIA',
+  8: 'DET',
+  9: 'GB',
+  10: 'NYG',
+  11: 'IND',
+  12: 'KC',
+  13: 'LV',
+  14: 'LAR',
+  15: 'MIA',
+  16: 'MIN',
+  17: 'NE',
+  18: 'JAX',
+  19: 'NYJ',
+  20: 'NYJ',
+  21: 'PHI',
+  22: 'ARI',
+  23: 'SEA',
+  24: 'LAC',
+  25: 'SF',
+  26: 'HOU',
+  27: 'TB',
+  28: 'WAS',
+  29: 'CAR',
+  30: 'JAX',
+  33: 'BAL',
+  34: 'HOU',
+  35: 'PIT',
+  36: 'TEN',
+};
+
+function generateId(name, position) {
+  const posShort = position === 'DEF' ? 'def' : position.toLowerCase();
+  const slug = name
+    .replace(/['']/g, '')
+    .replace(/[^a-zA-Z0-9]/g, ' ')
+    .replace(/\s+/g, '_')
+    .replace(/_+/g, '_')
+    .toLowerCase()
+    .replace(/^_|_$/g, '');
+  return `${posShort}_${slug}`;
+}
+
+function normalize(name) {
+  return name
+    .toLowerCase()
+    .replace(/[''.]/g, '')
+    .replace(/[^a-z0-9]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+async function fetchEspnRankings(year) {
+  console.log(`[espn] Fetching from ESPN API (year ${year})...`);
+
+  const url = `${ESPN_BASE}/seasons/${year}/segments/0/leaguedefaults/3?view=kona_player_info`;
+
+  const filter = JSON.stringify({
+    players: {
+      limit: 500,
+      sortDraftRanks: {
+        sortPriority: 1,
+        sortAsc: true,
+        value: 'STANDARD',
+      },
+    },
+  });
+
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 30000);
+
+  try {
+    const resp = await fetch(url, {
+      headers: { 'x-fantasy-filter': filter },
+      signal: controller.signal,
+    });
+
+    if (!resp.ok) {
+      throw new Error(`ESPN API returned ${resp.status} ${resp.statusText}`);
+    }
+
+    const json = await resp.json();
+
+    if (!json.players || !Array.isArray(json.players)) {
+      throw new Error('Invalid ESPN API response: missing players array');
+    }
+
+    console.log(`[espn] ESPN returned ${json.players.length} players`);
+
+    const players = [];
+    const seen = new Set();
+
+    for (const entry of json.players) {
+      const player = entry.player;
+      if (!player || !player.fullName) continue;
+
+      const standard = player.draftRanksByRankType?.STANDARD;
+      if (!standard || !standard.rank) continue;
+
+      const key = normalize(player.fullName);
+      if (seen.has(key)) continue;
+      seen.add(key);
+
+      const position = POSITION_MAP[player.defaultPositionId];
+      if (!position) continue;
+
+      const team = TEAM_MAP[player.proTeamId] ?? null;
+
+      players.push({
+        id: generateId(player.fullName, position),
+        name: player.fullName,
+        position,
+        team,
+        adp: standard.rank,
+      });
+    }
+
+    players.sort((a, b) => a.adp - b.adp);
+    console.log(`[espn] Processed ${players.length} players with STANDARD rankings`);
+
+    if (players.length === 0) {
+      throw new Error('No players with draft rankings found — rankings may not be available yet');
+    }
+
+    return players;
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 async function main() {
   const OUT = path.join(DATA_DIR, 'espn.json');
   fs.mkdirSync(DATA_DIR, { recursive: true });
 
-  console.log('[espn] ESPN has no public ADP API, using sample data');
+  let espnData;
+  try {
+    espnData = await fetchEspnRankings(2026);
+    console.log('[espn] Using 2026 ESPN rankings');
+  } catch (e) {
+    console.log(`[espn] 2026 unavailable (${e.message}), trying 2025...`);
+    try {
+      espnData = await fetchEspnRankings(2025);
+      console.log('[espn] Using 2025 ESPN rankings as fallback');
+    } catch (e2) {
+      console.error('[espn] Both 2026 and 2025 failed:', e2.message);
+      process.exit(1);
+    }
+  }
 
-  const data = PLAYERS.map(p => ({
-    id: p.id,
-    name: p.name,
-    position: p.position,
-    team: p.team,
-    adp: getAdp(p),
-  }));
-
-  fs.writeFileSync(OUT, JSON.stringify(data, null, 2));
-  console.log(`[espn] Wrote ${data.length} players to espn.json`);
+  fs.writeFileSync(OUT, JSON.stringify(espnData, null, 2));
+  console.log(`[espn] Wrote ${espnData.length} players to espn.json`);
 }
 
-main().catch(err => { console.error('[espn] Error:', err.message); process.exit(1); });
+main().catch((err) => {
+  console.error('[espn] Error:', err.message);
+  process.exit(1);
+});
