@@ -112,7 +112,7 @@ export default function App() {
             onMinAdpChange={handleMinAdpChange}
             onMaxAdpChange={handleMaxAdpChange}
             onMinSourcesChange={handleMinSourcesChange}
-            allPositions={['QB', 'RB', 'WR', 'TE', 'K', 'DEF', 'OP']}
+            allPositions={['QB', 'RB', 'WR', 'TE', 'K', 'DEF']}
           />
         </div>
 

@@ -1,4 +1,4 @@
-export type Position = 'QB' | 'RB' | 'WR' | 'TE' | 'K' | 'DEF' | 'OP';
+export type Position = 'QB' | 'RB' | 'WR' | 'TE' | 'K' | 'DEF';
 
 export type SourceName = 'sleeper' | 'mfl' | 'espn';
 

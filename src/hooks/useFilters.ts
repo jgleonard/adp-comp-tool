@@ -1,7 +1,7 @@
 import { useMemo, useCallback } from 'react';
 import { PlayerData, Position, FilterState } from '../types';
 
-const ALL_POSITIONS: Position[] = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF', 'OP'];
+const ALL_POSITIONS: Position[] = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF'];
 
 export function useFilters(players: PlayerData[], filterState: FilterState) {
   const filteredPlayers = useMemo(
