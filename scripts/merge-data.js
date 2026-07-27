@@ -22,7 +22,10 @@ function loadSource(name) {
 }
 
 function canonicalKey(player) {
-  const name = (player.name || '').toLowerCase().replace(/['']/g, '').replace(/[^a-z0-9]/g, ' ').trim();
+  let name = (player.name || '').toLowerCase().replace(/['']/g, '');
+  // Strip common suffixes: Jr., Sr., II, III, IV, V, VI, VII, VIII, IX, X
+  name = name.replace(/\s+(jr|sr|ii+|iv|v|vi+|vii+|viii+|ix|x)\.?\s*$/i, '');
+  name = name.replace(/[^a-z0-9]/g, ' ').trim();
   const position = (player.position || '').toUpperCase();
   return `${name}|${position}`;
 }

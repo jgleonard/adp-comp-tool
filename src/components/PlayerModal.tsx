@@ -66,23 +66,23 @@ export default function PlayerModal({ player, sources, onClose }: PlayerModalPro
     >
       <div className="fixed inset-0 bg-black/40 backdrop-blur-sm animate-fade-in" />
       <div
-        className="relative z-10 w-full max-w-lg bg-white rounded-2xl shadow-2xl overflow-hidden animate-modal-in"
+        className="relative z-10 w-full max-w-lg bg-white dark:bg-gray-800 rounded-2xl shadow-2xl overflow-hidden animate-modal-in"
         onClick={e => e.stopPropagation()}
       >
-        <div className="flex items-center justify-between px-6 pt-5 pb-4 border-b border-gray-100">
+        <div className="flex items-center justify-between px-6 pt-5 pb-4 border-b border-gray-100 dark:border-gray-700">
           <div className="flex items-center gap-3">
             <span className={`pos-badge`}>
               {player.position}
             </span>
             <div>
-              <h2 className="text-lg font-bold text-navy leading-tight">{player.name}</h2>
-              <p className="text-sm text-slate-light font-medium">{player.team}</p>
+              <h2 className="text-lg font-bold text-navy dark:text-gray-100 leading-tight">{player.name}</h2>
+              <p className="text-sm text-slate-light dark:text-slate-400 font-medium">{player.team}</p>
             </div>
           </div>
           <button
             type="button"
             onClick={onClose}
-            className="flex items-center justify-center w-8 h-8 rounded-lg text-slate-light hover:text-navy hover:bg-gray-100 transition-smooth"
+            className="flex items-center justify-center w-8 h-8 rounded-lg text-slate-light dark:text-slate-400 hover:text-navy dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition-smooth"
             aria-label="Close"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -94,9 +94,9 @@ export default function PlayerModal({ player, sources, onClose }: PlayerModalPro
         <div className="px-6 py-4">
           <div className="grid grid-cols-3 gap-2 mb-4">
             {adpValues.map(item => (
-              <div key={item.label} className="flex flex-col items-center justify-center rounded-lg bg-gray-50 py-2.5 px-2">
-                <span className="text-xs font-medium text-slate-light mb-0.5">{item.label}</span>
-                <span className={`font-mono text-sm font-semibold ${item.bold ? 'text-navy' : ''}`} style={{ color: item.bold ? undefined : item.color }}>
+              <div key={item.label} className="flex flex-col items-center justify-center rounded-lg bg-gray-50 dark:bg-gray-700 py-2.5 px-2">
+                <span className="text-xs font-medium text-slate-light dark:text-slate-400 mb-0.5">{item.label}</span>
+                <span className={`font-mono text-sm font-semibold ${item.bold ? 'text-navy dark:text-gray-100' : ''}`} style={{ color:	item.bold ? undefined : item.color }}>
                   {formatAdp(item.value)}
                 </span>
               </div>

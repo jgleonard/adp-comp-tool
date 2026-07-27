@@ -80,13 +80,13 @@ export default function App() {
 
   if (isLoading) {
     return (
-      <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50 gap-3">
-        <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue/10 animate-pulse-soft">
-          <svg className="h-5 w-5 text-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+      <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50 dark:bg-gray-900 gap-3">
+        <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue/10 dark:bg-blue-500/20 animate-pulse-soft">
+          <svg className="h-5 w-5 text-blue dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
         </div>
-        <p className="text-sm text-slate-light">Loading player data...</p>
+        <p className="text-sm text-slate-light dark:text-slate-400">Loading player data...</p>
       </div>
     );
   }
@@ -94,17 +94,17 @@ export default function App() {
   const hasActiveFilters = filterState.positions.length > 0 || filterState.search;
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col">
       <Header />
 
       <main className="flex-1 mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-xl border border-gray-200/80 p-4 sm:p-5 animate-slide-up">
+        <div className="bg-white dark:bg-gray-800 rounded-xl border border-gray-200/80 dark:border-gray-700/60 p-4 sm:p-5 animate-slide-up">
           <div className="grid grid-cols-1 gap-4 sm:gap-5 md:grid-cols-2">
             <SearchBar value={filterState.search} onChange={handleSearchChange} />
             <SourceToggle sources={sources} onToggle={handleSourceToggle} />
           </div>
 
-          <div className="my-4 border-t border-gray-100" />
+          <div className="my-4 border-t border-gray-100 dark:border-gray-700" />
 
           <Filters
             filterState={filterState}
@@ -117,14 +117,14 @@ export default function App() {
         </div>
 
         <div className="mt-4 mb-3 flex items-center justify-between px-1">
-          <span className="text-sm text-slate-light">
-            <span className="font-semibold text-navy">{sortedPlayers.length}</span> player{sortedPlayers.length !== 1 ? 's' : ''}
+          <span className="text-sm text-slate-light dark:text-slate-400">
+            <span className="font-semibold text-navy dark:text-gray-200">{sortedPlayers.length}</span> player{sortedPlayers.length !== 1 ? 's' : ''}
           </span>
           {hasActiveFilters && (
             <button
               type="button"
               onClick={() => setFilterState({ ...DEFAULT_FILTERS, maxAdp: 500 })}
-              className="rounded-full px-3 py-1 text-xs font-medium text-slate hover:text-navy hover:bg-gray-200/60 transition-smooth"
+              className="rounded-full px-3 py-1 text-xs font-medium text-slate dark:text-slate-400 hover:text-navy dark:hover:text-gray-200 hover:bg-gray-200/60 dark:hover:bg-gray-700 transition-smooth"
             >
               Clear filters
             </button>

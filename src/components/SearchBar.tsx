@@ -47,7 +47,7 @@ export default function SearchBar({ value, onChange }: SearchBarProps) {
   return (
     <div className="relative w-full">
       <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-        <svg className="h-4 w-4 text-slate-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="h-4 w-4 text-slate-light dark:text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
       </div>
@@ -56,13 +56,13 @@ export default function SearchBar({ value, onChange }: SearchBarProps) {
         value={localValue}
         onChange={handleChange}
         placeholder="Search players..."
-        className="w-full rounded-lg border border-gray-200 bg-gray-50 py-2 pl-9 pr-9 text-sm outline-none transition-smooth focus:border-blue focus:bg-white focus:ring-2 focus:ring-blue/10 placeholder:text-slate-light"
+        className="w-full rounded-lg border border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 py-2 pl-9 pr-9 text-sm text-navy dark:text-gray-100 outline-none transition-smooth focus:border-blue dark:focus:border-blue-400 focus:bg-white dark:focus:bg-gray-600 focus:ring-2 focus:ring-blue/10 dark:focus:ring-blue-400/10 placeholder:text-slate-light dark:placeholder:text-slate-500"
       />
       {localValue && (
         <button
           type="button"
           onClick={handleClear}
-          className="absolute inset-y-0 right-0 flex items-center pr-3 text-slate-light hover:text-navy transition-smooth"
+          className="absolute inset-y-0 right-0 flex items-center pr-3 text-slate-light dark:text-slate-500 hover:text-navy dark:hover:text-gray-200 transition-smooth"
           aria-label="Clear search"
         >
           <svg className="h-3.5 w-3.5" fill="currentColor" viewBox="0 0 20 20">
