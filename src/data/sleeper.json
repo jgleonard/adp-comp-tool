@@ -1022,6 +1022,13 @@
     "adp": 80.2
   },
   {
+    "id": "9487",
+    "name": "Parker Washington",
+    "position": "WR",
+    "team": "JAX",
+    "adp": 83.2
+  },
+  {
     "id": "8142",
     "name": "Alec Pierce",
     "position": "WR",
@@ -1036,25 +1043,11 @@
     "adp": 87.6
   },
   {
-    "id": "9487",
-    "name": "Parker Washington",
-    "position": "WR",
-    "team": "JAX",
-    "adp": 89.1
-  },
-  {
     "id": "4037",
     "name": "Chris Godwin",
     "position": "WR",
     "team": "TB",
     "adp": 92.6
-  },
-  {
-    "id": "11638",
-    "name": "Ricky Pearsall",
-    "position": "WR",
-    "team": "SF",
-    "adp": 99.8
   },
   {
     "id": "9756",
@@ -1400,13 +1393,6 @@
     "adp": 229.4
   },
   {
-    "id": "13353",
-    "name": "Chris Brazzell",
-    "position": "WR",
-    "team": "CAR",
-    "adp": 230.8
-  },
-  {
     "id": "13311",
     "name": "Chris Bell",
     "position": "WR",
@@ -1468,6 +1454,20 @@
     "position": "WR",
     "team": "NYG",
     "adp": 242.4
+  },
+  {
+    "id": "13353",
+    "name": "Chris Brazzell",
+    "position": "WR",
+    "team": "CAR",
+    "adp": 400
+  },
+  {
+    "id": "11638",
+    "name": "Ricky Pearsall",
+    "position": "WR",
+    "team": "SF",
+    "adp": 400
   },
   {
     "id": "8130",
