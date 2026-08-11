@@ -6,6 +6,7 @@ import Filters from './Filters';
 import SourceToggle from './SourceToggle';
 import PlayerTable from './PlayerTable';
 import PlayerModal from './PlayerModal';
+import ExportButton from './ExportButton';
 import { useAdpData } from '../hooks/useAdpData';
 import { useFilters } from '../hooks/useFilters';
 import { useSorting } from '../hooks/useSorting';
@@ -120,15 +121,18 @@ export default function App() {
           <span className="text-sm text-slate-light dark:text-slate-400">
             <span className="font-semibold text-navy dark:text-gray-200">{sortedPlayers.length}</span> player{sortedPlayers.length !== 1 ? 's' : ''}
           </span>
-          {hasActiveFilters && (
-            <button
-              type="button"
-              onClick={() => setFilterState({ ...DEFAULT_FILTERS, maxAdp: 500 })}
-              className="rounded-full px-3 py-1 text-xs font-medium text-slate dark:text-slate-400 hover:text-navy dark:hover:text-gray-200 hover:bg-gray-200/60 dark:hover:bg-gray-700 transition-smooth"
-            >
-              Clear filters
-            </button>
-          )}
+          <div className="flex items-center gap-2">
+            <ExportButton players={sortedPlayers} />
+            {hasActiveFilters && (
+              <button
+                type="button"
+                onClick={() => setFilterState({ ...DEFAULT_FILTERS, maxAdp: 500 })}
+                className="rounded-full px-3 py-1 text-xs font-medium text-slate dark:text-slate-400 hover:text-navy dark:hover:text-gray-200 hover:bg-gray-200/60 dark:hover:bg-gray-700 transition-smooth"
+              >
+                Clear filters
+              </button>
+            )}
+          </div>
         </div>
 
         <PlayerTable
