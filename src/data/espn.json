@@ -63,17 +63,17 @@
     "adp": 9
   },
   {
-    "id": "rb_derrick_henry",
-    "name": "Derrick Henry",
-    "position": "RB",
-    "team": "BAL",
-    "adp": 10
-  },
-  {
     "id": "wr_justin_jefferson",
     "name": "Justin Jefferson",
     "position": "WR",
     "team": "MIN",
+    "adp": 10
+  },
+  {
+    "id": "rb_derrick_henry",
+    "name": "Derrick Henry",
+    "position": "RB",
+    "team": "BAL",
     "adp": 11
   },
   {
@@ -105,16 +105,16 @@
     "adp": 15
   },
   {
-    "id": "wr_rashee_rice",
-    "name": "Rashee Rice",
-    "position": "WR",
-    "team": "KC",
+    "id": "rb_ashton_jeanty",
+    "name": "Ashton Jeanty",
+    "position": "RB",
+    "team": "LV",
     "adp": 16
   },
   {
-    "id": "te_trey_mcbride",
-    "name": "Trey McBride",
-    "position": "TE",
+    "id": "rb_jeremiyah_love",
+    "name": "Jeremiyah Love",
+    "position": "RB",
     "team": "ARI",
     "adp": 17
   },
@@ -126,45 +126,45 @@
     "adp": 18
   },
   {
-    "id": "rb_ashton_jeanty",
-    "name": "Ashton Jeanty",
-    "position": "RB",
-    "team": "LV",
-    "adp": 19
-  },
-  {
-    "id": "rb_jeremiyah_love",
-    "name": "Jeremiyah Love",
-    "position": "RB",
-    "team": "ARI",
-    "adp": 20
-  },
-  {
     "id": "rb_omarion_hampton",
     "name": "Omarion Hampton",
     "position": "RB",
     "team": "LAC",
-    "adp": 21
+    "adp": 19
   },
   {
-    "id": "rb_chase_brown",
-    "name": "Chase Brown",
-    "position": "RB",
-    "team": "CIN",
-    "adp": 22
-  },
-  {
-    "id": "rb_breece_hall",
-    "name": "Breece Hall",
-    "position": "RB",
-    "team": "NYJ",
-    "adp": 23
+    "id": "te_trey_mcbride",
+    "name": "Trey McBride",
+    "position": "TE",
+    "team": "ARI",
+    "adp": 20
   },
   {
     "id": "te_brock_bowers",
     "name": "Brock Bowers",
     "position": "TE",
     "team": "LV",
+    "adp": 21
+  },
+  {
+    "id": "rb_breece_hall",
+    "name": "Breece Hall",
+    "position": "RB",
+    "team": "NYJ",
+    "adp": 22
+  },
+  {
+    "id": "rb_chase_brown",
+    "name": "Chase Brown",
+    "position": "RB",
+    "team": "CIN",
+    "adp": 23
+  },
+  {
+    "id": "wr_rashee_rice",
+    "name": "Rashee Rice",
+    "position": "WR",
+    "team": "KC",
     "adp": 24
   },
   {
@@ -182,24 +182,24 @@
     "adp": 26
   },
   {
-    "id": "wr_chris_olave",
-    "name": "Chris Olave",
-    "position": "WR",
-    "team": "JAX",
-    "adp": 27
-  },
-  {
     "id": "wr_malik_nabers",
     "name": "Malik Nabers",
     "position": "WR",
     "team": "NYJ",
-    "adp": 28
+    "adp": 27
   },
   {
     "id": "wr_george_pickens",
     "name": "George Pickens",
     "position": "WR",
     "team": "DAL",
+    "adp": 28
+  },
+  {
+    "id": "wr_chris_olave",
+    "name": "Chris Olave",
+    "position": "WR",
+    "team": "JAX",
     "adp": 29
   },
   {
@@ -210,17 +210,17 @@
     "adp": 30
   },
   {
-    "id": "rb_javonte_williams",
-    "name": "Javonte Williams",
-    "position": "RB",
-    "team": "DAL",
-    "adp": 31
-  },
-  {
     "id": "wr_davante_adams",
     "name": "Davante Adams",
     "position": "WR",
     "team": "LAR",
+    "adp": 31
+  },
+  {
+    "id": "rb_javonte_williams",
+    "name": "Javonte Williams",
+    "position": "RB",
+    "team": "DAL",
     "adp": 32
   },
   {
@@ -231,17 +231,17 @@
     "adp": 33
   },
   {
-    "id": "wr_garrett_wilson",
-    "name": "Garrett Wilson",
-    "position": "WR",
-    "team": "NYJ",
-    "adp": 34
-  },
-  {
     "id": "wr_tetairoa_mcmillan",
     "name": "Tetairoa McMillan",
     "position": "WR",
     "team": "CAR",
+    "adp": 34
+  },
+  {
+    "id": "wr_zay_flowers",
+    "name": "Zay Flowers",
+    "position": "WR",
+    "team": "BAL",
     "adp": 35
   },
   {
@@ -287,10 +287,10 @@
     "adp": 42
   },
   {
-    "id": "wr_zay_flowers",
-    "name": "Zay Flowers",
+    "id": "wr_garrett_wilson",
+    "name": "Garrett Wilson",
     "position": "WR",
-    "team": "BAL",
+    "team": "NYJ",
     "adp": 43
   },
   {
@@ -406,24 +406,24 @@
     "adp": 62
   },
   {
+    "id": "rb_dandre_swift",
+    "name": "D'Andre Swift",
+    "position": "RB",
+    "team": "CHI",
+    "adp": 64
+  },
+  {
     "id": "rb_bhayshul_tuten",
     "name": "Bhayshul Tuten",
     "position": "RB",
     "team": "JAX",
-    "adp": 64
+    "adp": 66
   },
   {
     "id": "rb_david_montgomery",
     "name": "David Montgomery",
     "position": "RB",
     "team": "HOU",
-    "adp": 65
-  },
-  {
-    "id": "rb_dandre_swift",
-    "name": "D'Andre Swift",
-    "position": "RB",
-    "team": "CHI",
     "adp": 67
   },
   {
@@ -434,17 +434,17 @@
     "adp": 68
   },
   {
-    "id": "rb_treveyon_henderson",
-    "name": "TreVeyon Henderson",
+    "id": "rb_rhamondre_stevenson",
+    "name": "Rhamondre Stevenson",
     "position": "RB",
     "team": "NE",
     "adp": 69
   },
   {
-    "id": "rb_rhamondre_stevenson",
-    "name": "Rhamondre Stevenson",
+    "id": "rb_rico_dowdle",
+    "name": "Rico Dowdle",
     "position": "RB",
-    "team": "NE",
+    "team": "SEA",
     "adp": 70
   },
   {
@@ -469,10 +469,10 @@
     "adp": 74
   },
   {
-    "id": "wr_mike_evans",
-    "name": "Mike Evans",
+    "id": "wr_christian_watson",
+    "name": "Christian Watson",
     "position": "WR",
-    "team": "SF",
+    "team": "GB",
     "adp": 75
   },
   {
@@ -483,10 +483,10 @@
     "adp": 76
   },
   {
-    "id": "wr_christian_watson",
-    "name": "Christian Watson",
+    "id": "wr_parker_washington",
+    "name": "Parker Washington",
     "position": "WR",
-    "team": "GB",
+    "team": "JAX",
     "adp": 77
   },
   {
@@ -497,17 +497,17 @@
     "adp": 78
   },
   {
-    "id": "te_sam_laporta",
-    "name": "Sam LaPorta",
-    "position": "TE",
-    "team": "DET",
-    "adp": 79
-  },
-  {
     "id": "te_harold_fannin_jr",
     "name": "Harold Fannin Jr.",
     "position": "TE",
     "team": "CLE",
+    "adp": 79
+  },
+  {
+    "id": "te_sam_laporta",
+    "name": "Sam LaPorta",
+    "position": "TE",
+    "team": "DET",
     "adp": 80
   },
   {
@@ -525,10 +525,10 @@
     "adp": 85
   },
   {
-    "id": "wr_parker_washington",
-    "name": "Parker Washington",
+    "id": "wr_mike_evans",
+    "name": "Mike Evans",
     "position": "WR",
-    "team": "JAX",
+    "team": "SF",
     "adp": 87
   },
   {
@@ -553,17 +553,17 @@
     "adp": 90
   },
   {
-    "id": "wr_michael_wilson",
-    "name": "Michael Wilson",
-    "position": "WR",
-    "team": "ARI",
-    "adp": 91
-  },
-  {
     "id": "wr_jordan_addison",
     "name": "Jordan Addison",
     "position": "WR",
     "team": "MIN",
+    "adp": 91
+  },
+  {
+    "id": "wr_dezhaun_stribling",
+    "name": "De'Zhaun Stribling",
+    "position": "WR",
+    "team": "SF",
     "adp": 92
   },
   {
@@ -616,17 +616,17 @@
     "adp": 106
   },
   {
+    "id": "wr_michael_wilson",
+    "name": "Michael Wilson",
+    "position": "WR",
+    "team": "ARI",
+    "adp": 107
+  },
+  {
     "id": "wr_quentin_johnston",
     "name": "Quentin Johnston",
     "position": "WR",
     "team": "LAC",
-    "adp": 107
-  },
-  {
-    "id": "wr_xavier_worthy",
-    "name": "Xavier Worthy",
-    "position": "WR",
-    "team": "KC",
     "adp": 108
   },
   {
@@ -637,17 +637,17 @@
     "adp": 109
   },
   {
+    "id": "wr_xavier_worthy",
+    "name": "Xavier Worthy",
+    "position": "WR",
+    "team": "KC",
+    "adp": 110
+  },
+  {
     "id": "wr_jayden_reed",
     "name": "Jayden Reed",
     "position": "WR",
     "team": "GB",
-    "adp": 110
-  },
-  {
-    "id": "wr_wandale_robinson",
-    "name": "Wan'Dale Robinson",
-    "position": "WR",
-    "team": "NYG",
     "adp": 111
   },
   {
@@ -665,31 +665,31 @@
     "adp": 114
   },
   {
-    "id": "rb_rico_dowdle",
-    "name": "Rico Dowdle",
+    "id": "rb_jonathon_brooks",
+    "name": "Jonathon Brooks",
     "position": "RB",
-    "team": "SEA",
+    "team": "CAR",
     "adp": 117
-  },
-  {
-    "id": "rb_tony_pollard",
-    "name": "Tony Pollard",
-    "position": "RB",
-    "team": "NYG",
-    "adp": 118
   },
   {
     "id": "rb_jaylen_warren",
     "name": "Jaylen Warren",
     "position": "RB",
     "team": "SEA",
+    "adp": 118
+  },
+  {
+    "id": "rb_tony_pollard",
+    "name": "Tony Pollard",
+    "position": "RB",
+    "team": "NYG",
     "adp": 119
   },
   {
-    "id": "rb_jonathon_brooks",
-    "name": "Jonathon Brooks",
+    "id": "rb_treveyon_henderson",
+    "name": "TreVeyon Henderson",
     "position": "RB",
-    "team": "CAR",
+    "team": "NE",
     "adp": 120
   },
   {
@@ -707,17 +707,17 @@
     "adp": 123
   },
   {
-    "id": "te_tucker_kraft",
-    "name": "Tucker Kraft",
-    "position": "TE",
-    "team": "GB",
-    "adp": 124
-  },
-  {
     "id": "te_george_kittle",
     "name": "George Kittle",
     "position": "TE",
     "team": "SF",
+    "adp": 124
+  },
+  {
+    "id": "te_tucker_kraft",
+    "name": "Tucker Kraft",
+    "position": "TE",
+    "team": "GB",
     "adp": 125
   },
   {
@@ -770,24 +770,24 @@
     "adp": 134
   },
   {
-    "id": "te_jake_ferguson",
-    "name": "Jake Ferguson",
-    "position": "TE",
-    "team": "DAL",
-    "adp": 135
-  },
-  {
     "id": "te_dalton_kincaid",
     "name": "Dalton Kincaid",
     "position": "TE",
     "team": "BUF",
+    "adp": 135
+  },
+  {
+    "id": "te_jake_ferguson",
+    "name": "Jake Ferguson",
+    "position": "TE",
+    "team": "DAL",
     "adp": 138
   },
   {
-    "id": "wr_deebo_samuel_sr",
-    "name": "Deebo Samuel Sr.",
+    "id": "wr_wandale_robinson",
+    "name": "Wan'Dale Robinson",
     "position": "WR",
-    "team": "SF",
+    "team": "NYG",
     "adp": 139
   },
   {
@@ -798,10 +798,10 @@
     "adp": 140
   },
   {
-    "id": "wr_josh_downs",
-    "name": "Josh Downs",
+    "id": "wr_kc_concepcion",
+    "name": "KC Concepcion",
     "position": "WR",
-    "team": "IND",
+    "team": "CLE",
     "adp": 141
   },
   {
@@ -826,17 +826,17 @@
     "adp": 146
   },
   {
-    "id": "te_kenyon_sadiq",
-    "name": "Kenyon Sadiq",
-    "position": "TE",
-    "team": "NYJ",
-    "adp": 147
-  },
-  {
     "id": "te_terrance_ferguson",
     "name": "Terrance Ferguson",
     "position": "TE",
     "team": "LAR",
+    "adp": 147
+  },
+  {
+    "id": "te_kenyon_sadiq",
+    "name": "Kenyon Sadiq",
+    "position": "TE",
+    "team": "NYJ",
     "adp": 148
   },
   {
@@ -868,24 +868,24 @@
     "adp": 153
   },
   {
-    "id": "wr_makai_lemon",
-    "name": "Makai Lemon",
-    "position": "WR",
-    "team": "PHI",
-    "adp": 154
-  },
-  {
     "id": "wr_stefon_diggs",
     "name": "Stefon Diggs",
     "position": "WR",
     "team": "WAS",
-    "adp": 155
+    "adp": 154
   },
   {
-    "id": "wr_kc_concepcion",
-    "name": "KC Concepcion",
+    "id": "wr_josh_downs",
+    "name": "Josh Downs",
     "position": "WR",
-    "team": "CLE",
+    "team": "IND",
+    "adp": 156
+  },
+  {
+    "id": "wr_makai_lemon",
+    "name": "Makai Lemon",
+    "position": "WR",
+    "team": "PHI",
     "adp": 157
   },
   {
@@ -896,38 +896,38 @@
     "adp": 158
   },
   {
+    "id": "wr_deebo_samuel_sr",
+    "name": "Deebo Samuel Sr.",
+    "position": "WR",
+    "team": "SF",
+    "adp": 159
+  },
+  {
     "id": "wr_romeo_doubs",
     "name": "Romeo Doubs",
     "position": "WR",
     "team": "NE",
-    "adp": 159
-  },
-  {
-    "id": "wr_dezhaun_stribling",
-    "name": "De'Zhaun Stribling",
-    "position": "WR",
-    "team": "SF",
     "adp": 160
-  },
-  {
-    "id": "wr_tank_dell",
-    "name": "Tank Dell",
-    "position": "WR",
-    "team": "HOU",
-    "adp": 162
   },
   {
     "id": "wr_jalen_coker",
     "name": "Jalen Coker",
     "position": "WR",
     "team": "CAR",
-    "adp": 163
+    "adp": 162
   },
   {
     "id": "wr_rashid_shaheed",
     "name": "Rashid Shaheed",
     "position": "WR",
     "team": "HOU",
+    "adp": 163
+  },
+  {
+    "id": "wr_jalen_mcmillan",
+    "name": "Jalen McMillan",
+    "position": "WR",
+    "team": "TB",
     "adp": 164
   },
   {
@@ -966,17 +966,17 @@
     "adp": 175
   },
   {
-    "id": "rb_alvin_kamara",
-    "name": "Alvin Kamara",
+    "id": "rb_chris_rodriguez_jr",
+    "name": "Chris Rodriguez Jr.",
     "position": "RB",
     "team": "JAX",
     "adp": 176
   },
   {
-    "id": "rb_chris_rodriguez_jr",
-    "name": "Chris Rodriguez Jr.",
+    "id": "rb_tyjae_spears",
+    "name": "Tyjae Spears",
     "position": "RB",
-    "team": "JAX",
+    "team": "NYG",
     "adp": 177
   },
   {
@@ -987,17 +987,17 @@
     "adp": 179
   },
   {
-    "id": "rb_tyjae_spears",
-    "name": "Tyjae Spears",
-    "position": "RB",
-    "team": "NYG",
-    "adp": 181
-  },
-  {
     "id": "rb_tyler_allgeier",
     "name": "Tyler Allgeier",
     "position": "RB",
     "team": "ARI",
+    "adp": 181
+  },
+  {
+    "id": "rb_marshawn_lloyd",
+    "name": "MarShawn Lloyd",
+    "position": "RB",
+    "team": "GB",
     "adp": 182
   },
   {
@@ -1015,17 +1015,17 @@
     "adp": 184
   },
   {
-    "id": "wr_jalen_mcmillan",
-    "name": "Jalen McMillan",
-    "position": "WR",
-    "team": "TB",
-    "adp": 188
-  },
-  {
     "id": "wr_calvin_ridley",
     "name": "Calvin Ridley",
     "position": "WR",
     "team": "NYG",
+    "adp": 187
+  },
+  {
+    "id": "wr_adonai_mitchell",
+    "name": "Adonai Mitchell",
+    "position": "WR",
+    "team": "NYJ",
     "adp": 189
   },
   {
@@ -1036,36 +1036,36 @@
     "adp": 190
   },
   {
-    "id": "wr_adonai_mitchell",
-    "name": "Adonai Mitchell",
-    "position": "WR",
-    "team": "NYJ",
-    "adp": 191
-  },
-  {
     "id": "qb_baker_mayfield",
     "name": "Baker Mayfield",
     "position": "QB",
     "team": "TB",
-    "adp": 192
+    "adp": 191
   },
   {
     "id": "qb_malik_willis",
     "name": "Malik Willis",
     "position": "QB",
     "team": "MIA",
-    "adp": 195
+    "adp": 194
   },
   {
     "id": "wr_jordyn_tyson",
     "name": "Jordyn Tyson",
     "position": "WR",
     "team": "JAX",
-    "adp": 198
+    "adp": 197
   },
   {
     "id": "wr_tre_tucker",
     "name": "Tre Tucker",
+    "position": "WR",
+    "team": "LV",
+    "adp": 198
+  },
+  {
+    "id": "wr_jalen_nailor",
+    "name": "Jalen Nailor",
     "position": "WR",
     "team": "LV",
     "adp": 199
@@ -1092,17 +1092,17 @@
     "adp": 204
   },
   {
-    "id": "rb_tank_bigsby",
-    "name": "Tank Bigsby",
+    "id": "rb_mike_washington_jr",
+    "name": "Mike Washington Jr.",
     "position": "RB",
-    "team": "PHI",
+    "team": "LV",
     "adp": 205
   },
   {
-    "id": "rb_ray_davis",
-    "name": "Ray Davis",
+    "id": "rb_braelon_allen",
+    "name": "Braelon Allen",
     "position": "RB",
-    "team": "BUF",
+    "team": "NYJ",
     "adp": 206
   },
   {
@@ -1120,31 +1120,31 @@
     "adp": 210
   },
   {
-    "id": "wr_jalen_nailor",
-    "name": "Jalen Nailor",
-    "position": "WR",
-    "team": "LV",
-    "adp": 212
-  },
-  {
     "id": "wr_keenan_allen",
     "name": "Keenan Allen",
     "position": "WR",
     "team": "IND",
-    "adp": 213
+    "adp": 212
   },
   {
     "id": "wr_rashod_bateman",
     "name": "Rashod Bateman",
     "position": "WR",
     "team": "BAL",
-    "adp": 214
+    "adp": 213
   },
   {
     "id": "wr_dontayvion_wicks",
     "name": "Dontayvion Wicks",
     "position": "WR",
     "team": "PHI",
+    "adp": 214
+  },
+  {
+    "id": "wr_devaughn_vele",
+    "name": "Devaughn Vele",
+    "position": "WR",
+    "team": "JAX",
     "adp": 215
   },
   {
@@ -1155,24 +1155,24 @@
     "adp": 219
   },
   {
+    "id": "rb_tank_bigsby",
+    "name": "Tank Bigsby",
+    "position": "RB",
+    "team": "PHI",
+    "adp": 220
+  },
+  {
+    "id": "rb_ray_davis",
+    "name": "Ray Davis",
+    "position": "RB",
+    "team": "BUF",
+    "adp": 221
+  },
+  {
     "id": "rb_dylan_sampson",
     "name": "Dylan Sampson",
     "position": "RB",
     "team": "CLE",
-    "adp": 220
-  },
-  {
-    "id": "rb_mike_washington_jr",
-    "name": "Mike Washington Jr.",
-    "position": "RB",
-    "team": "LV",
-    "adp": 221
-  },
-  {
-    "id": "rb_tyrone_tracy_jr",
-    "name": "Tyrone Tracy Jr.",
-    "position": "RB",
-    "team": "NYJ",
     "adp": 222
   },
   {
@@ -1344,8 +1344,8 @@
     "adp": 259
   },
   {
-    "id": "rb_braelon_allen",
-    "name": "Braelon Allen",
+    "id": "rb_najee_harris",
+    "name": "Najee Harris",
     "position": "RB",
     "team": "NYJ",
     "adp": 260
@@ -1358,18 +1358,18 @@
     "adp": 262
   },
   {
+    "id": "rb_alvin_kamara",
+    "name": "Alvin Kamara",
+    "position": "RB",
+    "team": "JAX",
+    "adp": 265
+  },
+  {
     "id": "rb_justice_hill",
     "name": "Justice Hill",
     "position": "RB",
     "team": "BAL",
-    "adp": 265
-  },
-  {
-    "id": "rb_marshawn_lloyd",
-    "name": "MarShawn Lloyd",
-    "position": "RB",
-    "team": "GB",
-    "adp": 269
+    "adp": 268
   },
   {
     "id": "wr_jakobi_lane",
@@ -1400,24 +1400,24 @@
     "adp": 280
   },
   {
-    "id": "wr_devaughn_vele",
-    "name": "Devaughn Vele",
+    "id": "wr_jauan_jennings",
+    "name": "Jauan Jennings",
     "position": "WR",
-    "team": "JAX",
+    "team": "MIN",
     "adp": 283
+  },
+  {
+    "id": "wr_tank_dell",
+    "name": "Tank Dell",
+    "position": "WR",
+    "team": "HOU",
+    "adp": 285
   },
   {
     "id": "wr_germie_bernard",
     "name": "Germie Bernard",
     "position": "WR",
     "team": "SEA",
-    "adp": 286
-  },
-  {
-    "id": "wr_jauan_jennings",
-    "name": "Jauan Jennings",
-    "position": "WR",
-    "team": "MIN",
     "adp": 287
   },
   {
@@ -1610,31 +1610,31 @@
     "adp": 329
   },
   {
+    "id": "wr_demario_douglas",
+    "name": "DeMario Douglas",
+    "position": "WR",
+    "team": "NE",
+    "adp": 330
+  },
+  {
     "id": "wr_chris_bell",
     "name": "Chris Bell",
     "position": "WR",
     "team": "MIA",
-    "adp": 330
+    "adp": 331
   },
   {
     "id": "wr_antonio_williams",
     "name": "Antonio Williams",
     "position": "WR",
     "team": "WAS",
-    "adp": 331
+    "adp": 332
   },
   {
     "id": "wr_tyquan_thornton",
     "name": "Tyquan Thornton",
     "position": "WR",
     "team": "KC",
-    "adp": 332
-  },
-  {
-    "id": "wr_keon_coleman",
-    "name": "Keon Coleman",
-    "position": "WR",
-    "team": "BUF",
     "adp": 333
   },
   {
@@ -1680,94 +1680,94 @@
     "adp": 342
   },
   {
+    "id": "rb_tyrone_tracy_jr",
+    "name": "Tyrone Tracy Jr.",
+    "position": "RB",
+    "team": "NYJ",
+    "adp": 343
+  },
+  {
     "id": "rb_nicholas_singleton",
     "name": "Nicholas Singleton",
     "position": "RB",
     "team": "NYG",
-    "adp": 343
+    "adp": 344
   },
   {
     "id": "rb_demond_claiborne",
     "name": "Demond Claiborne",
     "position": "RB",
     "team": "MIN",
-    "adp": 344
+    "adp": 345
   },
   {
     "id": "rb_adam_randall",
     "name": "Adam Randall",
     "position": "RB",
     "team": "BAL",
-    "adp": 345
+    "adp": 346
   },
   {
     "id": "rb_emmett_johnson",
     "name": "Emmett Johnson",
     "position": "RB",
     "team": "KC",
-    "adp": 346
+    "adp": 349
   },
   {
     "id": "rb_lequint_allen_jr",
     "name": "LeQuint Allen Jr.",
     "position": "RB",
     "team": "JAX",
-    "adp": 349
+    "adp": 350
   },
   {
     "id": "rb_george_holani",
     "name": "George Holani",
     "position": "RB",
     "team": "HOU",
-    "adp": 350
+    "adp": 351
   },
   {
     "id": "rb_sean_tucker",
     "name": "Sean Tucker",
     "position": "RB",
     "team": "TB",
-    "adp": 351
+    "adp": 352
   },
   {
     "id": "rb_james_conner",
     "name": "James Conner",
     "position": "RB",
     "team": "ARI",
-    "adp": 352
+    "adp": 353
   },
   {
     "id": "rb_emari_demercado",
     "name": "Emari Demercado",
     "position": "RB",
     "team": "KC",
-    "adp": 353
-  },
-  {
-    "id": "rb_chris_brooks",
-    "name": "Chris Brooks",
-    "position": "RB",
-    "team": "GB",
     "adp": 355
   },
   {
-    "id": "rb_dj_giddens",
-    "name": "DJ Giddens",
+    "id": "rb_seth_mcgowan",
+    "name": "Seth McGowan",
     "position": "RB",
     "team": "IND",
     "adp": 356
+  },
+  {
+    "id": "wr_keon_coleman",
+    "name": "Keon Coleman",
+    "position": "WR",
+    "team": "BUF",
+    "adp": 357
   },
   {
     "id": "wr_isaac_teslaa",
     "name": "Isaac TeSlaa",
     "position": "WR",
     "team": "DET",
-    "adp": 357
-  },
-  {
-    "id": "wr_pat_bryant",
-    "name": "Pat Bryant",
-    "position": "WR",
-    "team": "MIA",
     "adp": 358
   },
   {
@@ -1778,10 +1778,10 @@
     "adp": 359
   },
   {
-    "id": "def_colts_d_st",
-    "name": "Colts D/ST",
+    "id": "def_saints_d_st",
+    "name": "Saints D/ST",
     "position": "DEF",
-    "team": "IND",
+    "team": "JAX",
     "adp": 361
   },
   {
@@ -1820,45 +1820,45 @@
     "adp": 368
   },
   {
-    "id": "wr_marvin_mims_jr",
-    "name": "Marvin Mims Jr.",
+    "id": "wr_pat_bryant",
+    "name": "Pat Bryant",
     "position": "WR",
     "team": "MIA",
     "adp": 369
   },
   {
-    "id": "wr_kavontae_turpin",
-    "name": "KaVontae Turpin",
+    "id": "wr_darnell_mooney",
+    "name": "Darnell Mooney",
     "position": "WR",
-    "team": "DAL",
+    "team": "NYJ",
     "adp": 370
   },
   {
-    "id": "wr_xavier_hutchinson",
-    "name": "Xavier Hutchinson",
+    "id": "wr_marvin_mims_jr",
+    "name": "Marvin Mims Jr.",
     "position": "WR",
-    "team": "HOU",
+    "team": "MIA",
     "adp": 371
   },
   {
-    "id": "wr_jack_bech",
-    "name": "Jack Bech",
+    "id": "wr_malachi_fields",
+    "name": "Malachi Fields",
     "position": "WR",
-    "team": "LV",
+    "team": "NYJ",
     "adp": 372
+  },
+  {
+    "id": "rb_chris_brooks",
+    "name": "Chris Brooks",
+    "position": "RB",
+    "team": "GB",
+    "adp": 376
   },
   {
     "id": "rb_emanuel_wilson",
     "name": "Emanuel Wilson",
     "position": "RB",
     "team": "HOU",
-    "adp": 376
-  },
-  {
-    "id": "rb_will_shipley",
-    "name": "Will Shipley",
-    "position": "RB",
-    "team": "PHI",
     "adp": 378
   },
   {
@@ -1890,80 +1890,80 @@
     "adp": 387
   },
   {
+    "id": "wr_kavontae_turpin",
+    "name": "KaVontae Turpin",
+    "position": "WR",
+    "team": "DAL",
+    "adp": 390
+  },
+  {
+    "id": "wr_jack_bech",
+    "name": "Jack Bech",
+    "position": "WR",
+    "team": "LV",
+    "adp": 391
+  },
+  {
     "id": "wr_tory_horton",
     "name": "Tory Horton",
     "position": "WR",
     "team": "HOU",
-    "adp": 390
+    "adp": 392
   },
   {
     "id": "wr_ted_hurst_iii",
     "name": "Ted Hurst III",
     "position": "WR",
     "team": "TB",
-    "adp": 391
-  },
-  {
-    "id": "wr_darnell_mooney",
-    "name": "Darnell Mooney",
-    "position": "WR",
-    "team": "NYJ",
-    "adp": 392
-  },
-  {
-    "id": "wr_demario_douglas",
-    "name": "DeMario Douglas",
-    "position": "WR",
-    "team": "NE",
     "adp": 393
   },
   {
-    "id": "wr_savion_williams",
-    "name": "Savion Williams",
+    "id": "wr_andrei_iosivas",
+    "name": "Andrei Iosivas",
     "position": "WR",
-    "team": "GB",
+    "team": "CIN",
     "adp": 395
   },
   {
-    "id": "rb_phil_mafah",
-    "name": "Phil Mafah",
+    "id": "rb_will_shipley",
+    "name": "Will Shipley",
     "position": "RB",
-    "team": "DAL",
+    "team": "PHI",
     "adp": 396
   },
   {
-    "id": "rb_najee_harris",
-    "name": "Najee Harris",
+    "id": "rb_malik_davis",
+    "name": "Malik Davis",
     "position": "RB",
-    "team": "NYJ",
+    "team": "DAL",
     "adp": 397
-  },
-  {
-    "id": "rb_tahj_brooks",
-    "name": "Tahj Brooks",
-    "position": "RB",
-    "team": "CIN",
-    "adp": 398
-  },
-  {
-    "id": "rb_trevor_etienne",
-    "name": "Trevor Etienne",
-    "position": "RB",
-    "team": "CAR",
-    "adp": 399
-  },
-  {
-    "id": "rb_seth_mcgowan",
-    "name": "Seth McGowan",
-    "position": "RB",
-    "team": "IND",
-    "adp": 402
   },
   {
     "id": "rb_kendre_miller",
     "name": "Kendre Miller",
     "position": "RB",
     "team": "JAX",
+    "adp": 398
+  },
+  {
+    "id": "rb_tahj_brooks",
+    "name": "Tahj Brooks",
+    "position": "RB",
+    "team": "CIN",
+    "adp": 399
+  },
+  {
+    "id": "rb_trevor_etienne",
+    "name": "Trevor Etienne",
+    "position": "RB",
+    "team": "CAR",
+    "adp": 402
+  },
+  {
+    "id": "rb_dj_giddens",
+    "name": "DJ Giddens",
+    "position": "RB",
+    "team": "IND",
     "adp": 403
   },
   {
@@ -1981,24 +1981,24 @@
     "adp": 405
   },
   {
-    "id": "wr_malachi_fields",
-    "name": "Malachi Fields",
+    "id": "wr_mack_hollins",
+    "name": "Mack Hollins",
     "position": "WR",
-    "team": "NYJ",
+    "team": "NE",
     "adp": 406
-  },
-  {
-    "id": "def_bengals_d_st",
-    "name": "Bengals D/ST",
-    "position": "DEF",
-    "team": "CIN",
-    "adp": 408
   },
   {
     "id": "def_bears_d_st",
     "name": "Bears D/ST",
     "position": "DEF",
     "team": "CHI",
+    "adp": 408
+  },
+  {
+    "id": "def_jets_d_st",
+    "name": "Jets D/ST",
+    "position": "DEF",
+    "team": "NYJ",
     "adp": 409
   },
   {
@@ -2051,17 +2051,17 @@
     "adp": 418
   },
   {
-    "id": "wr_andrei_iosivas",
-    "name": "Andrei Iosivas",
-    "position": "WR",
-    "team": "CIN",
-    "adp": 419
-  },
-  {
     "id": "wr_tutu_atwell",
     "name": "Tutu Atwell",
     "position": "WR",
-    "team": "MIA",
+    "team": "LAR",
+    "adp": 419
+  },
+  {
+    "id": "wr_cyrus_allen",
+    "name": "Cyrus Allen",
+    "position": "WR",
+    "team": "KC",
     "adp": 421
   },
   {
@@ -2079,17 +2079,17 @@
     "adp": 424
   },
   {
-    "id": "def_jets_d_st",
-    "name": "Jets D/ST",
+    "id": "def_cowboys_d_st",
+    "name": "Cowboys D/ST",
     "position": "DEF",
-    "team": "NYJ",
+    "team": "DAL",
     "adp": 425
   },
   {
-    "id": "def_saints_d_st",
-    "name": "Saints D/ST",
+    "id": "def_colts_d_st",
+    "name": "Colts D/ST",
     "position": "DEF",
-    "team": "JAX",
+    "team": "IND",
     "adp": 426
   },
   {
@@ -2408,11 +2408,11 @@
     "adp": 486
   },
   {
-    "id": "k_charlie_smyth",
-    "name": "Charlie Smyth",
+    "id": "k_daniel_carlson",
+    "name": "Daniel Carlson",
     "position": "K",
     "team": "JAX",
-    "adp": 488
+    "adp": 487
   },
   {
     "id": "k_wil_lutz",
@@ -2482,7 +2482,7 @@
     "name": "Joey Slye",
     "position": "K",
     "team": "NYG",
-    "adp": 500
+    "adp": 501
   },
   {
     "id": "k_chad_ryland",
@@ -2506,25 +2506,25 @@
     "adp": 504
   },
   {
+    "id": "def_bengals_d_st",
+    "name": "Bengals D/ST",
+    "position": "DEF",
+    "team": "CIN",
+    "adp": 505
+  },
+  {
     "id": "def_giants_d_st",
     "name": "Giants D/ST",
     "position": "DEF",
     "team": "NYJ",
-    "adp": 505
+    "adp": 506
   },
   {
     "id": "def_titans_d_st",
     "name": "Titans D/ST",
     "position": "DEF",
     "team": "NYG",
-    "adp": 506
-  },
-  {
-    "id": "def_cowboys_d_st",
-    "name": "Cowboys D/ST",
-    "position": "DEF",
-    "team": "DAL",
-    "adp": 509
+    "adp": 510
   },
   {
     "id": "def_panthers_d_st",
@@ -2548,17 +2548,17 @@
     "adp": 515
   },
   {
-    "id": "def_raiders_d_st",
-    "name": "Raiders D/ST",
-    "position": "DEF",
-    "team": "LV",
-    "adp": 516
-  },
-  {
     "id": "def_bills_d_st",
     "name": "Bills D/ST",
     "position": "DEF",
     "team": "BUF",
+    "adp": 516
+  },
+  {
+    "id": "def_raiders_d_st",
+    "name": "Raiders D/ST",
+    "position": "DEF",
+    "team": "LV",
     "adp": 517
   },
   {
@@ -2576,46 +2576,60 @@
     "adp": 519
   },
   {
+    "id": "wr_savion_williams",
+    "name": "Savion Williams",
+    "position": "WR",
+    "team": "GB",
+    "adp": 977
+  },
+  {
+    "id": "wr_kyle_williams",
+    "name": "Kyle Williams",
+    "position": "WR",
+    "team": "NE",
+    "adp": 978
+  },
+  {
     "id": "wr_troy_franklin",
     "name": "Troy Franklin",
     "position": "WR",
     "team": "MIA",
-    "adp": 977
+    "adp": 979
   },
   {
     "id": "wr_kendrick_bourne",
     "name": "Kendrick Bourne",
     "position": "WR",
     "team": "ARI",
-    "adp": 978
+    "adp": 980
+  },
+  {
+    "id": "wr_xavier_hutchinson",
+    "name": "Xavier Hutchinson",
+    "position": "WR",
+    "team": "HOU",
+    "adp": 981
   },
   {
     "id": "wr_malik_benson",
     "name": "Malik Benson",
     "position": "WR",
     "team": "LV",
-    "adp": 979
+    "adp": 982
   },
   {
     "id": "wr_kalif_raymond",
     "name": "Kalif Raymond",
     "position": "WR",
     "team": "CHI",
-    "adp": 980
+    "adp": 983
   },
   {
     "id": "wr_dyami_brown",
     "name": "Dyami Brown",
     "position": "WR",
     "team": "WAS",
-    "adp": 984
-  },
-  {
-    "id": "wr_isaiah_williams",
-    "name": "Isaiah Williams",
-    "position": "WR",
-    "team": "NYJ",
-    "adp": 986
+    "adp": 987
   },
   {
     "id": "wr_treylon_burks",
@@ -2629,42 +2643,35 @@
     "name": "Kyle Juszczyk",
     "position": "RB",
     "team": "SF",
-    "adp": 994
+    "adp": 997
   },
   {
     "id": "wr_joshua_palmer",
     "name": "Joshua Palmer",
     "position": "WR",
     "team": "BUF",
-    "adp": 997
-  },
-  {
-    "id": "wr_cyrus_allen",
-    "name": "Cyrus Allen",
-    "position": "WR",
-    "team": "KC",
-    "adp": 999
+    "adp": 998
   },
   {
     "id": "wr_devontez_walker",
     "name": "Devontez Walker",
     "position": "WR",
     "team": "BAL",
-    "adp": 1000
+    "adp": 1001
   },
   {
     "id": "te_elijah_higgins",
     "name": "Elijah Higgins",
     "position": "TE",
     "team": "ARI",
-    "adp": 1006
+    "adp": 1007
   },
   {
     "id": "te_will_kacmarek",
     "name": "Will Kacmarek",
     "position": "TE",
     "team": "MIA",
-    "adp": 1012
+    "adp": 1013
   },
   {
     "id": "wr_colbie_young",
@@ -2678,41 +2685,34 @@
     "name": "Bryce Lance",
     "position": "WR",
     "team": "JAX",
-    "adp": 1015
+    "adp": 1016
   },
   {
     "id": "wr_chimere_dike",
     "name": "Chimere Dike",
     "position": "WR",
     "team": "NYG",
-    "adp": 1016
+    "adp": 1017
   },
   {
     "id": "te_drew_sample",
     "name": "Drew Sample",
     "position": "TE",
     "team": "CIN",
-    "adp": 1019
+    "adp": 1020
   },
   {
     "id": "te_josh_oliver",
     "name": "Josh Oliver",
     "position": "TE",
     "team": "MIN",
-    "adp": 1020
+    "adp": 1021
   },
   {
     "id": "wr_jaylin_lane",
     "name": "Jaylin Lane",
     "position": "WR",
     "team": "WAS",
-    "adp": 1022
-  },
-  {
-    "id": "wr_christian_kirk",
-    "name": "Christian Kirk",
-    "position": "WR",
-    "team": "SF",
     "adp": 1023
   },
   {
@@ -2741,28 +2741,42 @@
     "name": "Noah Fant",
     "position": "TE",
     "team": "JAX",
-    "adp": 1030
+    "adp": 1031
+  },
+  {
+    "id": "te_jonnu_smith",
+    "name": "Jonnu Smith",
+    "position": "TE",
+    "team": "GB",
+    "adp": 1035
+  },
+  {
+    "id": "wr_isaiah_bond",
+    "name": "Isaiah Bond",
+    "position": "WR",
+    "team": "CLE",
+    "adp": 1037
   },
   {
     "id": "te_cade_stover",
     "name": "Cade Stover",
     "position": "TE",
     "team": "HOU",
-    "adp": 1036
+    "adp": 1038
   },
   {
     "id": "te_john_bates",
     "name": "John Bates",
     "position": "TE",
     "team": "WAS",
-    "adp": 1038
+    "adp": 1040
   },
   {
     "id": "wr_hollywood_brown",
     "name": "Hollywood Brown",
     "position": "WR",
     "team": "PHI",
-    "adp": 1040
+    "adp": 1041
   },
   {
     "id": "wr_elijah_sarratt",
@@ -2770,13 +2784,6 @@
     "position": "WR",
     "team": "BAL",
     "adp": 1042
-  },
-  {
-    "id": "wr_kevin_coleman_jr",
-    "name": "Kevin Coleman Jr.",
-    "position": "WR",
-    "team": "MIA",
-    "adp": 1044
   },
   {
     "id": "wr_olamide_zaccheaus",
@@ -2793,10 +2800,17 @@
     "adp": 1049
   },
   {
-    "id": "wr_isaiah_bond",
-    "name": "Isaiah Bond",
+    "id": "wr_kevin_coleman_jr",
+    "name": "Kevin Coleman Jr.",
     "position": "WR",
-    "team": "CLE",
+    "team": "MIA",
+    "adp": 1053
+  },
+  {
+    "id": "wr_isaiah_williams",
+    "name": "Isaiah Williams",
+    "position": "WR",
+    "team": "NYJ",
     "adp": 1055
   },
   {
@@ -2804,48 +2818,41 @@
     "name": "Ashton Dulin",
     "position": "WR",
     "team": "IND",
-    "adp": 1058
+    "adp": 1059
   },
   {
     "id": "te_tanner_hudson",
     "name": "Tanner Hudson",
     "position": "TE",
     "team": "CIN",
-    "adp": 1063
+    "adp": 1064
   },
   {
     "id": "wr_konata_mumpfield",
     "name": "Konata Mumpfield",
     "position": "WR",
     "team": "LAR",
-    "adp": 1064
+    "adp": 1065
   },
   {
     "id": "wr_roman_wilson",
     "name": "Roman Wilson",
     "position": "WR",
     "team": "SEA",
-    "adp": 1069
+    "adp": 1070
   },
   {
     "id": "te_adam_trautman",
     "name": "Adam Trautman",
     "position": "TE",
     "team": "MIA",
-    "adp": 1070
+    "adp": 1072
   },
   {
     "id": "wr_skyler_bell",
     "name": "Skyler Bell",
     "position": "WR",
     "team": "BUF",
-    "adp": 1073
-  },
-  {
-    "id": "wr_mack_hollins",
-    "name": "Mack Hollins",
-    "position": "WR",
-    "team": "NE",
     "adp": 1075
   },
   {
@@ -2853,49 +2860,42 @@
     "name": "Luke Schoonmaker",
     "position": "TE",
     "team": "DAL",
-    "adp": 1076
+    "adp": 1077
   },
   {
     "id": "te_mo_alie_cox",
     "name": "Mo Alie-Cox",
     "position": "TE",
     "team": "IND",
-    "adp": 1077
+    "adp": 1078
   },
   {
     "id": "wr_brenen_thompson",
     "name": "Brenen Thompson",
     "position": "WR",
     "team": "LAC",
-    "adp": 1078
+    "adp": 1079
   },
   {
     "id": "te_jackson_hawes",
     "name": "Jackson Hawes",
     "position": "TE",
     "team": "BUF",
-    "adp": 1080
+    "adp": 1081
   },
   {
     "id": "te_daniel_bellinger",
     "name": "Daniel Bellinger",
     "position": "TE",
     "team": "NYG",
-    "adp": 1084
+    "adp": 1085
   },
   {
     "id": "te_ben_sinnott",
     "name": "Ben Sinnott",
     "position": "TE",
     "team": "WAS",
-    "adp": 1086
-  },
-  {
-    "id": "wr_justin_watson",
-    "name": "Justin Watson",
-    "position": "WR",
-    "team": "HOU",
-    "adp": 1094
+    "adp": 1087
   },
   {
     "id": "te_jeremy_ruckert",
@@ -2933,32 +2933,25 @@
     "adp": 1106
   },
   {
-    "id": "wr_kyle_williams",
-    "name": "Kyle Williams",
-    "position": "WR",
-    "team": "NE",
-    "adp": 1111
-  },
-  {
     "id": "wr_tez_johnson",
     "name": "Tez Johnson",
     "position": "WR",
     "team": "TB",
-    "adp": 1118
+    "adp": 1117
   },
   {
     "id": "wr_jimmy_horn_jr",
     "name": "Jimmy Horn Jr.",
     "position": "WR",
     "team": "CAR",
-    "adp": 1120
+    "adp": 1119
   },
   {
     "id": "te_davis_allen",
     "name": "Davis Allen",
     "position": "TE",
     "team": "LAR",
-    "adp": 1134
+    "adp": 1133
   },
   {
     "id": "te_foster_moreau",
@@ -2972,56 +2965,63 @@
     "name": "Nate Adkins",
     "position": "TE",
     "team": "MIA",
-    "adp": 1142
+    "adp": 1141
   },
   {
     "id": "te_brock_wright",
     "name": "Brock Wright",
     "position": "TE",
     "team": "DET",
-    "adp": 1144
+    "adp": 1142
   },
   {
     "id": "te_nate_boerkircher",
     "name": "Nate Boerkircher",
     "position": "TE",
     "team": "JAX",
-    "adp": 1145
+    "adp": 1143
   },
   {
     "id": "wr_luke_mccaffrey",
     "name": "Luke McCaffrey",
     "position": "WR",
     "team": "WAS",
-    "adp": 1146
+    "adp": 1144
+  },
+  {
+    "id": "wr_christian_kirk",
+    "name": "Christian Kirk",
+    "position": "WR",
+    "team": "SF",
+    "adp": 1145
   },
   {
     "id": "wr_jalen_royals",
     "name": "Jalen Royals",
     "position": "WR",
     "team": "KC",
-    "adp": 1147
+    "adp": 1146
   },
   {
     "id": "wr_keandre_lambert_smith",
     "name": "KeAndre Lambert-Smith",
     "position": "WR",
     "team": "LAC",
-    "adp": 1148
+    "adp": 1147
   },
   {
     "id": "te_payne_durham",
     "name": "Payne Durham",
     "position": "TE",
     "team": "TB",
-    "adp": 1149
+    "adp": 1148
   },
   {
     "id": "te_oscar_delp",
     "name": "Oscar Delp",
     "position": "TE",
     "team": "JAX",
-    "adp": 1150
+    "adp": 1149
   },
   {
     "id": "wr_mason_tipton",
@@ -3038,150 +3038,150 @@
     "adp": 1156
   },
   {
-    "id": "rb_alec_ingold",
-    "name": "Alec Ingold",
-    "position": "RB",
-    "team": "LAC",
-    "adp": 1161
-  },
-  {
     "id": "te_joe_royer",
     "name": "Joe Royer",
     "position": "TE",
     "team": "CLE",
-    "adp": 1162
+    "adp": 1161
   },
   {
-    "id": "te_luke_musgrave",
-    "name": "Luke Musgrave",
-    "position": "TE",
-    "team": "GB",
-    "adp": 1163
+    "id": "rb_alec_ingold",
+    "name": "Alec Ingold",
+    "position": "RB",
+    "team": "LAC",
+    "adp": 1162
   },
   {
     "id": "wr_donte_thornton_jr",
     "name": "Dont'e Thornton Jr.",
     "position": "WR",
     "team": "LV",
-    "adp": 1164
-  },
-  {
-    "id": "wr_calvin_austin_iii",
-    "name": "Calvin Austin III",
-    "position": "WR",
-    "team": "NYJ",
-    "adp": 1165
+    "adp": 1163
   },
   {
     "id": "wr_greg_dortch",
     "name": "Greg Dortch",
     "position": "WR",
     "team": "DET",
-    "adp": 1166
+    "adp": 1164
   },
   {
     "id": "te_ben_sims",
     "name": "Ben Sims",
     "position": "TE",
     "team": "MIA",
-    "adp": 1173
-  },
-  {
-    "id": "wr_barion_brown",
-    "name": "Barion Brown",
-    "position": "WR",
-    "team": "JAX",
-    "adp": 1190
-  },
-  {
-    "id": "wr_bo_melton",
-    "name": "Bo Melton",
-    "position": "WR",
-    "team": "GB",
-    "adp": 1199
-  },
-  {
-    "id": "wr_derius_davis",
-    "name": "Derius Davis",
-    "position": "WR",
-    "team": "LAC",
-    "adp": 1200
-  },
-  {
-    "id": "wr_xavier_smith",
-    "name": "Xavier Smith",
-    "position": "WR",
-    "team": "LAR",
-    "adp": 1201
-  },
-  {
-    "id": "wr_tyrell_shavers",
-    "name": "Tyrell Shavers",
-    "position": "WR",
-    "team": "BUF",
-    "adp": 1207
-  },
-  {
-    "id": "rb_adam_prentice",
-    "name": "Adam Prentice",
-    "position": "RB",
-    "team": "MIA",
-    "adp": 1214
-  },
-  {
-    "id": "rb_connor_heyward",
-    "name": "Connor Heyward",
-    "position": "RB",
-    "team": "LV",
-    "adp": 1217
-  },
-  {
-    "id": "rb_michael_burton",
-    "name": "Michael Burton",
-    "position": "RB",
-    "team": "CLE",
-    "adp": 1218
-  },
-  {
-    "id": "te_luke_farrell",
-    "name": "Luke Farrell",
-    "position": "TE",
-    "team": "SF",
-    "adp": 1220
-  },
-  {
-    "id": "wr_mitchell_tinsley",
-    "name": "Mitchell Tinsley",
-    "position": "WR",
-    "team": "CIN",
-    "adp": 1221
-  },
-  {
-    "id": "rb_max_bredeson",
-    "name": "Max Bredeson",
-    "position": "RB",
-    "team": "MIN",
-    "adp": 1225
-  },
-  {
-    "id": "wr_cj_daniels",
-    "name": "CJ Daniels",
-    "position": "WR",
-    "team": "LAR",
-    "adp": 1226
-  },
-  {
-    "id": "te_justin_joly",
-    "name": "Justin Joly",
-    "position": "TE",
-    "team": "MIA",
-    "adp": 1227
+    "adp": 1170
   },
   {
     "id": "wr_malachi_corley",
     "name": "Malachi Corley",
     "position": "WR",
     "team": "CLE",
+    "adp": 1188
+  },
+  {
+    "id": "wr_barion_brown",
+    "name": "Barion Brown",
+    "position": "WR",
+    "team": "JAX",
+    "adp": 1189
+  },
+  {
+    "id": "wr_derius_davis",
+    "name": "Derius Davis",
+    "position": "WR",
+    "team": "LAC",
+    "adp": 1198
+  },
+  {
+    "id": "wr_xavier_smith",
+    "name": "Xavier Smith",
+    "position": "WR",
+    "team": "LAR",
+    "adp": 1199
+  },
+  {
+    "id": "wr_tyrell_shavers",
+    "name": "Tyrell Shavers",
+    "position": "WR",
+    "team": "BUF",
+    "adp": 1205
+  },
+  {
+    "id": "rb_adam_prentice",
+    "name": "Adam Prentice",
+    "position": "RB",
+    "team": "MIA",
+    "adp": 1212
+  },
+  {
+    "id": "rb_connor_heyward",
+    "name": "Connor Heyward",
+    "position": "RB",
+    "team": "LV",
+    "adp": 1215
+  },
+  {
+    "id": "rb_michael_burton",
+    "name": "Michael Burton",
+    "position": "RB",
+    "team": "CLE",
+    "adp": 1216
+  },
+  {
+    "id": "wr_efton_chism_iii",
+    "name": "Efton Chism III",
+    "position": "WR",
+    "team": "NE",
+    "adp": 1217
+  },
+  {
+    "id": "wr_bo_melton",
+    "name": "Bo Melton",
+    "position": "WR",
+    "team": "GB",
+    "adp": 1218
+  },
+  {
+    "id": "wr_mitchell_tinsley",
+    "name": "Mitchell Tinsley",
+    "position": "WR",
+    "team": "CIN",
+    "adp": 1220
+  },
+  {
+    "id": "rb_max_bredeson",
+    "name": "Max Bredeson",
+    "position": "RB",
+    "team": "MIN",
+    "adp": 1224
+  },
+  {
+    "id": "wr_cj_daniels",
+    "name": "CJ Daniels",
+    "position": "WR",
+    "team": "LAR",
+    "adp": 1225
+  },
+  {
+    "id": "te_justin_joly",
+    "name": "Justin Joly",
+    "position": "TE",
+    "team": "MIA",
+    "adp": 1226
+  },
+  {
+    "id": "qb_tanner_mckee",
+    "name": "Tanner McKee",
+    "position": "QB",
+    "team": "PHI",
+    "adp": 1230
+  },
+  {
+    "id": "te_brevyn_spann_ford",
+    "name": "Brevyn Spann-Ford",
+    "position": "TE",
+    "team": "DAL",
     "adp": 1231
   },
   {
@@ -3192,38 +3192,38 @@
     "adp": 1232
   },
   {
-    "id": "qb_tanner_mckee",
-    "name": "Tanner McKee",
-    "position": "QB",
-    "team": "PHI",
-    "adp": 1233
-  },
-  {
-    "id": "te_brevyn_spann_ford",
-    "name": "Brevyn Spann-Ford",
-    "position": "TE",
-    "team": "DAL",
-    "adp": 1234
-  },
-  {
     "id": "qb_drew_allar",
     "name": "Drew Allar",
     "position": "QB",
     "team": "SEA",
-    "adp": 1235
+    "adp": 1233
   },
   {
     "id": "qb_trey_lance",
     "name": "Trey Lance",
     "position": "QB",
     "team": "LAC",
-    "adp": 1236
+    "adp": 1234
   },
   {
     "id": "qb_riley_leonard",
     "name": "Riley Leonard",
     "position": "QB",
     "team": "IND",
+    "adp": 1235
+  },
+  {
+    "id": "te_luke_farrell",
+    "name": "Luke Farrell",
+    "position": "TE",
+    "team": "SF",
+    "adp": 1236
+  },
+  {
+    "id": "te_cj_dippre",
+    "name": "CJ Dippre",
+    "position": "TE",
+    "team": "NE",
     "adp": 1237
   },
   {
@@ -3234,53 +3234,46 @@
     "adp": 1238
   },
   {
-    "id": "te_cj_dippre",
-    "name": "CJ Dippre",
-    "position": "TE",
-    "team": "NE",
-    "adp": 1239
-  },
-  {
     "id": "te_tanner_koziol",
     "name": "Tanner Koziol",
     "position": "TE",
     "team": "JAX",
-    "adp": 1240
+    "adp": 1239
   },
   {
     "id": "te_ko_kieft",
     "name": "Ko Kieft",
     "position": "TE",
     "team": "TB",
-    "adp": 1243
+    "adp": 1242
   },
   {
     "id": "qb_kenny_pickett",
     "name": "Kenny Pickett",
     "position": "QB",
     "team": "CAR",
-    "adp": 1244
+    "adp": 1243
   },
   {
     "id": "wr_tai_felton",
     "name": "Tai Felton",
     "position": "WR",
     "team": "MIN",
-    "adp": 1245
+    "adp": 1244
   },
   {
     "id": "qb_spencer_rattler",
     "name": "Spencer Rattler",
     "position": "QB",
     "team": "JAX",
-    "adp": 1246
+    "adp": 1245
   },
   {
     "id": "te_tyler_conklin",
     "name": "Tyler Conklin",
     "position": "TE",
     "team": "DET",
-    "adp": 1247
+    "adp": 1246
   },
   {
     "id": "te_marlin_klein",
@@ -3294,77 +3287,77 @@
     "name": "Drew Ogletree",
     "position": "TE",
     "team": "IND",
-    "adp": 1250
+    "adp": 1249
   },
   {
     "id": "te_josh_whyle",
     "name": "Josh Whyle",
     "position": "TE",
     "team": "GB",
-    "adp": 1252
+    "adp": 1251
   },
   {
     "id": "te_sam_roush",
     "name": "Sam Roush",
     "position": "TE",
     "team": "CHI",
-    "adp": 1253
+    "adp": 1252
   },
   {
     "id": "wr_jahdae_walker",
     "name": "Jahdae Walker",
     "position": "WR",
     "team": "CHI",
-    "adp": 1255
+    "adp": 1254
   },
   {
     "id": "qb_tyler_huntley",
     "name": "Tyler Huntley",
     "position": "QB",
     "team": "BAL",
-    "adp": 1256
+    "adp": 1255
   },
   {
     "id": "qb_joshua_dobbs",
     "name": "Joshua Dobbs",
     "position": "QB",
     "team": "DET",
-    "adp": 1257
+    "adp": 1256
   },
   {
     "id": "te_josh_cuevas",
     "name": "Josh Cuevas",
     "position": "TE",
     "team": "BAL",
-    "adp": 1258
+    "adp": 1257
   },
   {
     "id": "te_matthew_hibner",
     "name": "Matthew Hibner",
     "position": "TE",
     "team": "BAL",
-    "adp": 1259
+    "adp": 1258
   },
   {
     "id": "te_eric_saubert",
     "name": "Eric Saubert",
     "position": "TE",
     "team": "HOU",
-    "adp": 1260
+    "adp": 1259
+  },
+  {
+    "id": "wr_justin_watson",
+    "name": "Justin Watson",
+    "position": "WR",
+    "team": "HOU",
+    "adp": 1262
   },
   {
     "id": "wr_darius_cooper",
     "name": "Darius Cooper",
     "position": "WR",
     "team": "PHI",
-    "adp": 1263
-  },
-  {
-    "id": "rb_andrew_beck",
-    "name": "Andrew Beck",
-    "position": "RB",
-    "team": "NYJ",
-    "adp": 1265
+    "adp": 1264
   },
   {
     "id": "te_tip_reiman",
@@ -3374,24 +3367,24 @@
     "adp": 1266
   },
   {
+    "id": "rb_andrew_beck",
+    "name": "Andrew Beck",
+    "position": "RB",
+    "team": "NYJ",
+    "adp": 1267
+  },
+  {
     "id": "qb_davis_mills",
     "name": "Davis Mills",
     "position": "QB",
     "team": "HOU",
-    "adp": 1267
+    "adp": 1268
   },
   {
     "id": "wr_jonathan_mingo",
     "name": "Jonathan Mingo",
     "position": "WR",
     "team": "DAL",
-    "adp": 1268
-  },
-  {
-    "id": "wr_lewis_bond",
-    "name": "Lewis Bond",
-    "position": "WR",
-    "team": "HOU",
     "adp": 1269
   },
   {
@@ -3399,14 +3392,14 @@
     "name": "Ian Thomas",
     "position": "TE",
     "team": "LV",
-    "adp": 1270
+    "adp": 1271
   },
   {
     "id": "te_charlie_woerner",
     "name": "Charlie Woerner",
     "position": "TE",
     "team": "ATL",
-    "adp": 1272
+    "adp": 1273
   },
   {
     "id": "te_johnny_mundt",
@@ -3472,31 +3465,38 @@
     "adp": 1284
   },
   {
-    "id": "te_jack_stoll",
-    "name": "Jack Stoll",
+    "id": "te_blake_whiteheart",
+    "name": "Blake Whiteheart",
     "position": "TE",
     "team": "CLE",
-    "adp": 1286
+    "adp": 1285
   },
   {
     "id": "rb_patrick_ricard",
     "name": "Patrick Ricard",
     "position": "RB",
     "team": "NYJ",
-    "adp": 1291
-  },
-  {
-    "id": "wr_cedric_tillman",
-    "name": "Cedric Tillman",
-    "position": "WR",
-    "team": "CLE",
-    "adp": 1292
+    "adp": 1290
   },
   {
     "id": "qb_quinn_ewers",
     "name": "Quinn Ewers",
     "position": "QB",
     "team": "MIA",
-    "adp": 1293
+    "adp": 1291
+  },
+  {
+    "id": "qb_gardner_minshew_ii",
+    "name": "Gardner Minshew II",
+    "position": "QB",
+    "team": "ARI",
+    "adp": 1294
+  },
+  {
+    "id": "te_chris_manhertz",
+    "name": "Chris Manhertz",
+    "position": "TE",
+    "team": "NYJ",
+    "adp": 1319
   }
 ]
