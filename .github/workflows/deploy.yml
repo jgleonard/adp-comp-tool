@@ -27,6 +27,7 @@ jobs:
           key: npm-${{ hashFiles('package-lock.json') }}
       - run: npm ci
       - run: npm run build
+      - run: cp ./src/scoring_levers_2025.html dist/scoring_levers_2025.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
