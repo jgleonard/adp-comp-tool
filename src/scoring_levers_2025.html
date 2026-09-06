@@ -60,7 +60,7 @@ body.dark select { background: #2a2a2a; color: #e0e0e0; }
 <button id="themeToggle" title="Toggle dark mode">🌙</button>
 <div class="container">
 <h1>Fantasy Scoring Lever Sensitivity - 2025 Season</h1>
-<div class="subtitle">566 players (QB/RB/WR/TE with 2025 activity, weeks 1&ndash;17 only - fantasy season ends at week 17). Base scoring fixed: 6 pts/TD, 0.1 pts per rushing, receiving &amp; return yard. QB passing is scored via the passing TD / INT / fumble levers (passing yards are not modeled). Drag the levers to see live effects on position production and the top-50 board.</div>
+<div class="subtitle">566 players (QB/RB/WR/TE with 2025 activity, weeks 1&ndash;17 only - fantasy season ends at week 17). Fixed base: 6 pts/TD and 0.1 pts per rushing &amp; receiving yard. The 12 levers control points per carry, per first down, PPR, the TE premium, return- and passing-yards per point, and passing TD / INT / fumble / completion / incompletion / QB-sack rates. Drag the levers to see live effects on position production and the top-50 board.</div>
 
 <div class="panel">
   <div class="controls">
@@ -175,7 +175,7 @@ body.dark select { background: #2a2a2a; color: #e0e0e0; }
 <div class="panel">
   <h3 style="margin-top:0;">Board stability at lever extremes (Spearman rank correlation, computed offline)</h3>
   <table class="findings">
-    <thead><tr><th>Lever (low &rarr; high)</th><th>Overall &rho; (417 players &ge;9 pts)</th><th>Top-100 &rho;</th><th>RB</th><th>WR</th><th>TE</th><th>QB</th><th>Top-50 churn</th><th>Mean |&Delta;rank| (ref top-100)</th><th>Max |&Delta;rank|</th></tr></thead>
+    <thead><tr><th>Lever (low &rarr; high)</th><th>Overall &rho; (424 players &ge;9 pts)</th><th>Top-100 &rho;</th><th>RB</th><th>WR</th><th>TE</th><th>QB</th><th>Top-50 churn</th><th>Mean |&Delta;rank| (ref top-100)</th><th>Max |&Delta;rank|</th></tr></thead>
     <tbody id="rhoBody"></tbody>
   </table>
   <div class="hint">Higher &rho; = more stable rankings. Churn = players who enter/leave the top 50 between the low and high end of the lever. Rank-change stats computed for the reference system's top-100 players.</div>
