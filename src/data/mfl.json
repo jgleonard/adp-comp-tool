@@ -190,6 +190,16 @@
     "maxPick": 53
   },
   {
+    "id": "17102",
+    "name": "Tyler Warren",
+    "position": "TE",
+    "team": "IND",
+    "adp": 45.2,
+    "drafts": 5,
+    "minPick": 15,
+    "maxPick": 66
+  },
+  {
     "id": "17071",
     "name": "Tetairoa McMillan",
     "position": "WR",
@@ -200,6 +210,16 @@
     "maxPick": 89
   },
   {
+    "id": "17044",
+    "name": "Omarion Hampton",
+    "position": "RB",
+    "team": "LAC",
+    "adp": 47.8,
+    "drafts": 5,
+    "minPick": 22,
+    "maxPick": 63
+  },
+  {
     "id": "9431",
     "name": "Matthew Stafford",
     "position": "QB",
@@ -208,6 +228,16 @@
     "drafts": 5,
     "minPick": 16,
     "maxPick": 93
+  },
+  {
+    "id": "14835",
+    "name": "Tee Higgins",
+    "position": "WR",
+    "team": "CIN",
+    "adp": 51,
+    "drafts": 5,
+    "minPick": 14,
+    "maxPick": 80
   },
   {
     "id": "16582",
@@ -240,6 +270,56 @@
     "maxPick": 118
   },
   {
+    "id": "17052",
+    "name": "Bhayshul Tuten",
+    "position": "RB",
+    "team": "JAC",
+    "adp": 59.8,
+    "drafts": 5,
+    "minPick": 20,
+    "maxPick": 78
+  },
+  {
+    "id": "17075",
+    "name": "Matthew Golden",
+    "position": "WR",
+    "team": "GB",
+    "adp": 61,
+    "drafts": 5,
+    "minPick": 44,
+    "maxPick": 78
+  },
+  {
+    "id": "14104",
+    "name": "A.J. Brown",
+    "position": "WR",
+    "team": "NE",
+    "adp": 67,
+    "drafts": 5,
+    "minPick": 37,
+    "maxPick": 82
+  },
+  {
+    "id": "17070",
+    "name": "Luther Burden",
+    "position": "WR",
+    "team": "CHI",
+    "adp": 71.2,
+    "drafts": 5,
+    "minPick": 43,
+    "maxPick": 101
+  },
+  {
+    "id": "17501",
+    "name": "KC Concepcion",
+    "position": "WR",
+    "team": "CLE",
+    "adp": 94,
+    "drafts": 5,
+    "minPick": 47,
+    "maxPick": 135
+  },
+  {
     "id": "16583",
     "name": "Michael Penix Jr.",
     "position": "QB",
@@ -248,5 +328,15 @@
     "drafts": 5,
     "minPick": 53,
     "maxPick": 154
+  },
+  {
+    "id": "17030",
+    "name": "Cam Ward",
+    "position": "QB",
+    "team": "TEN",
+    "adp": 110.2,
+    "drafts": 5,
+    "minPick": 74,
+    "maxPick": 156
   }
 ]
