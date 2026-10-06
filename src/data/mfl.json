@@ -20,16 +20,6 @@
     "maxPick": 4
   },
   {
-    "id": "16161",
-    "name": "Bijan Robinson",
-    "position": "RB",
-    "team": "ATL",
-    "adp": 4.4,
-    "drafts": 5,
-    "minPick": 3,
-    "maxPick": 7
-  },
-  {
     "id": "16162",
     "name": "Jahmyr Gibbs",
     "position": "RB",
@@ -38,6 +28,16 @@
     "drafts": 5,
     "minPick": 1,
     "maxPick": 8
+  },
+  {
+    "id": "16161",
+    "name": "Bijan Robinson",
+    "position": "RB",
+    "team": "ATL",
+    "adp": 4.4,
+    "drafts": 5,
+    "minPick": 3,
+    "maxPick": 7
   },
   {
     "id": "13593",
@@ -250,6 +250,16 @@
     "maxPick": 109
   },
   {
+    "id": "13604",
+    "name": "Saquon Barkley",
+    "position": "RB",
+    "team": "PHI",
+    "adp": 53.8,
+    "drafts": 5,
+    "minPick": 6,
+    "maxPick": 85
+  },
+  {
     "id": "17104",
     "name": "Colston Loveland",
     "position": "TE",
@@ -280,6 +290,16 @@
     "maxPick": 78
   },
   {
+    "id": "15256",
+    "name": "Javonte Williams",
+    "position": "RB",
+    "team": "DAL",
+    "adp": 60,
+    "drafts": 5,
+    "minPick": 18,
+    "maxPick": 91
+  },
+  {
     "id": "17075",
     "name": "Matthew Golden",
     "position": "WR",
@@ -288,6 +308,16 @@
     "drafts": 5,
     "minPick": 44,
     "maxPick": 78
+  },
+  {
+    "id": "16213",
+    "name": "Dalton Kincaid",
+    "position": "TE",
+    "team": "BUF",
+    "adp": 64,
+    "drafts": 5,
+    "minPick": 28,
+    "maxPick": 88
   },
   {
     "id": "14104",
@@ -300,6 +330,26 @@
     "maxPick": 82
   },
   {
+    "id": "17051",
+    "name": "Quinshon Judkins",
+    "position": "RB",
+    "team": "CLE",
+    "adp": 67.2,
+    "drafts": 5,
+    "minPick": 26,
+    "maxPick": 90
+  },
+  {
+    "id": "11675",
+    "name": "Davante Adams",
+    "position": "WR",
+    "team": "LAR",
+    "adp": 71,
+    "drafts": 5,
+    "minPick": 9,
+    "maxPick": 106
+  },
+  {
     "id": "17070",
     "name": "Luther Burden",
     "position": "WR",
@@ -310,6 +360,76 @@
     "maxPick": 101
   },
   {
+    "id": "15708",
+    "name": "Breece Hall",
+    "position": "RB",
+    "team": "NYJ",
+    "adp": 72.4,
+    "drafts": 5,
+    "minPick": 11,
+    "maxPick": 129
+  },
+  {
+    "id": "16222",
+    "name": "Tucker Kraft",
+    "position": "TE",
+    "team": "GB",
+    "adp": 73.4,
+    "drafts": 5,
+    "minPick": 27,
+    "maxPick": 91
+  },
+  {
+    "id": "15261",
+    "name": "Chuba Hubbard",
+    "position": "RB",
+    "team": "CAR",
+    "adp": 81.8,
+    "drafts": 5,
+    "minPick": 13,
+    "maxPick": 107
+  },
+  {
+    "id": "15798",
+    "name": "Isaiah Likely",
+    "position": "TE",
+    "team": "NYG",
+    "adp": 84.6,
+    "drafts": 5,
+    "minPick": 32,
+    "maxPick": 117
+  },
+  {
+    "id": "13635",
+    "name": "D.J. Moore",
+    "position": "WR",
+    "team": "BUF",
+    "adp": 85.8,
+    "drafts": 5,
+    "minPick": 36,
+    "maxPick": 108
+  },
+  {
+    "id": "16809",
+    "name": "Jalen Coker",
+    "position": "WR",
+    "team": "CAR",
+    "adp": 89,
+    "drafts": 5,
+    "minPick": 31,
+    "maxPick": 144
+  },
+  {
+    "id": "15253",
+    "name": "Travis Etienne",
+    "position": "RB",
+    "team": "NO",
+    "adp": 89.4,
+    "drafts": 5,
+    "minPick": 25,
+    "maxPick": 119
+  },
+  {
     "id": "17501",
     "name": "KC Concepcion",
     "position": "WR",
@@ -318,6 +438,26 @@
     "drafts": 5,
     "minPick": 47,
     "maxPick": 135
+  },
+  {
+    "id": "16614",
+    "name": "Marvin Harrison Jr.",
+    "position": "WR",
+    "team": "ARI",
+    "adp": 94.6,
+    "drafts": 5,
+    "minPick": 75,
+    "maxPick": 112
+  },
+  {
+    "id": "16186",
+    "name": "Jordan Addison",
+    "position": "WR",
+    "team": "MIN",
+    "adp": 96.6,
+    "drafts": 5,
+    "minPick": 52,
+    "maxPick": 124
   },
   {
     "id": "16583",
@@ -338,5 +478,25 @@
     "drafts": 5,
     "minPick": 74,
     "maxPick": 156
+  },
+  {
+    "id": "16195",
+    "name": "Dontayvion Wicks",
+    "position": "WR",
+    "team": "PHI",
+    "adp": 115.6,
+    "drafts": 5,
+    "minPick": 50,
+    "maxPick": 167
+  },
+  {
+    "id": "16620",
+    "name": "Xavier Worthy",
+    "position": "WR",
+    "team": "KC",
+    "adp": 122,
+    "drafts": 5,
+    "minPick": 92,
+    "maxPick": 149
   }
 ]
