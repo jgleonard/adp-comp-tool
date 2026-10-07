@@ -110,16 +110,6 @@
     "maxPick": 35
   },
   {
-    "id": "17472",
-    "name": "Jeremiyah Love",
-    "position": "RB",
-    "team": "ARI",
-    "adp": 20.4,
-    "drafts": 5,
-    "minPick": 10,
-    "maxPick": 38
-  },
-  {
     "id": "15237",
     "name": "Trevor Lawrence",
     "position": "QB",
@@ -128,6 +118,16 @@
     "drafts": 5,
     "minPick": 19,
     "maxPick": 21
+  },
+  {
+    "id": "17472",
+    "name": "Jeremiyah Love",
+    "position": "RB",
+    "team": "ARI",
+    "adp": 20.4,
+    "drafts": 5,
+    "minPick": 10,
+    "maxPick": 38
   },
   {
     "id": "14802",
@@ -480,6 +480,26 @@
     "maxPick": 156
   },
   {
+    "id": "16593",
+    "name": "Blake Corum",
+    "position": "RB",
+    "team": "LAR",
+    "adp": 111.2,
+    "drafts": 5,
+    "minPick": 46,
+    "maxPick": 142
+  },
+  {
+    "id": "11671",
+    "name": "Mike Evans",
+    "position": "WR",
+    "team": "SF",
+    "adp": 114,
+    "drafts": 5,
+    "minPick": 48,
+    "maxPick": 151
+  },
+  {
     "id": "16195",
     "name": "Dontayvion Wicks",
     "position": "WR",
@@ -490,6 +510,16 @@
     "maxPick": 167
   },
   {
+    "id": "16684",
+    "name": "Malik Washington",
+    "position": "WR",
+    "team": "MIA",
+    "adp": 121.8,
+    "drafts": 5,
+    "minPick": 34,
+    "maxPick": 159
+  },
+  {
     "id": "16620",
     "name": "Xavier Worthy",
     "position": "WR",
@@ -498,5 +528,25 @@
     "drafts": 5,
     "minPick": 92,
     "maxPick": 149
+  },
+  {
+    "id": "10700",
+    "name": "Kirk Cousins",
+    "position": "QB",
+    "team": "LV",
+    "adp": 128.4,
+    "drafts": 5,
+    "minPick": 50,
+    "maxPick": 184
+  },
+  {
+    "id": "17482",
+    "name": "Mike Washington Jr.",
+    "position": "RB",
+    "team": "LV",
+    "adp": 147.4,
+    "drafts": 5,
+    "minPick": 126,
+    "maxPick": 167
   }
 ]
