@@ -110,16 +110,6 @@
     "maxPick": 35
   },
   {
-    "id": "15237",
-    "name": "Trevor Lawrence",
-    "position": "QB",
-    "team": "JAC",
-    "adp": 20.4,
-    "drafts": 5,
-    "minPick": 19,
-    "maxPick": 21
-  },
-  {
     "id": "17472",
     "name": "Jeremiyah Love",
     "position": "RB",
@@ -128,6 +118,16 @@
     "drafts": 5,
     "minPick": 10,
     "maxPick": 38
+  },
+  {
+    "id": "15237",
+    "name": "Trevor Lawrence",
+    "position": "QB",
+    "team": "JAC",
+    "adp": 20.4,
+    "drafts": 5,
+    "minPick": 19,
+    "maxPick": 21
   },
   {
     "id": "14802",
@@ -470,6 +470,16 @@
     "maxPick": 154
   },
   {
+    "id": "17107",
+    "name": "Terrance Ferguson",
+    "position": "TE",
+    "team": "LAR",
+    "adp": 108,
+    "drafts": 5,
+    "minPick": 37,
+    "maxPick": 143
+  },
+  {
     "id": "17030",
     "name": "Cam Ward",
     "position": "QB",
@@ -540,6 +550,26 @@
     "maxPick": 184
   },
   {
+    "id": "14138",
+    "name": "T.J. Hockenson",
+    "position": "TE",
+    "team": "MIN",
+    "adp": 134,
+    "drafts": 5,
+    "minPick": 90,
+    "maxPick": 158
+  },
+  {
+    "id": "16596",
+    "name": "Braelon Allen",
+    "position": "RB",
+    "team": "NYJ",
+    "adp": 141.6,
+    "drafts": 5,
+    "minPick": 100,
+    "maxPick": 165
+  },
+  {
     "id": "17482",
     "name": "Mike Washington Jr.",
     "position": "RB",
@@ -548,5 +578,25 @@
     "drafts": 5,
     "minPick": 126,
     "maxPick": 167
+  },
+  {
+    "id": "17099",
+    "name": "Oronde Gadsden",
+    "position": "TE",
+    "team": "LAC",
+    "adp": 147.8,
+    "drafts": 5,
+    "minPick": 104,
+    "maxPick": 198
+  },
+  {
+    "id": "15716",
+    "name": "Brian Robinson",
+    "position": "RB",
+    "team": "ATL",
+    "adp": 155.6,
+    "drafts": 5,
+    "minPick": 136,
+    "maxPick": 182
   }
 ]
