@@ -550,6 +550,16 @@
     "maxPick": 193
   },
   {
+    "id": "10700",
+    "name": "Kirk Cousins",
+    "position": "QB",
+    "team": "LV",
+    "adp": 128.4,
+    "drafts": 5,
+    "minPick": 50,
+    "maxPick": 184
+  },
+  {
     "id": "16788",
     "name": "Devaughn Vele",
     "position": "WR",
@@ -560,14 +570,14 @@
     "maxPick": 171
   },
   {
-    "id": "10700",
-    "name": "Kirk Cousins",
-    "position": "QB",
-    "team": "LV",
-    "adp": 128.4,
+    "id": "15799",
+    "name": "Jake Ferguson",
+    "position": "TE",
+    "team": "DAL",
+    "adp": 132.6,
     "drafts": 5,
-    "minPick": 50,
-    "maxPick": 184
+    "minPick": 49,
+    "maxPick": 210
   },
   {
     "id": "14138",
@@ -638,5 +648,35 @@
     "drafts": 5,
     "minPick": 136,
     "maxPick": 182
+  },
+  {
+    "id": "13132",
+    "name": "Alvin Kamara",
+    "position": "RB",
+    "team": "NO",
+    "adp": 165.2,
+    "drafts": 5,
+    "minPick": 53,
+    "maxPick": 225
+  },
+  {
+    "id": "16723",
+    "name": "AJ Barner",
+    "position": "TE",
+    "team": "SEA",
+    "adp": 172.4,
+    "drafts": 5,
+    "minPick": 67,
+    "maxPick": 229
+  },
+  {
+    "id": "16603",
+    "name": "Ray Davis",
+    "position": "RB",
+    "team": "BUF",
+    "adp": 189.4,
+    "drafts": 5,
+    "minPick": 125,
+    "maxPick": 231
   }
 ]
