@@ -1284,7 +1284,7 @@
     "id": "k_harrison_mevis",
     "name": "Harrison Mevis",
     "position": "K",
-    "team": "LAR",
+    "team": null,
     "adp": 243
   },
   {
@@ -1746,7 +1746,7 @@
     "id": "rb_emari_demercado",
     "name": "Emari Demercado",
     "position": "RB",
-    "team": null,
+    "team": "DAL",
     "adp": 355
   },
   {
@@ -2495,7 +2495,7 @@
     "id": "k_blake_grupe",
     "name": "Blake Grupe",
     "position": "K",
-    "team": null,
+    "team": "LAR",
     "adp": 503
   },
   {
