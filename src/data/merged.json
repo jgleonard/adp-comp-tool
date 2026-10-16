@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T16:27:50.807Z",
+  "lastUpdated": "2026-10-16T16:13:18.479Z",
   "players": [
     {
       "id": "9221",
@@ -23,13 +23,13 @@
       "team": "ATL",
       "adp": {
         "sleeper": 2.7,
-        "mfl": 19,
+        "mfl": 18,
         "espn": 2
       },
       "medianAdp": 2.7,
       "bestAdp": 2,
-      "worstAdp": 19,
-      "adpSpread": 17
+      "worstAdp": 18,
+      "adpSpread": 16
     },
     {
       "id": "wr_jamarr_chase",
@@ -38,13 +38,13 @@
       "team": "CIN",
       "adp": {
         "sleeper": null,
-        "mfl": 4,
+        "mfl": 3,
         "espn": 4
       },
       "medianAdp": 4,
-      "bestAdp": 4,
+      "bestAdp": 3,
       "worstAdp": 4,
-      "adpSpread": 0
+      "adpSpread": 1
     },
     {
       "id": "4034",
@@ -53,13 +53,13 @@
       "team": "SF",
       "adp": {
         "sleeper": 5.1,
-        "mfl": 1,
+        "mfl": 2,
         "espn": 6
       },
       "medianAdp": 5.1,
-      "bestAdp": 1,
+      "bestAdp": 2,
       "worstAdp": 6,
-      "adpSpread": 5
+      "adpSpread": 4
     },
     {
       "id": "wr_justin_jefferson",
@@ -92,6 +92,21 @@
       "adpSpread": 6
     },
     {
+      "id": "wr_amonra_stbrown",
+      "name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "team": "DET",
+      "adp": {
+        "sleeper": null,
+        "mfl": 6,
+        "espn": 8
+      },
+      "medianAdp": 7,
+      "bestAdp": 6,
+      "worstAdp": 8,
+      "adpSpread": 2
+    },
+    {
       "id": "6813",
       "name": "Jonathan Taylor",
       "position": "RB",
@@ -107,19 +122,19 @@
       "adpSpread": 4
     },
     {
-      "id": "wr_amonra_stbrown",
-      "name": "Amon-Ra St. Brown",
+      "id": "wr_puka_nacua",
+      "name": "Puka Nacua",
       "position": "WR",
-      "team": "DET",
+      "team": "LAR",
       "adp": {
         "sleeper": null,
-        "mfl": 8,
-        "espn": 8
+        "mfl": 16,
+        "espn": 3
       },
-      "medianAdp": 8,
-      "bestAdp": 8,
-      "worstAdp": 8,
-      "adpSpread": 0
+      "medianAdp": 10,
+      "bestAdp": 3,
+      "worstAdp": 16,
+      "adpSpread": 13
     },
     {
       "id": "8138",
@@ -127,29 +142,29 @@
       "position": "RB",
       "team": "BUF",
       "adp": {
-        "sleeper": 8.6,
+        "sleeper": 9.4,
         "mfl": null,
         "espn": 12
       },
-      "medianAdp": 10,
-      "bestAdp": 8.6,
+      "medianAdp": 11,
+      "bestAdp": 9.4,
       "worstAdp": 12,
-      "adpSpread": 3.4000000000000004
+      "adpSpread": 2.5999999999999996
     },
     {
-      "id": "wr_puka_nacua",
-      "name": "Puka Nacua",
-      "position": "WR",
-      "team": "LAR",
+      "id": "3198",
+      "name": "Derrick Henry",
+      "position": "RB",
+      "team": "BAL",
       "adp": {
-        "sleeper": null,
-        "mfl": 17,
-        "espn": 3
+        "sleeper": 17.6,
+        "mfl": 11,
+        "espn": 11
       },
-      "medianAdp": 10,
-      "bestAdp": 3,
-      "worstAdp": 17,
-      "adpSpread": 14
+      "medianAdp": 11,
+      "bestAdp": 11,
+      "worstAdp": 17.6,
+      "adpSpread": 6.600000000000001
     },
     {
       "id": "4866",
@@ -158,13 +173,13 @@
       "team": "PHI",
       "adp": {
         "sleeper": 11.8,
-        "mfl": 5,
+        "mfl": 4,
         "espn": 15
       },
       "medianAdp": 11.8,
-      "bestAdp": 5,
+      "bestAdp": 4,
       "worstAdp": 15,
-      "adpSpread": 10
+      "adpSpread": 11
     },
     {
       "id": "9226",
@@ -180,21 +195,6 @@
       "bestAdp": 13,
       "worstAdp": 13.7,
       "adpSpread": 0.6999999999999993
-    },
-    {
-      "id": "3198",
-      "name": "Derrick Henry",
-      "position": "RB",
-      "team": "BAL",
-      "adp": {
-        "sleeper": 17.6,
-        "mfl": 13,
-        "espn": 11
-      },
-      "medianAdp": 13,
-      "bestAdp": 11,
-      "worstAdp": 17.6,
-      "adpSpread": 6.600000000000001
     },
     {
       "id": "12527",
@@ -217,14 +217,14 @@
       "position": "RB",
       "team": "LAC",
       "adp": {
-        "sleeper": 15.4,
+        "sleeper": 15.3,
         "mfl": null,
         "espn": 19
       },
       "medianAdp": 17,
-      "bestAdp": 15.4,
+      "bestAdp": 15.3,
       "worstAdp": 19,
-      "adpSpread": 3.5999999999999996
+      "adpSpread": 3.6999999999999993
     },
     {
       "id": "9224",
@@ -242,6 +242,21 @@
       "adpSpread": 9
     },
     {
+      "id": "wr_aj_brown",
+      "name": "A.J. Brown",
+      "position": "WR",
+      "team": "PHI",
+      "adp": {
+        "sleeper": null,
+        "mfl": 12,
+        "espn": 26
+      },
+      "medianAdp": 19,
+      "bestAdp": 12,
+      "worstAdp": 26,
+      "adpSpread": 14
+    },
+    {
       "id": "8151",
       "name": "Kenneth Walker",
       "position": "RB",
@@ -257,34 +272,19 @@
       "adpSpread": 8
     },
     {
-      "id": "wr_aj_brown",
-      "name": "A.J. Brown",
-      "position": "WR",
-      "team": "PHI",
-      "adp": {
-        "sleeper": null,
-        "mfl": 13,
-        "espn": 26
-      },
-      "medianAdp": 20,
-      "bestAdp": 13,
-      "worstAdp": 26,
-      "adpSpread": 13
-    },
-    {
       "id": "4984",
       "name": "Josh Allen",
       "position": "QB",
       "team": "BUF",
       "adp": {
         "sleeper": 21.3,
-        "mfl": 7,
+        "mfl": 6,
         "espn": 36
       },
       "medianAdp": 21.3,
-      "bestAdp": 7,
+      "bestAdp": 6,
       "worstAdp": 36,
-      "adpSpread": 29
+      "adpSpread": 30
     },
     {
       "id": "8155",
@@ -337,14 +337,14 @@
       "position": "RB",
       "team": "LAR",
       "adp": {
-        "sleeper": 26.8,
-        "mfl": 27,
+        "sleeper": 26.7,
+        "mfl": 29,
         "espn": 38
       },
-      "medianAdp": 27,
-      "bestAdp": 26.8,
+      "medianAdp": 29,
+      "bestAdp": 26.7,
       "worstAdp": 38,
-      "adpSpread": 11.2
+      "adpSpread": 11.3
     },
     {
       "id": "wr_davante_adams",
@@ -353,13 +353,13 @@
       "team": "LV",
       "adp": {
         "sleeper": null,
-        "mfl": 27,
+        "mfl": 26,
         "espn": 31
       },
       "medianAdp": 29,
-      "bestAdp": 27,
+      "bestAdp": 26,
       "worstAdp": 31,
-      "adpSpread": 4
+      "adpSpread": 5
     },
     {
       "id": "wr_chris_olave",
@@ -383,28 +383,13 @@
       "team": "BAL",
       "adp": {
         "sleeper": 31.4,
-        "mfl": 8,
+        "mfl": 7,
         "espn": 58
       },
       "medianAdp": 31.4,
-      "bestAdp": 8,
+      "bestAdp": 7,
       "worstAdp": 58,
-      "adpSpread": 50
-    },
-    {
-      "id": "wr_garrett_wilson",
-      "name": "Garrett Wilson",
-      "position": "WR",
-      "team": "NYJ",
-      "adp": {
-        "sleeper": null,
-        "mfl": 20,
-        "espn": 43
-      },
-      "medianAdp": 32,
-      "bestAdp": 20,
-      "worstAdp": 43,
-      "adpSpread": 23
+      "adpSpread": 51
     },
     {
       "id": "7588",
@@ -413,13 +398,28 @@
       "team": "DAL",
       "adp": {
         "sleeper": 32.6,
-        "mfl": 91,
+        "mfl": 89,
         "espn": 30
       },
       "medianAdp": 32.6,
       "bestAdp": 30,
-      "worstAdp": 91,
-      "adpSpread": 61
+      "worstAdp": 89,
+      "adpSpread": 59
+    },
+    {
+      "id": "wr_garrett_wilson",
+      "name": "Garrett Wilson",
+      "position": "WR",
+      "team": "NYJ",
+      "adp": {
+        "sleeper": null,
+        "mfl": 22,
+        "espn": 43
+      },
+      "medianAdp": 33,
+      "bestAdp": 22,
+      "worstAdp": 43,
+      "adpSpread": 21
     },
     {
       "id": "wr_rashee_rice",
@@ -487,14 +487,14 @@
       "position": "RB",
       "team": "NO",
       "adp": {
-        "sleeper": 42.5,
+        "sleeper": 41.6,
         "mfl": null,
         "espn": 32
       },
       "medianAdp": 37,
       "bestAdp": 32,
-      "worstAdp": 42.5,
-      "adpSpread": 10.5
+      "worstAdp": 41.6,
+      "adpSpread": 9.600000000000001
     },
     {
       "id": "wr_tee_higgins",
@@ -518,13 +518,13 @@
       "team": "BAL",
       "adp": {
         "sleeper": null,
-        "mfl": 43,
+        "mfl": 45,
         "espn": 33
       },
-      "medianAdp": 38,
+      "medianAdp": 39,
       "bestAdp": 33,
-      "worstAdp": 43,
-      "adpSpread": 10
+      "worstAdp": 45,
+      "adpSpread": 12
     },
     {
       "id": "12481",
@@ -557,34 +557,34 @@
       "adpSpread": 2.8999999999999986
     },
     {
-      "id": "wr_jaylen_waddle",
-      "name": "Jaylen Waddle",
-      "position": "WR",
-      "team": "MIA",
-      "adp": {
-        "sleeper": null,
-        "mfl": 34,
-        "espn": 52
-      },
-      "medianAdp": 43,
-      "bestAdp": 34,
-      "worstAdp": 52,
-      "adpSpread": 18
-    },
-    {
       "id": "wr_devonta_smith",
       "name": "DeVonta Smith",
       "position": "WR",
       "team": "PHI",
       "adp": {
         "sleeper": null,
-        "mfl": 41,
+        "mfl": 40,
         "espn": 44
       },
-      "medianAdp": 43,
-      "bestAdp": 41,
+      "medianAdp": 42,
+      "bestAdp": 40,
       "worstAdp": 44,
-      "adpSpread": 3
+      "adpSpread": 4
+    },
+    {
+      "id": "wr_jaylen_waddle",
+      "name": "Jaylen Waddle",
+      "position": "WR",
+      "team": "MIA",
+      "adp": {
+        "sleeper": null,
+        "mfl": 35,
+        "espn": 52
+      },
+      "medianAdp": 44,
+      "bestAdp": 35,
+      "worstAdp": 52,
+      "adpSpread": 17
     },
     {
       "id": "6790",
@@ -592,14 +592,14 @@
       "position": "RB",
       "team": "CHI",
       "adp": {
-        "sleeper": 49.4,
+        "sleeper": 49.3,
         "mfl": null,
         "espn": 42
       },
       "medianAdp": 46,
       "bestAdp": 42,
-      "worstAdp": 49.4,
-      "adpSpread": 7.399999999999999
+      "worstAdp": 49.3,
+      "adpSpread": 7.299999999999997
     },
     {
       "id": "12512",
@@ -623,13 +623,13 @@
       "team": "ARI",
       "adp": {
         "sleeper": null,
-        "mfl": 23,
+        "mfl": 22,
         "espn": 74
       },
-      "medianAdp": 49,
-      "bestAdp": 23,
+      "medianAdp": 48,
+      "bestAdp": 22,
       "worstAdp": 74,
-      "adpSpread": 51
+      "adpSpread": 52
     },
     {
       "id": "11564",
@@ -653,13 +653,13 @@
       "team": "GB",
       "adp": {
         "sleeper": 51.3,
-        "mfl": 18,
+        "mfl": 17,
         "espn": 120
       },
       "medianAdp": 51.3,
-      "bestAdp": 18,
+      "bestAdp": 17,
       "worstAdp": 120,
-      "adpSpread": 102
+      "adpSpread": 103
     },
     {
       "id": "6770",
@@ -667,14 +667,14 @@
       "position": "QB",
       "team": "CIN",
       "adp": {
-        "sleeper": 52.3,
-        "mfl": 15,
+        "sleeper": 52.2,
+        "mfl": 17,
         "espn": 81
       },
-      "medianAdp": 52.3,
-      "bestAdp": 15,
+      "medianAdp": 52.2,
+      "bestAdp": 17,
       "worstAdp": 81,
-      "adpSpread": 66
+      "adpSpread": 64
     },
     {
       "id": "11566",
@@ -683,13 +683,13 @@
       "team": "WAS",
       "adp": {
         "sleeper": 68.9,
-        "mfl": 29,
+        "mfl": 30,
         "espn": 56
       },
       "medianAdp": 56,
-      "bestAdp": 29,
+      "bestAdp": 30,
       "worstAdp": 68.9,
-      "adpSpread": 39.900000000000006
+      "adpSpread": 38.900000000000006
     },
     {
       "id": "5892",
@@ -697,14 +697,14 @@
       "position": "RB",
       "team": "HOU",
       "adp": {
-        "sleeper": 46,
+        "sleeper": 46.9,
         "mfl": null,
         "espn": 65
       },
       "medianAdp": 56,
-      "bestAdp": 46,
+      "bestAdp": 46.9,
       "worstAdp": 65,
-      "adpSpread": 19
+      "adpSpread": 18.1
     },
     {
       "id": "6904",
@@ -713,13 +713,13 @@
       "team": "PHI",
       "adp": {
         "sleeper": 58.2,
-        "mfl": 11,
+        "mfl": 9,
         "espn": 62
       },
       "medianAdp": 58.2,
-      "bestAdp": 11,
+      "bestAdp": 9,
       "worstAdp": 62,
-      "adpSpread": 51
+      "adpSpread": 53
     },
     {
       "id": "wr_rome_odunze",
@@ -728,13 +728,13 @@
       "team": "CHI",
       "adp": {
         "sleeper": null,
-        "mfl": 77,
+        "mfl": 79,
         "espn": 45
       },
-      "medianAdp": 61,
+      "medianAdp": 62,
       "bestAdp": 45,
-      "worstAdp": 77,
-      "adpSpread": 32
+      "worstAdp": 79,
+      "adpSpread": 34
     },
     {
       "id": "12490",
@@ -742,14 +742,14 @@
       "position": "RB",
       "team": "JAX",
       "adp": {
-        "sleeper": 62.6,
+        "sleeper": 62.5,
         "mfl": null,
         "espn": 64
       },
       "medianAdp": 63,
-      "bestAdp": 62.6,
+      "bestAdp": 62.5,
       "worstAdp": 64,
-      "adpSpread": 1.3999999999999986
+      "adpSpread": 1.5
     },
     {
       "id": "13286",
@@ -757,14 +757,14 @@
       "position": "RB",
       "team": "SEA",
       "adp": {
-        "sleeper": 61.8,
+        "sleeper": 61.7,
         "mfl": null,
         "espn": 67
       },
       "medianAdp": 64,
-      "bestAdp": 61.8,
+      "bestAdp": 61.7,
       "worstAdp": 67,
-      "adpSpread": 5.200000000000003
+      "adpSpread": 5.299999999999997
     },
     {
       "id": "7611",
@@ -772,14 +772,14 @@
       "position": "RB",
       "team": "NE",
       "adp": {
-        "sleeper": 78.4,
+        "sleeper": 77.7,
         "mfl": 51,
         "espn": 69
       },
       "medianAdp": 69,
       "bestAdp": 51,
-      "worstAdp": 78.4,
-      "adpSpread": 27.400000000000006
+      "worstAdp": 77.7,
+      "adpSpread": 26.700000000000003
     },
     {
       "id": "8228",
@@ -787,14 +787,14 @@
       "position": "RB",
       "team": "PIT",
       "adp": {
-        "sleeper": 70.3,
+        "sleeper": 70.2,
         "mfl": null,
         "espn": 70
       },
       "medianAdp": 70,
       "bestAdp": 70,
-      "worstAdp": 70.3,
-      "adpSpread": 0.29999999999999716
+      "worstAdp": 70.2,
+      "adpSpread": 0.20000000000000284
     },
     {
       "id": "wr_michael_pittman",
@@ -803,13 +803,13 @@
       "team": "IND",
       "adp": {
         "sleeper": null,
-        "mfl": 53,
+        "mfl": 55,
         "espn": 88
       },
-      "medianAdp": 71,
-      "bestAdp": 53,
+      "medianAdp": 72,
+      "bestAdp": 55,
       "worstAdp": 88,
-      "adpSpread": 35
+      "adpSpread": 33
     },
     {
       "id": "te_sam_laporta",
@@ -818,13 +818,13 @@
       "team": "DET",
       "adp": {
         "sleeper": null,
-        "mfl": 65,
+        "mfl": 63,
         "espn": 80
       },
-      "medianAdp": 73,
-      "bestAdp": 65,
+      "medianAdp": 72,
+      "bestAdp": 63,
       "worstAdp": 80,
-      "adpSpread": 15
+      "adpSpread": 17
     },
     {
       "id": "7021",
@@ -848,13 +848,13 @@
       "team": "MIN",
       "adp": {
         "sleeper": null,
-        "mfl": 65,
+        "mfl": 66,
         "espn": 91
       },
-      "medianAdp": 78,
-      "bestAdp": 65,
+      "medianAdp": 79,
+      "bestAdp": 66,
       "worstAdp": 91,
-      "adpSpread": 26
+      "adpSpread": 25
     },
     {
       "id": "te_travis_kelce",
@@ -877,11 +877,11 @@
       "position": "QB",
       "team": "LAC",
       "adp": {
-        "sleeper": 83.6,
+        "sleeper": 83.5,
         "mfl": 21,
         "espn": 111
       },
-      "medianAdp": 83.6,
+      "medianAdp": 83.5,
       "bestAdp": 21,
       "worstAdp": 111,
       "adpSpread": 90
@@ -892,14 +892,14 @@
       "position": "RB",
       "team": "TEN",
       "adp": {
-        "sleeper": 84.3,
-        "mfl": 47,
+        "sleeper": 83.8,
+        "mfl": 49,
         "espn": 117
       },
-      "medianAdp": 84.3,
-      "bestAdp": 47,
+      "medianAdp": 83.8,
+      "bestAdp": 49,
       "worstAdp": 117,
-      "adpSpread": 70
+      "adpSpread": 68
     },
     {
       "id": "3294",
@@ -907,14 +907,14 @@
       "position": "QB",
       "team": "DAL",
       "adp": {
-        "sleeper": 77.6,
+        "sleeper": 77.5,
         "mfl": null,
         "espn": 95
       },
       "medianAdp": 86,
-      "bestAdp": 77.6,
+      "bestAdp": 77.5,
       "worstAdp": 95,
-      "adpSpread": 17.400000000000006
+      "adpSpread": 17.5
     },
     {
       "id": "11560",
@@ -922,14 +922,14 @@
       "position": "QB",
       "team": "CHI",
       "adp": {
-        "sleeper": 71.5,
+        "sleeper": 71.4,
         "mfl": null,
         "espn": 104
       },
       "medianAdp": 88,
-      "bestAdp": 71.5,
+      "bestAdp": 71.4,
       "worstAdp": 104,
-      "adpSpread": 32.5
+      "adpSpread": 32.599999999999994
     },
     {
       "id": "12529",
@@ -937,14 +937,14 @@
       "position": "RB",
       "team": "NE",
       "adp": {
-        "sleeper": 60.8,
+        "sleeper": 59.2,
         "mfl": null,
         "espn": 118
       },
       "medianAdp": 89,
-      "bestAdp": 60.8,
+      "bestAdp": 59.2,
       "worstAdp": 118,
-      "adpSpread": 57.2
+      "adpSpread": 58.8
     },
     {
       "id": "12508",
@@ -977,19 +977,34 @@
       "adpSpread": 77
     },
     {
+      "id": "7523",
+      "name": "Trevor Lawrence",
+      "position": "QB",
+      "team": "JAX",
+      "adp": {
+        "sleeper": 101.4,
+        "mfl": null,
+        "espn": 93
+      },
+      "medianAdp": 97,
+      "bestAdp": 93,
+      "worstAdp": 101.4,
+      "adpSpread": 8.400000000000006
+    },
+    {
       "id": "11563",
       "name": "Bo Nix",
       "position": "QB",
       "team": "DEN",
       "adp": {
-        "sleeper": 116.4,
-        "mfl": 90,
+        "sleeper": 116.3,
+        "mfl": 91,
         "espn": 97
       },
       "medianAdp": 97,
-      "bestAdp": 90,
-      "worstAdp": 116.4,
-      "adpSpread": 26.400000000000006
+      "bestAdp": 91,
+      "worstAdp": 116.3,
+      "adpSpread": 25.299999999999997
     },
     {
       "id": "421",
@@ -997,29 +1012,14 @@
       "position": "QB",
       "team": "LAR",
       "adp": {
-        "sleeper": 94.4,
+        "sleeper": 94.3,
         "mfl": null,
         "espn": 102
       },
       "medianAdp": 98,
-      "bestAdp": 94.4,
+      "bestAdp": 94.3,
       "worstAdp": 102,
-      "adpSpread": 7.599999999999994
-    },
-    {
-      "id": "7523",
-      "name": "Trevor Lawrence",
-      "position": "QB",
-      "team": "JAX",
-      "adp": {
-        "sleeper": 102.7,
-        "mfl": null,
-        "espn": 93
-      },
-      "medianAdp": 98,
-      "bestAdp": 93,
-      "worstAdp": 102.7,
-      "adpSpread": 9.700000000000003
+      "adpSpread": 7.700000000000003
     },
     {
       "id": "te_george_kittle",
@@ -1043,13 +1043,13 @@
       "team": "BUF",
       "adp": {
         "sleeper": null,
-        "mfl": 61,
+        "mfl": 62,
         "espn": 136
       },
       "medianAdp": 99,
-      "bestAdp": 61,
+      "bestAdp": 62,
       "worstAdp": 136,
-      "adpSpread": 75
+      "adpSpread": 74
     },
     {
       "id": "6806",
@@ -1057,14 +1057,14 @@
       "position": "RB",
       "team": "DEN",
       "adp": {
-        "sleeper": 91.4,
+        "sleeper": 91.3,
         "mfl": null,
         "espn": 119
       },
       "medianAdp": 105,
-      "bestAdp": 91.4,
+      "bestAdp": 91.3,
       "worstAdp": 119,
-      "adpSpread": 27.599999999999994
+      "adpSpread": 27.700000000000003
     },
     {
       "id": "wr_stefon_diggs",
@@ -1073,13 +1073,13 @@
       "team": "HOU",
       "adp": {
         "sleeper": null,
-        "mfl": 58,
+        "mfl": 57,
         "espn": 152
       },
       "medianAdp": 105,
-      "bestAdp": 58,
+      "bestAdp": 57,
       "worstAdp": 152,
-      "adpSpread": 94
+      "adpSpread": 95
     },
     {
       "id": "7594",
@@ -1087,14 +1087,14 @@
       "position": "RB",
       "team": "CAR",
       "adp": {
-        "sleeper": 80.5,
+        "sleeper": 81.4,
         "mfl": null,
         "espn": 131
       },
       "medianAdp": 106,
-      "bestAdp": 80.5,
+      "bestAdp": 81.4,
       "worstAdp": 131,
-      "adpSpread": 50.5
+      "adpSpread": 49.599999999999994
     },
     {
       "id": "11583",
@@ -1102,14 +1102,14 @@
       "position": "RB",
       "team": "CAR",
       "adp": {
-        "sleeper": 98.5,
+        "sleeper": 98.4,
         "mfl": null,
         "espn": 116
       },
       "medianAdp": 107,
-      "bestAdp": 98.5,
+      "bestAdp": 98.4,
       "worstAdp": 116,
-      "adpSpread": 17.5
+      "adpSpread": 17.599999999999994
     },
     {
       "id": "4046",
@@ -1117,14 +1117,14 @@
       "position": "QB",
       "team": "KC",
       "adp": {
-        "sleeper": 110.2,
-        "mfl": 13,
+        "sleeper": 110.1,
+        "mfl": 15,
         "espn": 113
       },
-      "medianAdp": 110.2,
-      "bestAdp": 13,
+      "medianAdp": 110.1,
+      "bestAdp": 15,
       "worstAdp": 113,
-      "adpSpread": 100
+      "adpSpread": 98
     },
     {
       "id": "8183",
@@ -1132,14 +1132,14 @@
       "position": "QB",
       "team": "SF",
       "adp": {
-        "sleeper": 122.1,
+        "sleeper": 122,
         "mfl": null,
         "espn": 99
       },
       "medianAdp": 111,
       "bestAdp": 99,
-      "worstAdp": 122.1,
-      "adpSpread": 23.099999999999994
+      "worstAdp": 122,
+      "adpSpread": 23
     },
     {
       "id": "12534",
@@ -1163,13 +1163,13 @@
       "team": "TEN",
       "adp": {
         "sleeper": null,
-        "mfl": 46,
+        "mfl": 47,
         "espn": 184
       },
-      "medianAdp": 115,
-      "bestAdp": 46,
+      "medianAdp": 116,
+      "bestAdp": 47,
       "worstAdp": 184,
-      "adpSpread": 138
+      "adpSpread": 137
     },
     {
       "id": "7567",
@@ -1192,14 +1192,14 @@
       "position": "RB",
       "team": "WAS",
       "adp": {
-        "sleeper": 115,
+        "sleeper": 115.9,
         "mfl": null,
         "espn": 130
       },
       "medianAdp": 123,
-      "bestAdp": 115,
+      "bestAdp": 115.9,
       "worstAdp": 130,
-      "adpSpread": 15
+      "adpSpread": 14.099999999999994
     },
     {
       "id": "11586",
@@ -1207,14 +1207,14 @@
       "position": "RB",
       "team": "LAR",
       "adp": {
-        "sleeper": 100.3,
+        "sleeper": 100.2,
         "mfl": null,
         "espn": 148
       },
       "medianAdp": 124,
-      "bestAdp": 100.3,
+      "bestAdp": 100.2,
       "worstAdp": 148,
-      "adpSpread": 47.7
+      "adpSpread": 47.8
     },
     {
       "id": "8408",
@@ -1222,14 +1222,14 @@
       "position": "RB",
       "team": "MIN",
       "adp": {
-        "sleeper": 109.1,
+        "sleeper": 109,
         "mfl": null,
         "espn": 142
       },
       "medianAdp": 126,
-      "bestAdp": 109.1,
+      "bestAdp": 109,
       "worstAdp": 142,
-      "adpSpread": 32.900000000000006
+      "adpSpread": 33
     },
     {
       "id": "12489",
@@ -1247,19 +1247,34 @@
       "adpSpread": 90.7
     },
     {
+      "id": "rb_brian_robinson",
+      "name": "Brian Robinson",
+      "position": "RB",
+      "team": "WAS",
+      "adp": {
+        "sleeper": null,
+        "mfl": 80,
+        "espn": 179
+      },
+      "medianAdp": 130,
+      "bestAdp": 80,
+      "worstAdp": 179,
+      "adpSpread": 99
+    },
+    {
       "id": "3163",
       "name": "Jared Goff",
       "position": "QB",
       "team": "DET",
       "adp": {
-        "sleeper": 131.5,
-        "mfl": 19,
+        "sleeper": 131.4,
+        "mfl": 21,
         "espn": 168
       },
-      "medianAdp": 131.5,
-      "bestAdp": 19,
+      "medianAdp": 131.4,
+      "bestAdp": 21,
       "worstAdp": 168,
-      "adpSpread": 149
+      "adpSpread": 147
     },
     {
       "id": "11581",
@@ -1267,14 +1282,14 @@
       "position": "RB",
       "team": "GB",
       "adp": {
-        "sleeper": 137.3,
+        "sleeper": 137.2,
         "mfl": null,
         "espn": 128
       },
       "medianAdp": 133,
       "bestAdp": 128,
-      "worstAdp": 137.3,
-      "adpSpread": 9.300000000000011
+      "worstAdp": 137.2,
+      "adpSpread": 9.199999999999989
     },
     {
       "id": "rb_najee_harris",
@@ -1292,34 +1307,34 @@
       "adpSpread": 173
     },
     {
+      "id": "4199",
+      "name": "Aaron Jones",
+      "position": "RB",
+      "team": "MIN",
+      "adp": {
+        "sleeper": 127.8,
+        "mfl": null,
+        "espn": 149
+      },
+      "medianAdp": 138,
+      "bestAdp": 127.8,
+      "worstAdp": 149,
+      "adpSpread": 21.200000000000003
+    },
+    {
       "id": "wr_adonai_mitchell",
       "name": "Adonai Mitchell",
       "position": "WR",
       "team": "HOU",
       "adp": {
         "sleeper": null,
-        "mfl": 87,
+        "mfl": 89,
         "espn": 186
       },
-      "medianAdp": 137,
-      "bestAdp": 87,
-      "worstAdp": 186,
-      "adpSpread": 99
-    },
-    {
-      "id": "4199",
-      "name": "Aaron Jones",
-      "position": "RB",
-      "team": "MIN",
-      "adp": {
-        "sleeper": 127.9,
-        "mfl": null,
-        "espn": 149
-      },
       "medianAdp": 138,
-      "bestAdp": 127.9,
-      "worstAdp": 149,
-      "adpSpread": 21.099999999999994
+      "bestAdp": 89,
+      "worstAdp": 186,
+      "adpSpread": 97
     },
     {
       "id": "te_tj_hockenson",
@@ -1328,13 +1343,13 @@
       "team": "WAS",
       "adp": {
         "sleeper": null,
-        "mfl": 71,
+        "mfl": 72,
         "espn": 207
       },
-      "medianAdp": 139,
-      "bestAdp": 71,
+      "medianAdp": 140,
+      "bestAdp": 72,
       "worstAdp": 207,
-      "adpSpread": 136
+      "adpSpread": 135
     },
     {
       "id": "te_tucker_kraft",
@@ -1343,13 +1358,13 @@
       "team": "GB",
       "adp": {
         "sleeper": null,
-        "mfl": 155,
+        "mfl": 156,
         "espn": 123
       },
-      "medianAdp": 139,
+      "medianAdp": 140,
       "bestAdp": 123,
-      "worstAdp": 155,
-      "adpSpread": 32
+      "worstAdp": 156,
+      "adpSpread": 33
     },
     {
       "id": "8136",
@@ -1357,14 +1372,14 @@
       "position": "RB",
       "team": "WAS",
       "adp": {
-        "sleeper": 140.5,
-        "mfl": 54,
+        "sleeper": 140.4,
+        "mfl": 55,
         "espn": 150
       },
-      "medianAdp": 140.5,
-      "bestAdp": 54,
+      "medianAdp": 140.4,
+      "bestAdp": 55,
       "worstAdp": 150,
-      "adpSpread": 96
+      "adpSpread": 95
     },
     {
       "id": "wr_jerry_jeudy",
@@ -1373,13 +1388,13 @@
       "team": "CLE",
       "adp": {
         "sleeper": null,
-        "mfl": 100,
+        "mfl": 101,
         "espn": 181
       },
       "medianAdp": 141,
-      "bestAdp": 100,
+      "bestAdp": 101,
       "worstAdp": 181,
-      "adpSpread": 81
+      "adpSpread": 80
     },
     {
       "id": "8132",
@@ -1387,14 +1402,14 @@
       "position": "RB",
       "team": "ARI",
       "adp": {
-        "sleeper": 143.3,
-        "mfl": 106,
+        "sleeper": 143.2,
+        "mfl": 104,
         "espn": 200
       },
-      "medianAdp": 143.3,
-      "bestAdp": 106,
+      "medianAdp": 143.2,
+      "bestAdp": 104,
       "worstAdp": 200,
-      "adpSpread": 94
+      "adpSpread": 96
     },
     {
       "id": "4892",
@@ -1403,13 +1418,13 @@
       "team": "TB",
       "adp": {
         "sleeper": 143.6,
-        "mfl": 66,
+        "mfl": 65,
         "espn": 189
       },
       "medianAdp": 143.6,
-      "bestAdp": 66,
+      "bestAdp": 65,
       "worstAdp": 189,
-      "adpSpread": 123
+      "adpSpread": 124
     },
     {
       "id": "12474",
@@ -1417,14 +1432,14 @@
       "position": "RB",
       "team": "HOU",
       "adp": {
-        "sleeper": 147,
+        "sleeper": 147.8,
         "mfl": null,
         "espn": 151
       },
       "medianAdp": 149,
-      "bestAdp": 147,
+      "bestAdp": 147.8,
       "worstAdp": 151,
-      "adpSpread": 4
+      "adpSpread": 3.1999999999999886
     },
     {
       "id": "wr_dontayvion_wicks",
@@ -1433,13 +1448,13 @@
       "team": "GB",
       "adp": {
         "sleeper": null,
-        "mfl": 96,
+        "mfl": 94,
         "espn": 214
       },
-      "medianAdp": 155,
-      "bestAdp": 96,
+      "medianAdp": 154,
+      "bestAdp": 94,
       "worstAdp": 214,
-      "adpSpread": 118
+      "adpSpread": 120
     },
     {
       "id": "5849",
@@ -1447,14 +1462,14 @@
       "position": "QB",
       "team": "MIN",
       "adp": {
-        "sleeper": 150.5,
+        "sleeper": 149.6,
         "mfl": null,
         "espn": 162
       },
       "medianAdp": 156,
-      "bestAdp": 150.5,
+      "bestAdp": 149.6,
       "worstAdp": 162,
-      "adpSpread": 11.5
+      "adpSpread": 12.400000000000006
     },
     {
       "id": "10219",
@@ -1462,14 +1477,14 @@
       "position": "RB",
       "team": "JAX",
       "adp": {
-        "sleeper": 142.9,
+        "sleeper": 142.8,
         "mfl": null,
         "espn": 174
       },
       "medianAdp": 158,
-      "bestAdp": 142.9,
+      "bestAdp": 142.8,
       "worstAdp": 174,
-      "adpSpread": 31.099999999999994
+      "adpSpread": 31.19999999999999
     },
     {
       "id": "13305",
@@ -1477,14 +1492,14 @@
       "position": "RB",
       "team": "LV",
       "adp": {
-        "sleeper": 139.7,
+        "sleeper": 139.6,
         "mfl": null,
         "espn": 178
       },
       "medianAdp": 159,
-      "bestAdp": 139.7,
+      "bestAdp": 139.6,
       "worstAdp": 178,
-      "adpSpread": 38.30000000000001
+      "adpSpread": 38.400000000000006
     },
     {
       "id": "9753",
@@ -1492,14 +1507,14 @@
       "position": "RB",
       "team": "SEA",
       "adp": {
-        "sleeper": 149,
+        "sleeper": 149.8,
         "mfl": null,
         "espn": 172
       },
       "medianAdp": 161,
-      "bestAdp": 149,
+      "bestAdp": 149.8,
       "worstAdp": 172,
-      "adpSpread": 23
+      "adpSpread": 22.19999999999999
     },
     {
       "id": "4943",
@@ -1507,11 +1522,11 @@
       "position": "QB",
       "team": "SEA",
       "adp": {
-        "sleeper": 161.7,
+        "sleeper": 161.8,
         "mfl": 151,
         "espn": 280
       },
-      "medianAdp": 161.7,
+      "medianAdp": 161.8,
       "bestAdp": 151,
       "worstAdp": 280,
       "adpSpread": 129
@@ -1537,14 +1552,14 @@
       "position": "RB",
       "team": "TEN",
       "adp": {
-        "sleeper": 165.2,
-        "mfl": 95,
+        "sleeper": 165.1,
+        "mfl": 94,
         "espn": 177
       },
-      "medianAdp": 165.2,
-      "bestAdp": 95,
+      "medianAdp": 165.1,
+      "bestAdp": 94,
       "worstAdp": 177,
-      "adpSpread": 82
+      "adpSpread": 83
     },
     {
       "id": "5870",
@@ -1552,14 +1567,14 @@
       "position": "QB",
       "team": "IND",
       "adp": {
-        "sleeper": 200.3,
-        "mfl": 114,
+        "sleeper": 200.2,
+        "mfl": 116,
         "espn": 170
       },
       "medianAdp": 170,
-      "bestAdp": 114,
-      "worstAdp": 200.3,
-      "adpSpread": 86.30000000000001
+      "bestAdp": 116,
+      "worstAdp": 200.2,
+      "adpSpread": 84.19999999999999
     },
     {
       "id": "12545",
@@ -1567,29 +1582,14 @@
       "position": "QB",
       "team": "NO",
       "adp": {
-        "sleeper": 181.5,
+        "sleeper": 181.3,
         "mfl": null,
         "espn": 164
       },
       "medianAdp": 173,
       "bestAdp": 164,
-      "worstAdp": 181.5,
-      "adpSpread": 17.5
-    },
-    {
-      "id": "8154",
-      "name": "Brian Robinson",
-      "position": "RB",
-      "team": "ATL",
-      "adp": {
-        "sleeper": 173.7,
-        "mfl": 79,
-        "espn": 179
-      },
-      "medianAdp": 173.7,
-      "bestAdp": 79,
-      "worstAdp": 179,
-      "adpSpread": 100
+      "worstAdp": 181.3,
+      "adpSpread": 17.30000000000001
     },
     {
       "id": "13345",
@@ -1597,14 +1597,14 @@
       "position": "RB",
       "team": "DEN",
       "adp": {
-        "sleeper": 164.9,
+        "sleeper": 164.8,
         "mfl": null,
         "espn": 204
       },
       "medianAdp": 184,
-      "bestAdp": 164.9,
+      "bestAdp": 164.8,
       "worstAdp": 204,
-      "adpSpread": 39.099999999999994
+      "adpSpread": 39.19999999999999
     },
     {
       "id": "k_harrison_butker",
@@ -1613,28 +1613,13 @@
       "team": "KC",
       "adp": {
         "sleeper": null,
-        "mfl": 129,
+        "mfl": 127,
         "espn": 249
       },
-      "medianAdp": 189,
-      "bestAdp": 129,
+      "medianAdp": 188,
+      "bestAdp": 127,
       "worstAdp": 249,
-      "adpSpread": 120
-    },
-    {
-      "id": "te_pat_freiermuth",
-      "name": "Pat Freiermuth",
-      "position": "TE",
-      "team": "PIT",
-      "adp": {
-        "sleeper": null,
-        "mfl": 99,
-        "espn": 296
-      },
-      "medianAdp": 198,
-      "bestAdp": 99,
-      "worstAdp": 296,
-      "adpSpread": 197
+      "adpSpread": 122
     },
     {
       "id": "k_cairo_santos",
@@ -1643,28 +1628,28 @@
       "team": "CHI",
       "adp": {
         "sleeper": null,
-        "mfl": 139,
+        "mfl": 140,
         "espn": 256
       },
       "medianAdp": 198,
-      "bestAdp": 139,
+      "bestAdp": 140,
       "worstAdp": 256,
-      "adpSpread": 117
+      "adpSpread": 116
     },
     {
-      "id": "8161",
-      "name": "Malik Willis",
-      "position": "QB",
-      "team": "MIA",
+      "id": "te_pat_freiermuth",
+      "name": "Pat Freiermuth",
+      "position": "TE",
+      "team": "PIT",
       "adp": {
-        "sleeper": 206.9,
-        "mfl": null,
-        "espn": 192
+        "sleeper": null,
+        "mfl": 101,
+        "espn": 296
       },
       "medianAdp": 199,
-      "bestAdp": 192,
-      "worstAdp": 206.9,
-      "adpSpread": 14.900000000000006
+      "bestAdp": 101,
+      "worstAdp": 296,
+      "adpSpread": 195
     },
     {
       "id": "9758",
@@ -1672,14 +1657,44 @@
       "position": "QB",
       "team": "HOU",
       "adp": {
-        "sleeper": 199.2,
-        "mfl": 36,
+        "sleeper": 199.8,
+        "mfl": 35,
         "espn": 276
       },
-      "medianAdp": 199.2,
-      "bestAdp": 36,
+      "medianAdp": 199.8,
+      "bestAdp": 35,
       "worstAdp": 276,
-      "adpSpread": 240
+      "adpSpread": 241
+    },
+    {
+      "id": "8161",
+      "name": "Malik Willis",
+      "position": "QB",
+      "team": "MIA",
+      "adp": {
+        "sleeper": 207,
+        "mfl": null,
+        "espn": 192
+      },
+      "medianAdp": 200,
+      "bestAdp": 192,
+      "worstAdp": 207,
+      "adpSpread": 15
+    },
+    {
+      "id": "k_cameron_dicker",
+      "name": "Cameron Dicker",
+      "position": "K",
+      "team": "LAC",
+      "adp": {
+        "sleeper": null,
+        "mfl": 165,
+        "espn": 241
+      },
+      "medianAdp": 203,
+      "bestAdp": 165,
+      "worstAdp": 241,
+      "adpSpread": 76
     },
     {
       "id": "te_dalton_schultz",
@@ -1697,34 +1712,19 @@
       "adpSpread": 186
     },
     {
-      "id": "k_cameron_dicker",
-      "name": "Cameron Dicker",
-      "position": "K",
-      "team": "LAC",
-      "adp": {
-        "sleeper": null,
-        "mfl": 166,
-        "espn": 241
-      },
-      "medianAdp": 204,
-      "bestAdp": 166,
-      "worstAdp": 241,
-      "adpSpread": 75
-    },
-    {
       "id": "k_jason_myers",
       "name": "Jason Myers",
       "position": "K",
       "team": "SEA",
       "adp": {
         "sleeper": null,
-        "mfl": 169,
+        "mfl": 167,
         "espn": 242
       },
-      "medianAdp": 206,
-      "bestAdp": 169,
+      "medianAdp": 205,
+      "bestAdp": 167,
       "worstAdp": 242,
-      "adpSpread": 73
+      "adpSpread": 75
     },
     {
       "id": "k_brandon_aubrey",
@@ -1747,14 +1747,14 @@
       "position": "RB",
       "team": "NO",
       "adp": {
-        "sleeper": 166.3,
+        "sleeper": 166.1,
         "mfl": null,
         "espn": 260
       },
       "medianAdp": 213,
-      "bestAdp": 166.3,
+      "bestAdp": 166.1,
       "worstAdp": 260,
-      "adpSpread": 93.69999999999999
+      "adpSpread": 93.9
     },
     {
       "id": "rb_isiah_pacheco",
@@ -1763,28 +1763,13 @@
       "team": "KC",
       "adp": {
         "sleeper": null,
-        "mfl": 85,
+        "mfl": 86,
         "espn": 340
       },
       "medianAdp": 213,
-      "bestAdp": 85,
+      "bestAdp": 86,
       "worstAdp": 340,
-      "adpSpread": 255
-    },
-    {
-      "id": "6804",
-      "name": "Jordan Love",
-      "position": "QB",
-      "team": "GB",
-      "adp": {
-        "sleeper": 158.3,
-        "mfl": null,
-        "espn": 273
-      },
-      "medianAdp": 216,
-      "bestAdp": 158.3,
-      "worstAdp": 273,
-      "adpSpread": 114.69999999999999
+      "adpSpread": 254
     },
     {
       "id": "wr_xavier_legette",
@@ -1793,13 +1778,43 @@
       "team": "CAR",
       "adp": {
         "sleeper": null,
-        "mfl": 105,
+        "mfl": 104,
         "espn": 326
       },
-      "medianAdp": 216,
-      "bestAdp": 105,
+      "medianAdp": 215,
+      "bestAdp": 104,
       "worstAdp": 326,
-      "adpSpread": 221
+      "adpSpread": 222
+    },
+    {
+      "id": "6804",
+      "name": "Jordan Love",
+      "position": "QB",
+      "team": "GB",
+      "adp": {
+        "sleeper": 158.1,
+        "mfl": null,
+        "espn": 273
+      },
+      "medianAdp": 216,
+      "bestAdp": 158.1,
+      "worstAdp": 273,
+      "adpSpread": 114.9
+    },
+    {
+      "id": "13414",
+      "name": "Kaelon Black",
+      "position": "RB",
+      "team": "SF",
+      "adp": {
+        "sleeper": 173.4,
+        "mfl": null,
+        "espn": 269
+      },
+      "medianAdp": 221,
+      "bestAdp": 173.4,
+      "worstAdp": 269,
+      "adpSpread": 95.6
     },
     {
       "id": "11565",
@@ -1808,13 +1823,13 @@
       "team": "NYG",
       "adp": {
         "sleeper": 224.2,
-        "mfl": 95,
+        "mfl": 96,
         "espn": 446
       },
       "medianAdp": 224.2,
-      "bestAdp": 95,
+      "bestAdp": 96,
       "worstAdp": 446,
-      "adpSpread": 351
+      "adpSpread": 350
     },
     {
       "id": "te_chig_okonkwo",
@@ -1877,34 +1892,34 @@
       "adpSpread": 328
     },
     {
-      "id": "k_chase_mclaughlin",
-      "name": "Chase McLaughlin",
-      "position": "K",
-      "team": "TB",
-      "adp": {
-        "sleeper": null,
-        "mfl": 135,
-        "espn": 338
-      },
-      "medianAdp": 237,
-      "bestAdp": 135,
-      "worstAdp": 338,
-      "adpSpread": 203
-    },
-    {
       "id": "qb_kirk_cousins",
       "name": "Kirk Cousins",
       "position": "QB",
       "team": "ATL",
       "adp": {
         "sleeper": null,
-        "mfl": 46,
+        "mfl": 44,
         "espn": 429
       },
-      "medianAdp": 238,
-      "bestAdp": 46,
+      "medianAdp": 237,
+      "bestAdp": 44,
       "worstAdp": 429,
-      "adpSpread": 383
+      "adpSpread": 385
+    },
+    {
+      "id": "k_chase_mclaughlin",
+      "name": "Chase McLaughlin",
+      "position": "K",
+      "team": "TB",
+      "adp": {
+        "sleeper": null,
+        "mfl": 136,
+        "espn": 338
+      },
+      "medianAdp": 237,
+      "bestAdp": 136,
+      "worstAdp": 338,
+      "adpSpread": 202
     },
     {
       "id": "rb_james_conner",
@@ -1913,13 +1928,13 @@
       "team": "ARI",
       "adp": {
         "sleeper": null,
-        "mfl": 60,
+        "mfl": 59,
         "espn": 436
       },
       "medianAdp": 248,
-      "bestAdp": 60,
+      "bestAdp": 59,
       "worstAdp": 436,
-      "adpSpread": 376
+      "adpSpread": 377
     },
     {
       "id": "qb_geno_smith",
@@ -1928,13 +1943,13 @@
       "team": "SEA",
       "adp": {
         "sleeper": null,
-        "mfl": 119,
+        "mfl": 121,
         "espn": 378
       },
-      "medianAdp": 249,
-      "bestAdp": 119,
+      "medianAdp": 250,
+      "bestAdp": 121,
       "worstAdp": 378,
-      "adpSpread": 259
+      "adpSpread": 257
     },
     {
       "id": "te_greg_dulcich",
@@ -1943,13 +1958,13 @@
       "team": "DEN",
       "adp": {
         "sleeper": null,
-        "mfl": 144,
+        "mfl": 146,
         "espn": 365
       },
-      "medianAdp": 255,
-      "bestAdp": 144,
+      "medianAdp": 256,
+      "bestAdp": 146,
       "worstAdp": 365,
-      "adpSpread": 221
+      "adpSpread": 219
     },
     {
       "id": "qb_anthony_richardson",
@@ -1958,13 +1973,13 @@
       "team": "IND",
       "adp": {
         "sleeper": null,
-        "mfl": 41,
+        "mfl": 39,
         "espn": 477
       },
-      "medianAdp": 259,
-      "bestAdp": 41,
+      "medianAdp": 258,
+      "bestAdp": 39,
       "worstAdp": 477,
-      "adpSpread": 436
+      "adpSpread": 438
     },
     {
       "id": "k_evan_mcpherson",
@@ -1973,13 +1988,13 @@
       "team": "CIN",
       "adp": {
         "sleeper": null,
-        "mfl": 161,
+        "mfl": 159,
         "espn": 362
       },
-      "medianAdp": 262,
-      "bestAdp": 161,
+      "medianAdp": 261,
+      "bestAdp": 159,
       "worstAdp": 362,
-      "adpSpread": 201
+      "adpSpread": 203
     },
     {
       "id": "12522",
@@ -2033,13 +2048,13 @@
       "team": "BUF",
       "adp": {
         "sleeper": null,
-        "mfl": 131,
+        "mfl": 130,
         "espn": 442
       },
-      "medianAdp": 287,
-      "bestAdp": 131,
+      "medianAdp": 286,
+      "bestAdp": 130,
       "worstAdp": 442,
-      "adpSpread": 311
+      "adpSpread": 312
     },
     {
       "id": "13269",
@@ -2093,13 +2108,13 @@
       "team": "LV",
       "adp": {
         "sleeper": null,
-        "mfl": 155,
+        "mfl": 154,
         "espn": 488
       },
-      "medianAdp": 322,
-      "bestAdp": 155,
+      "medianAdp": 321,
+      "bestAdp": 154,
       "worstAdp": 488,
-      "adpSpread": 333
+      "adpSpread": 334
     },
     {
       "id": "6768",
@@ -2213,13 +2228,13 @@
       "team": "CAR",
       "adp": {
         "sleeper": null,
-        "mfl": 101,
+        "mfl": 100,
         "espn": 1050
       },
-      "medianAdp": 576,
-      "bestAdp": 101,
+      "medianAdp": 575,
+      "bestAdp": 100,
       "worstAdp": 1050,
-      "adpSpread": 949
+      "adpSpread": 950
     },
     {
       "id": "te_john_bates",
@@ -2258,13 +2273,13 @@
       "team": "NYJ",
       "adp": {
         "sleeper": null,
-        "mfl": 159,
+        "mfl": 161,
         "espn": 1254
       },
-      "medianAdp": 707,
-      "bestAdp": 159,
+      "medianAdp": 708,
+      "bestAdp": 161,
       "worstAdp": 1254,
-      "adpSpread": 1095
+      "adpSpread": 1093
     },
     {
       "id": "te_johnny_mundt",
@@ -2273,13 +2288,13 @@
       "team": "MIN",
       "adp": {
         "sleeper": null,
-        "mfl": 166,
+        "mfl": 164,
         "espn": 1258
       },
-      "medianAdp": 712,
-      "bestAdp": 166,
+      "medianAdp": 711,
+      "bestAdp": 164,
       "worstAdp": 1258,
-      "adpSpread": 1092
+      "adpSpread": 1094
     },
     {
       "id": "827",
@@ -2407,13 +2422,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 251.5,
+        "sleeper": 253.5,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 251.5,
-      "worstAdp": 251.5,
+      "bestAdp": 253.5,
+      "worstAdp": 253.5,
       "adpSpread": null
     },
     {
@@ -2422,13 +2437,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 255.3,
+        "sleeper": 256.3,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 255.3,
-      "worstAdp": 255.3,
+      "bestAdp": 256.3,
+      "worstAdp": 256.3,
       "adpSpread": null
     },
     {
@@ -2437,13 +2452,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 266.9,
+        "sleeper": 268.9,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 266.9,
-      "worstAdp": 266.9,
+      "bestAdp": 268.9,
+      "worstAdp": 268.9,
       "adpSpread": null
     },
     {
@@ -2467,13 +2482,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 276.6,
+        "sleeper": 278.6,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 276.6,
-      "worstAdp": 276.6,
+      "bestAdp": 278.6,
+      "worstAdp": 278.6,
       "adpSpread": null
     },
     {
@@ -2482,13 +2497,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 281.6,
+        "sleeper": 281.4,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 281.6,
-      "worstAdp": 281.6,
+      "bestAdp": 281.4,
+      "worstAdp": 281.4,
       "adpSpread": null
     },
     {
@@ -2497,13 +2512,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 289.3,
+        "sleeper": 290.3,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 289.3,
-      "worstAdp": 289.3,
+      "bestAdp": 290.3,
+      "worstAdp": 290.3,
       "adpSpread": null
     },
     {
@@ -2522,33 +2537,33 @@
       "adpSpread": null
     },
     {
-      "id": "3318",
-      "name": "Kevin Hogan",
-      "position": "QB",
-      "team": "Unknown",
-      "adp": {
-        "sleeper": 317.7,
-        "mfl": null,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 317.7,
-      "worstAdp": 317.7,
-      "adpSpread": null
-    },
-    {
       "id": "4931",
       "name": "Austin Appleby",
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 318.1,
+        "sleeper": 295.6,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 318.1,
-      "worstAdp": 318.1,
+      "bestAdp": 295.6,
+      "worstAdp": 295.6,
+      "adpSpread": null
+    },
+    {
+      "id": "3318",
+      "name": "Kevin Hogan",
+      "position": "QB",
+      "team": "Unknown",
+      "adp": {
+        "sleeper": 319.7,
+        "mfl": null,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 319.7,
+      "worstAdp": 319.7,
       "adpSpread": null
     },
     {
@@ -2557,13 +2572,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 319.6,
+        "sleeper": 320.6,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 319.6,
-      "worstAdp": 319.6,
+      "bestAdp": 320.6,
+      "worstAdp": 320.6,
       "adpSpread": null
     },
     {
@@ -2572,13 +2587,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 326.6,
+        "sleeper": 328.6,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 326.6,
-      "worstAdp": 326.6,
+      "bestAdp": 328.6,
+      "worstAdp": 328.6,
       "adpSpread": null
     },
     {
@@ -2587,13 +2602,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 341.6,
+        "sleeper": 343.6,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 341.6,
-      "worstAdp": 341.6,
+      "bestAdp": 343.6,
+      "worstAdp": 343.6,
       "adpSpread": null
     },
     {
@@ -2602,13 +2617,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 343.3,
+        "sleeper": 345.3,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 343.3,
-      "worstAdp": 343.3,
+      "bestAdp": 345.3,
+      "worstAdp": 345.3,
       "adpSpread": null
     },
     {
@@ -2617,13 +2632,13 @@
       "position": "QB",
       "team": "CHI",
       "adp": {
-        "sleeper": 352.3,
+        "sleeper": 353.7,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 352.3,
-      "worstAdp": 352.3,
+      "bestAdp": 353.7,
+      "worstAdp": 353.7,
       "adpSpread": null
     },
     {
@@ -2632,28 +2647,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 368.5,
+        "sleeper": 370.5,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 368.5,
-      "worstAdp": 368.5,
-      "adpSpread": null
-    },
-    {
-      "id": "12324",
-      "name": "William Thompson",
-      "position": "QB",
-      "team": "Unknown",
-      "adp": {
-        "sleeper": 372.3,
-        "mfl": null,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 372.3,
-      "worstAdp": 372.3,
+      "bestAdp": 370.5,
+      "worstAdp": 370.5,
       "adpSpread": null
     },
     {
@@ -2672,18 +2672,33 @@
       "adpSpread": null
     },
     {
+      "id": "12324",
+      "name": "William Thompson",
+      "position": "QB",
+      "team": "Unknown",
+      "adp": {
+        "sleeper": 373.3,
+        "mfl": null,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 373.3,
+      "worstAdp": 373.3,
+      "adpSpread": null
+    },
+    {
       "id": "5265",
       "name": "Nic Shimonek",
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 375.4,
+        "sleeper": 376.4,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 375.4,
-      "worstAdp": 375.4,
+      "bestAdp": 376.4,
+      "worstAdp": 376.4,
       "adpSpread": null
     },
     {
@@ -2692,13 +2707,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 377.7,
+        "sleeper": 377.3,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 377.7,
-      "worstAdp": 377.7,
+      "bestAdp": 377.3,
+      "worstAdp": 377.3,
       "adpSpread": null
     },
     {
@@ -2752,13 +2767,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 409,
+        "sleeper": 410,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 409,
-      "worstAdp": 409,
+      "bestAdp": 410,
+      "worstAdp": 410,
       "adpSpread": null
     },
     {
@@ -2782,13 +2797,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 430.3,
+        "sleeper": 431.3,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 430.3,
-      "worstAdp": 430.3,
+      "bestAdp": 431.3,
+      "worstAdp": 431.3,
       "adpSpread": null
     },
     {
@@ -2827,13 +2842,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 434.7,
+        "sleeper": 435.7,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 434.7,
-      "worstAdp": 434.7,
+      "bestAdp": 435.7,
+      "worstAdp": 435.7,
       "adpSpread": null
     },
     {
@@ -2842,13 +2857,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 436.3,
+        "sleeper": 437.3,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 436.3,
-      "worstAdp": 436.3,
+      "bestAdp": 437.3,
+      "worstAdp": 437.3,
       "adpSpread": null
     },
     {
@@ -2857,13 +2872,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 448.1,
+        "sleeper": 449.1,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 448.1,
-      "worstAdp": 448.1,
+      "bestAdp": 449.1,
+      "worstAdp": 449.1,
       "adpSpread": null
     },
     {
@@ -2872,13 +2887,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 449.4,
+        "sleeper": 449.6,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 449.4,
-      "worstAdp": 449.4,
+      "bestAdp": 449.6,
+      "worstAdp": 449.6,
       "adpSpread": null
     },
     {
@@ -2912,21 +2927,6 @@
       "adpSpread": null
     },
     {
-      "id": "2651",
-      "name": "Phillip Sims",
-      "position": "QB",
-      "team": "Unknown",
-      "adp": {
-        "sleeper": 458.4,
-        "mfl": null,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 458.4,
-      "worstAdp": 458.4,
-      "adpSpread": null
-    },
-    {
       "id": "2106",
       "name": "David Fales",
       "position": "QB",
@@ -2939,6 +2939,21 @@
       "medianAdp": null,
       "bestAdp": 458.5,
       "worstAdp": 458.5,
+      "adpSpread": null
+    },
+    {
+      "id": "2651",
+      "name": "Phillip Sims",
+      "position": "QB",
+      "team": "Unknown",
+      "adp": {
+        "sleeper": 459.4,
+        "mfl": null,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 459.4,
+      "worstAdp": 459.4,
       "adpSpread": null
     },
     {
@@ -2992,13 +3007,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 485.8,
+        "sleeper": 487.2,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 485.8,
-      "worstAdp": 485.8,
+      "bestAdp": 487.2,
+      "worstAdp": 487.2,
       "adpSpread": null
     },
     {
@@ -3052,13 +3067,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 501.8,
+        "sleeper": 503.8,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 501.8,
-      "worstAdp": 501.8,
+      "bestAdp": 503.8,
+      "worstAdp": 503.8,
       "adpSpread": null
     },
     {
@@ -3082,13 +3097,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 507.9,
+        "sleeper": 509.9,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 507.9,
-      "worstAdp": 507.9,
+      "bestAdp": 509.9,
+      "worstAdp": 509.9,
       "adpSpread": null
     },
     {
@@ -3097,13 +3112,13 @@
       "position": "QB",
       "team": "NYG",
       "adp": {
-        "sleeper": 508,
+        "sleeper": 510,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 508,
-      "worstAdp": 508,
+      "bestAdp": 510,
+      "worstAdp": 510,
       "adpSpread": null
     },
     {
@@ -3137,21 +3152,6 @@
       "adpSpread": null
     },
     {
-      "id": "6450",
-      "name": "David Blough",
-      "position": "QB",
-      "team": "Unknown",
-      "adp": {
-        "sleeper": 516.8,
-        "mfl": null,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 516.8,
-      "worstAdp": 516.8,
-      "adpSpread": null
-    },
-    {
       "id": "5403",
       "name": "Peter Pujals",
       "position": "QB",
@@ -3164,6 +3164,21 @@
       "medianAdp": null,
       "bestAdp": 517.1,
       "worstAdp": 517.1,
+      "adpSpread": null
+    },
+    {
+      "id": "6450",
+      "name": "David Blough",
+      "position": "QB",
+      "team": "Unknown",
+      "adp": {
+        "sleeper": 519.8,
+        "mfl": null,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 519.8,
+      "worstAdp": 519.8,
       "adpSpread": null
     },
     {
@@ -3187,13 +3202,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 526.3,
+        "sleeper": 529.3,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 526.3,
-      "worstAdp": 526.3,
+      "bestAdp": 529.3,
+      "worstAdp": 529.3,
       "adpSpread": null
     },
     {
@@ -3227,33 +3242,18 @@
       "adpSpread": null
     },
     {
-      "id": "3551",
-      "name": "Max Wittek",
+      "id": "7157",
+      "name": "Josh Love",
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 541.8,
+        "sleeper": 539.1,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 541.8,
-      "worstAdp": 541.8,
-      "adpSpread": null
-    },
-    {
-      "id": "5597",
-      "name": "Brogan Roback",
-      "position": "QB",
-      "team": "Unknown",
-      "adp": {
-        "sleeper": 543.3,
-        "mfl": null,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 543.3,
-      "worstAdp": 543.3,
+      "bestAdp": 539.1,
+      "worstAdp": 539.1,
       "adpSpread": null
     },
     {
@@ -3272,18 +3272,33 @@
       "adpSpread": null
     },
     {
-      "id": "12149",
-      "name": "Gavin Hardison",
+      "id": "3551",
+      "name": "Max Wittek",
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 548.5,
+        "sleeper": 545.8,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 548.5,
-      "worstAdp": 548.5,
+      "bestAdp": 545.8,
+      "worstAdp": 545.8,
+      "adpSpread": null
+    },
+    {
+      "id": "5597",
+      "name": "Brogan Roback",
+      "position": "QB",
+      "team": "Unknown",
+      "adp": {
+        "sleeper": 547.3,
+        "mfl": null,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 547.3,
+      "worstAdp": 547.3,
       "adpSpread": null
     },
     {
@@ -3302,18 +3317,18 @@
       "adpSpread": null
     },
     {
-      "id": "13989",
-      "name": "E.J. Warner",
+      "id": "12149",
+      "name": "Gavin Hardison",
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 554.5,
+        "sleeper": 551.5,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 554.5,
-      "worstAdp": 554.5,
+      "bestAdp": 551.5,
+      "worstAdp": 551.5,
       "adpSpread": null
     },
     {
@@ -3332,21 +3347,6 @@
       "adpSpread": null
     },
     {
-      "id": "3978",
-      "name": "Jacob Huesman",
-      "position": "QB",
-      "team": "Unknown",
-      "adp": {
-        "sleeper": 557.1,
-        "mfl": null,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 557.1,
-      "worstAdp": 557.1,
-      "adpSpread": null
-    },
-    {
       "id": "5124",
       "name": "Alex McGough",
       "position": "QB",
@@ -3362,18 +3362,33 @@
       "adpSpread": null
     },
     {
-      "id": "5263",
-      "name": "Chase Litton",
+      "id": "13989",
+      "name": "E.J. Warner",
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 561.6,
+        "sleeper": 557.5,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 561.6,
-      "worstAdp": 561.6,
+      "bestAdp": 557.5,
+      "worstAdp": 557.5,
+      "adpSpread": null
+    },
+    {
+      "id": "3978",
+      "name": "Jacob Huesman",
+      "position": "QB",
+      "team": "Unknown",
+      "adp": {
+        "sleeper": 561.1,
+        "mfl": null,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 561.1,
+      "worstAdp": 561.1,
       "adpSpread": null
     },
     {
@@ -3392,18 +3407,18 @@
       "adpSpread": null
     },
     {
-      "id": "7157",
-      "name": "Josh Love",
+      "id": "5263",
+      "name": "Chase Litton",
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 564.2,
+        "sleeper": 565.6,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 564.2,
-      "worstAdp": 564.2,
+      "bestAdp": 565.6,
+      "worstAdp": 565.6,
       "adpSpread": null
     },
     {
@@ -3427,13 +3442,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 584.8,
+        "sleeper": 587.2,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 584.8,
-      "worstAdp": 584.8,
+      "bestAdp": 587.2,
+      "worstAdp": 587.2,
       "adpSpread": null
     },
     {
@@ -3532,13 +3547,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 593.9,
+        "sleeper": 595.9,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 593.9,
-      "worstAdp": 593.9,
+      "bestAdp": 595.9,
+      "worstAdp": 595.9,
       "adpSpread": null
     },
     {
@@ -3607,13 +3622,13 @@
       "position": "QB",
       "team": "Unknown",
       "adp": {
-        "sleeper": 608.3,
+        "sleeper": 610.3,
         "mfl": null,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 608.3,
-      "worstAdp": 608.3,
+      "bestAdp": 610.3,
+      "worstAdp": 610.3,
       "adpSpread": null
     },
     {
@@ -3647,21 +3662,6 @@
       "adpSpread": null
     },
     {
-      "id": "10217",
-      "name": "Clayton Tune",
-      "position": "QB",
-      "team": "Unknown",
-      "adp": {
-        "sleeper": 614.4,
-        "mfl": null,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 614.4,
-      "worstAdp": 614.4,
-      "adpSpread": null
-    },
-    {
       "id": "7008",
       "name": "Brian Lewerke",
       "position": "QB",
@@ -3689,6 +3689,21 @@
       "medianAdp": null,
       "bestAdp": 616,
       "worstAdp": 616,
+      "adpSpread": null
+    },
+    {
+      "id": "10217",
+      "name": "Clayton Tune",
+      "position": "QB",
+      "team": "Unknown",
+      "adp": {
+        "sleeper": 616.4,
+        "mfl": null,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 616.4,
+      "worstAdp": 616.4,
       "adpSpread": null
     },
     {
@@ -3752,21 +3767,6 @@
       "adpSpread": null
     },
     {
-      "id": "10983",
-      "name": "Sean Clifford",
-      "position": "QB",
-      "team": "CIN",
-      "adp": {
-        "sleeper": 624,
-        "mfl": null,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 624,
-      "worstAdp": 624,
-      "adpSpread": null
-    },
-    {
       "id": "1979",
       "name": "Blake Bortles",
       "position": "QB",
@@ -3779,6 +3779,21 @@
       "medianAdp": null,
       "bestAdp": 624.7,
       "worstAdp": 624.7,
+      "adpSpread": null
+    },
+    {
+      "id": "10983",
+      "name": "Sean Clifford",
+      "position": "QB",
+      "team": "CIN",
+      "adp": {
+        "sleeper": 627,
+        "mfl": null,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 627,
+      "worstAdp": 627,
       "adpSpread": null
     },
     {
@@ -3992,21 +4007,6 @@
       "adpSpread": null
     },
     {
-      "id": "7243",
-      "name": "Kevin Davidson",
-      "position": "QB",
-      "team": "Unknown",
-      "adp": {
-        "sleeper": 654.7,
-        "mfl": null,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 654.7,
-      "worstAdp": 654.7,
-      "adpSpread": null
-    },
-    {
       "id": "10215",
       "name": "Jake Haener",
       "position": "QB",
@@ -4199,6 +4199,21 @@
       "medianAdp": null,
       "bestAdp": 656.5,
       "worstAdp": 656.5,
+      "adpSpread": null
+    },
+    {
+      "id": "7243",
+      "name": "Kevin Davidson",
+      "position": "QB",
+      "team": "Unknown",
+      "adp": {
+        "sleeper": 657.7,
+        "mfl": null,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 657.7,
+      "worstAdp": 657.7,
       "adpSpread": null
     },
     {
@@ -4832,21 +4847,6 @@
       "adpSpread": null
     },
     {
-      "id": "4683",
-      "name": "Aaron Bailey",
-      "position": "QB",
-      "team": "BAL",
-      "adp": {
-        "sleeper": 679.3,
-        "mfl": null,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 679.3,
-      "worstAdp": 679.3,
-      "adpSpread": null
-    },
-    {
       "id": "7149",
       "name": "Tommy Stevens",
       "position": "TE",
@@ -4904,6 +4904,21 @@
       "medianAdp": null,
       "bestAdp": 682,
       "worstAdp": 682,
+      "adpSpread": null
+    },
+    {
+      "id": "4683",
+      "name": "Aaron Bailey",
+      "position": "QB",
+      "team": "BAL",
+      "adp": {
+        "sleeper": 682.3,
+        "mfl": null,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 682.3,
+      "worstAdp": 682.3,
       "adpSpread": null
     },
     {
@@ -4967,21 +4982,6 @@
       "adpSpread": null
     },
     {
-      "id": "11216",
-      "name": "Holton Ahlers",
-      "position": "QB",
-      "team": "Unknown",
-      "adp": {
-        "sleeper": 685.2,
-        "mfl": null,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 685.2,
-      "worstAdp": 685.2,
-      "adpSpread": null
-    },
-    {
       "id": "533",
       "name": "Colt McCoy",
       "position": "QB",
@@ -5024,6 +5024,21 @@
       "medianAdp": null,
       "bestAdp": 685.4,
       "worstAdp": 685.4,
+      "adpSpread": null
+    },
+    {
+      "id": "11216",
+      "name": "Holton Ahlers",
+      "position": "QB",
+      "team": "Unknown",
+      "adp": {
+        "sleeper": 688.2,
+        "mfl": null,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 688.2,
+      "worstAdp": 688.2,
       "adpSpread": null
     },
     {
@@ -5483,12 +5498,12 @@
       "team": "LV",
       "adp": {
         "sleeper": null,
-        "mfl": 141,
+        "mfl": 139,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 141,
-      "worstAdp": 141,
+      "bestAdp": 139,
+      "worstAdp": 139,
       "adpSpread": null
     },
     {
@@ -5498,12 +5513,12 @@
       "team": "TEN",
       "adp": {
         "sleeper": null,
-        "mfl": 130,
+        "mfl": 129,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 130,
-      "worstAdp": 130,
+      "bestAdp": 129,
+      "worstAdp": 129,
       "adpSpread": null
     },
     {
@@ -5513,12 +5528,12 @@
       "team": "JAX",
       "adp": {
         "sleeper": null,
-        "mfl": 174,
+        "mfl": 176,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 174,
-      "worstAdp": 174,
+      "bestAdp": 176,
+      "worstAdp": 176,
       "adpSpread": null
     },
     {
@@ -5528,12 +5543,12 @@
       "team": "LAC",
       "adp": {
         "sleeper": null,
-        "mfl": 124,
+        "mfl": 125,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 124,
-      "worstAdp": 124,
+      "bestAdp": 125,
+      "worstAdp": 125,
       "adpSpread": null
     },
     {
@@ -5543,12 +5558,12 @@
       "team": "MIA",
       "adp": {
         "sleeper": null,
-        "mfl": 145,
+        "mfl": 144,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 145,
-      "worstAdp": 145,
+      "bestAdp": 144,
+      "worstAdp": 144,
       "adpSpread": null
     },
     {
@@ -5558,12 +5573,12 @@
       "team": "CHI",
       "adp": {
         "sleeper": null,
-        "mfl": 155,
+        "mfl": 156,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 155,
-      "worstAdp": 155,
+      "bestAdp": 156,
+      "worstAdp": 156,
       "adpSpread": null
     },
     {
@@ -5588,12 +5603,12 @@
       "team": "CLE",
       "adp": {
         "sleeper": null,
-        "mfl": 76,
+        "mfl": 75,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 76,
-      "worstAdp": 76,
+      "bestAdp": 75,
+      "worstAdp": 75,
       "adpSpread": null
     },
     {
@@ -5603,12 +5618,12 @@
       "team": "HOU",
       "adp": {
         "sleeper": null,
-        "mfl": 134,
+        "mfl": 136,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 134,
-      "worstAdp": 134,
+      "bestAdp": 136,
+      "worstAdp": 136,
       "adpSpread": null
     },
     {
@@ -5618,12 +5633,12 @@
       "team": "DAL",
       "adp": {
         "sleeper": null,
-        "mfl": 171,
+        "mfl": 170,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 171,
-      "worstAdp": 171,
+      "bestAdp": 170,
+      "worstAdp": 170,
       "adpSpread": null
     },
     {
@@ -5633,12 +5648,12 @@
       "team": "TEN",
       "adp": {
         "sleeper": null,
-        "mfl": 159,
+        "mfl": 158,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 159,
-      "worstAdp": 159,
+      "bestAdp": 158,
+      "worstAdp": 158,
       "adpSpread": null
     },
     {
@@ -5663,12 +5678,12 @@
       "team": "MIN",
       "adp": {
         "sleeper": null,
-        "mfl": 111,
+        "mfl": 110,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 111,
-      "worstAdp": 111,
+      "bestAdp": 110,
+      "worstAdp": 110,
       "adpSpread": null
     },
     {
@@ -5693,12 +5708,12 @@
       "team": "BUF",
       "adp": {
         "sleeper": null,
-        "mfl": 91,
+        "mfl": 93,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 91,
-      "worstAdp": 91,
+      "bestAdp": 93,
+      "worstAdp": 93,
       "adpSpread": null
     },
     {
@@ -5708,12 +5723,12 @@
       "team": "NE",
       "adp": {
         "sleeper": null,
-        "mfl": 159,
+        "mfl": 161,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 159,
-      "worstAdp": 159,
+      "bestAdp": 161,
+      "worstAdp": 161,
       "adpSpread": null
     },
     {
@@ -5723,12 +5738,12 @@
       "team": "TB",
       "adp": {
         "sleeper": null,
-        "mfl": 116,
+        "mfl": 115,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 116,
-      "worstAdp": 116,
+      "bestAdp": 115,
+      "worstAdp": 115,
       "adpSpread": null
     },
     {
@@ -5798,12 +5813,12 @@
       "team": "SF",
       "adp": {
         "sleeper": null,
-        "mfl": 25,
+        "mfl": 24,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 25,
-      "worstAdp": 25,
+      "bestAdp": 24,
+      "worstAdp": 24,
       "adpSpread": null
     },
     {
@@ -5828,77 +5843,17 @@
       "team": "JAX",
       "adp": {
         "sleeper": null,
-        "mfl": 106,
+        "mfl": 105,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 106,
-      "worstAdp": 106,
+      "bestAdp": 105,
+      "worstAdp": 105,
       "adpSpread": null
     },
     {
       "id": "wr_trent_mckinney",
       "name": "Trent McKinney",
-      "position": "WR",
-      "team": "KC",
-      "adp": {
-        "sleeper": null,
-        "mfl": 139,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 139,
-      "worstAdp": 139,
-      "adpSpread": null
-    },
-    {
-      "id": "wr_allen_robinson",
-      "name": "Allen Robinson",
-      "position": "WR",
-      "team": "CHI",
-      "adp": {
-        "sleeper": null,
-        "mfl": 144,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 144,
-      "worstAdp": 144,
-      "adpSpread": null
-    },
-    {
-      "id": "wr_mvs",
-      "name": "Marquez Valdes-Scantling",
-      "position": "WR",
-      "team": "SF",
-      "adp": {
-        "sleeper": null,
-        "mfl": 110,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 110,
-      "worstAdp": 110,
-      "adpSpread": null
-    },
-    {
-      "id": "wr_dontae_celek",
-      "name": "Dontae Celek",
-      "position": "WR",
-      "team": "LV",
-      "adp": {
-        "sleeper": null,
-        "mfl": 144,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 144,
-      "worstAdp": 144,
-      "adpSpread": null
-    },
-    {
-      "id": "wr_ryan_williams",
-      "name": "Ryan Williams",
       "position": "WR",
       "team": "KC",
       "adp": {
@@ -5912,25 +5867,10 @@
       "adpSpread": null
     },
     {
-      "id": "wr_grayson_white",
-      "name": "Grayson White",
+      "id": "wr_allen_robinson",
+      "name": "Allen Robinson",
       "position": "WR",
-      "team": "BUF",
-      "adp": {
-        "sleeper": null,
-        "mfl": 156,
-        "espn": null
-      },
-      "medianAdp": null,
-      "bestAdp": 156,
-      "worstAdp": 156,
-      "adpSpread": null
-    },
-    {
-      "id": "wr_samori_toure",
-      "name": "Samori Toure",
-      "position": "WR",
-      "team": "BAL",
+      "team": "CHI",
       "adp": {
         "sleeper": null,
         "mfl": 145,
@@ -5942,18 +5882,93 @@
       "adpSpread": null
     },
     {
+      "id": "wr_mvs",
+      "name": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "SF",
+      "adp": {
+        "sleeper": null,
+        "mfl": 109,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 109,
+      "worstAdp": 109,
+      "adpSpread": null
+    },
+    {
+      "id": "wr_dontae_celek",
+      "name": "Dontae Celek",
+      "position": "WR",
+      "team": "LV",
+      "adp": {
+        "sleeper": null,
+        "mfl": 145,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 145,
+      "worstAdp": 145,
+      "adpSpread": null
+    },
+    {
+      "id": "wr_ryan_williams",
+      "name": "Ryan Williams",
+      "position": "WR",
+      "team": "KC",
+      "adp": {
+        "sleeper": null,
+        "mfl": 139,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 139,
+      "worstAdp": 139,
+      "adpSpread": null
+    },
+    {
+      "id": "wr_grayson_white",
+      "name": "Grayson White",
+      "position": "WR",
+      "team": "BUF",
+      "adp": {
+        "sleeper": null,
+        "mfl": 154,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 154,
+      "worstAdp": 154,
+      "adpSpread": null
+    },
+    {
+      "id": "wr_samori_toure",
+      "name": "Samori Toure",
+      "position": "WR",
+      "team": "BAL",
+      "adp": {
+        "sleeper": null,
+        "mfl": 146,
+        "espn": null
+      },
+      "medianAdp": null,
+      "bestAdp": 146,
+      "worstAdp": 146,
+      "adpSpread": null
+    },
+    {
       "id": "te_cole_turner",
       "name": "Cole Turner",
       "position": "TE",
       "team": "CHI",
       "adp": {
         "sleeper": null,
-        "mfl": 120,
+        "mfl": 121,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 120,
-      "worstAdp": 120,
+      "bestAdp": 121,
+      "worstAdp": 121,
       "adpSpread": null
     },
     {
@@ -5978,12 +5993,12 @@
       "team": "CAR",
       "adp": {
         "sleeper": null,
-        "mfl": 166,
+        "mfl": 165,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 166,
-      "worstAdp": 166,
+      "bestAdp": 165,
+      "worstAdp": 165,
       "adpSpread": null
     },
     {
@@ -6008,12 +6023,12 @@
       "team": "BAL",
       "adp": {
         "sleeper": null,
-        "mfl": 120,
+        "mfl": 119,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 120,
-      "worstAdp": 120,
+      "bestAdp": 119,
+      "worstAdp": 119,
       "adpSpread": null
     },
     {
@@ -6038,12 +6053,12 @@
       "team": "MIN",
       "adp": {
         "sleeper": null,
-        "mfl": 178,
+        "mfl": 179,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 178,
-      "worstAdp": 178,
+      "bestAdp": 179,
+      "worstAdp": 179,
       "adpSpread": null
     },
     {
@@ -6053,12 +6068,12 @@
       "team": "SF",
       "adp": {
         "sleeper": null,
-        "mfl": 111,
+        "mfl": 109,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 111,
-      "worstAdp": 111,
+      "bestAdp": 109,
+      "worstAdp": 109,
       "adpSpread": null
     },
     {
@@ -6068,12 +6083,12 @@
       "team": "BAL",
       "adp": {
         "sleeper": null,
-        "mfl": 116,
+        "mfl": 114,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 116,
-      "worstAdp": 116,
+      "bestAdp": 114,
+      "worstAdp": 114,
       "adpSpread": null
     },
     {
@@ -6098,12 +6113,12 @@
       "team": "CIN",
       "adp": {
         "sleeper": null,
-        "mfl": 129,
+        "mfl": 127,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 129,
-      "worstAdp": 129,
+      "bestAdp": 127,
+      "worstAdp": 127,
       "adpSpread": null
     },
     {
@@ -6113,12 +6128,12 @@
       "team": "BUF",
       "adp": {
         "sleeper": null,
-        "mfl": 133,
+        "mfl": 131,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 133,
-      "worstAdp": 133,
+      "bestAdp": 131,
+      "worstAdp": 131,
       "adpSpread": null
     },
     {
@@ -6128,12 +6143,12 @@
       "team": "DAL",
       "adp": {
         "sleeper": null,
-        "mfl": 135,
+        "mfl": 136,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 135,
-      "worstAdp": 135,
+      "bestAdp": 136,
+      "worstAdp": 136,
       "adpSpread": null
     },
     {
@@ -6143,12 +6158,12 @@
       "team": "MIA",
       "adp": {
         "sleeper": null,
-        "mfl": 142,
+        "mfl": 143,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 142,
-      "worstAdp": 142,
+      "bestAdp": 143,
+      "worstAdp": 143,
       "adpSpread": null
     },
     {
@@ -6158,12 +6173,12 @@
       "team": "KC",
       "adp": {
         "sleeper": null,
-        "mfl": 149,
+        "mfl": 148,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 149,
-      "worstAdp": 149,
+      "bestAdp": 148,
+      "worstAdp": 148,
       "adpSpread": null
     },
     {
@@ -6173,12 +6188,12 @@
       "team": "LAR",
       "adp": {
         "sleeper": null,
-        "mfl": 156,
+        "mfl": 155,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 156,
-      "worstAdp": 156,
+      "bestAdp": 155,
+      "worstAdp": 155,
       "adpSpread": null
     },
     {
@@ -6218,12 +6233,12 @@
       "team": "NE",
       "adp": {
         "sleeper": null,
-        "mfl": 164,
+        "mfl": 165,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 164,
-      "worstAdp": 164,
+      "bestAdp": 165,
+      "worstAdp": 165,
       "adpSpread": null
     },
     {
@@ -6233,12 +6248,12 @@
       "team": "GB",
       "adp": {
         "sleeper": null,
-        "mfl": 150,
+        "mfl": 151,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 150,
-      "worstAdp": 150,
+      "bestAdp": 151,
+      "worstAdp": 151,
       "adpSpread": null
     },
     {
@@ -6263,12 +6278,12 @@
       "team": "CLE",
       "adp": {
         "sleeper": null,
-        "mfl": 160,
+        "mfl": 161,
         "espn": null
       },
       "medianAdp": null,
-      "bestAdp": 160,
-      "worstAdp": 160,
+      "bestAdp": 161,
+      "worstAdp": 161,
       "adpSpread": null
     },
     {
@@ -7499,21 +7514,6 @@
       "medianAdp": null,
       "bestAdp": 265,
       "worstAdp": 265,
-      "adpSpread": null
-    },
-    {
-      "id": "rb_kaelon_black",
-      "name": "Kaelon Black",
-      "position": "RB",
-      "team": "SF",
-      "adp": {
-        "sleeper": null,
-        "mfl": null,
-        "espn": 269
-      },
-      "medianAdp": null,
-      "bestAdp": 269,
-      "worstAdp": 269,
       "adpSpread": null
     },
     {
