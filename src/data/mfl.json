@@ -550,16 +550,6 @@
     "maxPick": 104
   },
   {
-    "id": "12620",
-    "name": "Dak Prescott",
-    "position": "QB",
-    "team": "DAL",
-    "adp": 60.39,
-    "drafts": 18,
-    "minPick": 17,
-    "maxPick": 100
-  },
-  {
     "id": "17463",
     "name": "Ty Simpson",
     "position": "QB",
@@ -590,6 +580,16 @@
     "maxPick": 93
   },
   {
+    "id": "12620",
+    "name": "Dak Prescott",
+    "position": "QB",
+    "team": "DAL",
+    "adp": 62.84,
+    "drafts": 19,
+    "minPick": 17,
+    "maxPick": 107
+  },
+  {
     "id": "15742",
     "name": "Jaylen Warren",
     "position": "RB",
@@ -608,16 +608,6 @@
     "drafts": 5,
     "minPick": 34,
     "maxPick": 82
-  },
-  {
-    "id": "16148",
-    "name": "Bryce Young",
-    "position": "QB",
-    "team": "CAR",
-    "adp": 64.17,
-    "drafts": 12,
-    "minPick": 27,
-    "maxPick": 124
   },
   {
     "id": "17044",
@@ -648,16 +638,6 @@
     "drafts": 18,
     "minPick": 26,
     "maxPick": 164
-  },
-  {
-    "id": "14104",
-    "name": "A.J. Brown",
-    "position": "WR",
-    "team": "NE",
-    "adp": 66.29,
-    "drafts": 17,
-    "minPick": 21,
-    "maxPick": 124
   },
   {
     "id": "16150",
@@ -698,6 +678,26 @@
     "drafts": 17,
     "minPick": 46,
     "maxPick": 99
+  },
+  {
+    "id": "16148",
+    "name": "Bryce Young",
+    "position": "QB",
+    "team": "CAR",
+    "adp": 67.62,
+    "drafts": 13,
+    "minPick": 27,
+    "maxPick": 124
+  },
+  {
+    "id": "14104",
+    "name": "A.J. Brown",
+    "position": "WR",
+    "team": "NE",
+    "adp": 68.78,
+    "drafts": 18,
+    "minPick": 21,
+    "maxPick": 124
   },
   {
     "id": "17462",
@@ -790,16 +790,6 @@
     "maxPick": 135
   },
   {
-    "id": "17039",
-    "name": "Tyler Shough",
-    "position": "QB",
-    "team": "NO",
-    "adp": 73.93,
-    "drafts": 14,
-    "minPick": 33,
-    "maxPick": 157
-  },
-  {
     "id": "17478",
     "name": "Kaytron Allen",
     "position": "RB",
@@ -830,6 +820,16 @@
     "maxPick": 146
   },
   {
+    "id": "17039",
+    "name": "Tyler Shough",
+    "position": "QB",
+    "team": "NO",
+    "adp": 76.87,
+    "drafts": 15,
+    "minPick": 33,
+    "maxPick": 157
+  },
+  {
     "id": "16809",
     "name": "Jalen Coker",
     "position": "WR",
@@ -848,16 +848,6 @@
     "drafts": 15,
     "minPick": 6,
     "maxPick": 131
-  },
-  {
-    "id": "17512",
-    "name": "Antonio Williams",
-    "position": "WR",
-    "team": "WAS",
-    "adp": 78.64,
-    "drafts": 11,
-    "minPick": 28,
-    "maxPick": 139
   },
   {
     "id": "17547",
@@ -920,6 +910,16 @@
     "maxPick": 158
   },
   {
+    "id": "17512",
+    "name": "Antonio Williams",
+    "position": "WR",
+    "team": "WAS",
+    "adp": 81.08,
+    "drafts": 12,
+    "minPick": 28,
+    "maxPick": 139
+  },
+  {
     "id": "16222",
     "name": "Tucker Kraft",
     "position": "TE",
@@ -980,16 +980,6 @@
     "maxPick": 176
   },
   {
-    "id": "17473",
-    "name": "Jadarian Price",
-    "position": "RB",
-    "team": "SEA",
-    "adp": 85.08,
-    "drafts": 13,
-    "minPick": 21,
-    "maxPick": 142
-  },
-  {
     "id": "17499",
     "name": "Makai Lemon",
     "position": "WR",
@@ -1040,24 +1030,14 @@
     "maxPick": 116
   },
   {
-    "id": "17501",
-    "name": "KC Concepcion",
-    "position": "WR",
-    "team": "CLE",
-    "adp": 87.31,
-    "drafts": 13,
-    "minPick": 8,
-    "maxPick": 168
-  },
-  {
-    "id": "10700",
-    "name": "Kirk Cousins",
-    "position": "QB",
-    "team": "LV",
-    "adp": 87.55,
-    "drafts": 11,
-    "minPick": 17,
-    "maxPick": 152
+    "id": "17473",
+    "name": "Jadarian Price",
+    "position": "RB",
+    "team": "SEA",
+    "adp": 86.5,
+    "drafts": 14,
+    "minPick": 21,
+    "maxPick": 142
   },
   {
     "id": "12186",
@@ -1067,16 +1047,6 @@
     "adp": 87.57,
     "drafts": 14,
     "minPick": 34,
-    "maxPick": 154
-  },
-  {
-    "id": "17466",
-    "name": "Carson Beck",
-    "position": "QB",
-    "team": "ARI",
-    "adp": 87.86,
-    "drafts": 7,
-    "minPick": 19,
     "maxPick": 154
   },
   {
@@ -1110,16 +1080,6 @@
     "maxPick": 151
   },
   {
-    "id": "17507",
-    "name": "Zachariah Branch",
-    "position": "WR",
-    "team": "ATL",
-    "adp": 88.33,
-    "drafts": 6,
-    "minPick": 16,
-    "maxPick": 217
-  },
-  {
     "id": "17500",
     "name": "Denzel Boston",
     "position": "WR",
@@ -1128,6 +1088,16 @@
     "drafts": 17,
     "minPick": 7,
     "maxPick": 138
+  },
+  {
+    "id": "17501",
+    "name": "KC Concepcion",
+    "position": "WR",
+    "team": "CLE",
+    "adp": 89.29,
+    "drafts": 14,
+    "minPick": 8,
+    "maxPick": 168
   },
   {
     "id": "16582",
@@ -1200,6 +1170,16 @@
     "maxPick": 191
   },
   {
+    "id": "10700",
+    "name": "Kirk Cousins",
+    "position": "QB",
+    "team": "LV",
+    "adp": 93.58,
+    "drafts": 12,
+    "minPick": 17,
+    "maxPick": 160
+  },
+  {
     "id": "13319",
     "name": "Aaron Jones",
     "position": "RB",
@@ -1260,16 +1240,6 @@
     "maxPick": 146
   },
   {
-    "id": "16287",
-    "name": "Tre Tucker",
-    "position": "WR",
-    "team": "LV",
-    "adp": 100.38,
-    "drafts": 13,
-    "minPick": 60,
-    "maxPick": 155
-  },
-  {
     "id": "16213",
     "name": "Dalton Kincaid",
     "position": "TE",
@@ -1288,6 +1258,26 @@
     "drafts": 8,
     "minPick": 11,
     "maxPick": 145
+  },
+  {
+    "id": "17466",
+    "name": "Carson Beck",
+    "position": "QB",
+    "team": "ARI",
+    "adp": 100.62,
+    "drafts": 8,
+    "minPick": 19,
+    "maxPick": 190
+  },
+  {
+    "id": "16287",
+    "name": "Tre Tucker",
+    "position": "WR",
+    "team": "LV",
+    "adp": 100.64,
+    "drafts": 14,
+    "minPick": 60,
+    "maxPick": 155
   },
   {
     "id": "17481",
@@ -1350,14 +1340,14 @@
     "maxPick": 236
   },
   {
-    "id": "14138",
-    "name": "T.J. Hockenson",
-    "position": "TE",
-    "team": "MIN",
-    "adp": 103.64,
-    "drafts": 11,
-    "minPick": 52,
-    "maxPick": 161
+    "id": "17507",
+    "name": "Zachariah Branch",
+    "position": "WR",
+    "team": "ATL",
+    "adp": 103.29,
+    "drafts": 7,
+    "minPick": 16,
+    "maxPick": 217
   },
   {
     "id": "17519",
@@ -1378,16 +1368,6 @@
     "drafts": 5,
     "minPick": 51,
     "maxPick": 170
-  },
-  {
-    "id": "12616",
-    "name": "Jacoby Brissett",
-    "position": "QB",
-    "team": "BAL",
-    "adp": 104.33,
-    "drafts": 6,
-    "minPick": 87,
-    "maxPick": 149
   },
   {
     "id": "14056",
@@ -1500,6 +1480,16 @@
     "maxPick": 188
   },
   {
+    "id": "14138",
+    "name": "T.J. Hockenson",
+    "position": "TE",
+    "team": "MIN",
+    "adp": 109.75,
+    "drafts": 12,
+    "minPick": 52,
+    "maxPick": 177
+  },
+  {
     "id": "16269",
     "name": "Brenton Strange",
     "position": "TE",
@@ -1524,8 +1514,8 @@
     "name": "Kaelon Black",
     "position": "RB",
     "team": "SF",
-    "adp": 112.2,
-    "drafts": 15,
+    "adp": 111.81,
+    "drafts": 16,
     "minPick": 25,
     "maxPick": 155
   },
@@ -1534,8 +1524,8 @@
     "name": "Khalil Shakir",
     "position": "WR",
     "team": "BUF",
-    "adp": 112.92,
-    "drafts": 12,
+    "adp": 113.15,
+    "drafts": 13,
     "minPick": 52,
     "maxPick": 164
   },
@@ -1610,24 +1600,14 @@
     "maxPick": 192
   },
   {
-    "id": "14109",
-    "name": "Terry McLaurin",
-    "position": "WR",
-    "team": "WAS",
-    "adp": 118.4,
-    "drafts": 5,
-    "minPick": 88,
-    "maxPick": 213
-  },
-  {
-    "id": "16788",
-    "name": "Devaughn Vele",
-    "position": "WR",
-    "team": "NO",
-    "adp": 118.67,
-    "drafts": 9,
-    "minPick": 83,
-    "maxPick": 156
+    "id": "12616",
+    "name": "Jacoby Brissett",
+    "position": "QB",
+    "team": "BAL",
+    "adp": 117.86,
+    "drafts": 7,
+    "minPick": 87,
+    "maxPick": 199
   },
   {
     "id": "16584",
@@ -1660,16 +1640,6 @@
     "maxPick": 159
   },
   {
-    "id": "16342",
-    "name": "Demario Douglas",
-    "position": "WR",
-    "team": "NE",
-    "adp": 119.8,
-    "drafts": 5,
-    "minPick": 95,
-    "maxPick": 154
-  },
-  {
     "id": "16618",
     "name": "Brian Thomas Jr.",
     "position": "WR",
@@ -1678,16 +1648,6 @@
     "drafts": 9,
     "minPick": 79,
     "maxPick": 164
-  },
-  {
-    "id": "14861",
-    "name": "Juwan Johnson",
-    "position": "TE",
-    "team": "NO",
-    "adp": 120.33,
-    "drafts": 6,
-    "minPick": 57,
-    "maxPick": 179
   },
   {
     "id": "17053",
@@ -1730,16 +1690,6 @@
     "maxPick": 181
   },
   {
-    "id": "7836",
-    "name": "Aaron Rodgers",
-    "position": "QB",
-    "team": "PIT",
-    "adp": 123.75,
-    "drafts": 8,
-    "minPick": 53,
-    "maxPick": 192
-  },
-  {
     "id": "17657",
     "name": "Taylen Green",
     "position": "QB",
@@ -1748,6 +1698,16 @@
     "drafts": 6,
     "minPick": 47,
     "maxPick": 225
+  },
+  {
+    "id": "16788",
+    "name": "Devaughn Vele",
+    "position": "WR",
+    "team": "NO",
+    "adp": 124.27,
+    "drafts": 11,
+    "minPick": 83,
+    "maxPick": 187
   },
   {
     "id": "16186",
@@ -1810,6 +1770,16 @@
     "maxPick": 155
   },
   {
+    "id": "17475",
+    "name": "Seth McGowan",
+    "position": "RB",
+    "team": "IND",
+    "adp": 127.18,
+    "drafts": 11,
+    "minPick": 37,
+    "maxPick": 160
+  },
+  {
     "id": "16187",
     "name": "Josh Downs",
     "position": "WR",
@@ -1820,16 +1790,6 @@
     "maxPick": 156
   },
   {
-    "id": "17475",
-    "name": "Seth McGowan",
-    "position": "RB",
-    "team": "IND",
-    "adp": 128.5,
-    "drafts": 10,
-    "minPick": 37,
-    "maxPick": 160
-  },
-  {
     "id": "13672",
     "name": "Mike Gesicki",
     "position": "TE",
@@ -1838,16 +1798,6 @@
     "drafts": 7,
     "minPick": 31,
     "maxPick": 198
-  },
-  {
-    "id": "15972",
-    "name": "Jordan Mason",
-    "position": "RB",
-    "team": "MIN",
-    "adp": 128.6,
-    "drafts": 10,
-    "minPick": 79,
-    "maxPick": 170
   },
   {
     "id": "13132",
@@ -1870,6 +1820,16 @@
     "maxPick": 163
   },
   {
+    "id": "14109",
+    "name": "Terry McLaurin",
+    "position": "WR",
+    "team": "WAS",
+    "adp": 129.67,
+    "drafts": 6,
+    "minPick": 88,
+    "maxPick": 213
+  },
+  {
     "id": "14800",
     "name": "J.K. Dobbins",
     "position": "RB",
@@ -1880,14 +1840,34 @@
     "maxPick": 195
   },
   {
+    "id": "14861",
+    "name": "Juwan Johnson",
+    "position": "TE",
+    "team": "NO",
+    "adp": 130.57,
+    "drafts": 7,
+    "minPick": 57,
+    "maxPick": 192
+  },
+  {
     "id": "14823",
     "name": "Rico Dowdle",
     "position": "RB",
     "team": "PIT",
-    "adp": 131.25,
-    "drafts": 12,
+    "adp": 131.86,
+    "drafts": 14,
     "minPick": 89,
     "maxPick": 199
+  },
+  {
+    "id": "15972",
+    "name": "Jordan Mason",
+    "position": "RB",
+    "team": "MIN",
+    "adp": 131.92,
+    "drafts": 12,
+    "minPick": 79,
+    "maxPick": 178
   },
   {
     "id": "17068",
@@ -1930,6 +1910,46 @@
     "maxPick": 172
   },
   {
+    "id": "16342",
+    "name": "Demario Douglas",
+    "position": "WR",
+    "team": "NE",
+    "adp": 134,
+    "drafts": 7,
+    "minPick": 95,
+    "maxPick": 180
+  },
+  {
+    "id": "14059",
+    "name": "Daniel Jones",
+    "position": "QB",
+    "team": "IND",
+    "adp": 134.6,
+    "drafts": 5,
+    "minPick": 64,
+    "maxPick": 166
+  },
+  {
+    "id": "7836",
+    "name": "Aaron Rodgers",
+    "position": "QB",
+    "team": "PIT",
+    "adp": 134.9,
+    "drafts": 10,
+    "minPick": 53,
+    "maxPick": 192
+  },
+  {
+    "id": "14127",
+    "name": "Jakobi Meyers",
+    "position": "WR",
+    "team": "JAC",
+    "adp": 134.91,
+    "drafts": 11,
+    "minPick": 77,
+    "maxPick": 175
+  },
+  {
     "id": "16681",
     "name": "Will Reichard",
     "position": "K",
@@ -1938,36 +1958,6 @@
     "drafts": 10,
     "minPick": 81,
     "maxPick": 195
-  },
-  {
-    "id": "13630",
-    "name": "Courtland Sutton",
-    "position": "WR",
-    "team": "DEN",
-    "adp": 136.12,
-    "drafts": 8,
-    "minPick": 98,
-    "maxPick": 178
-  },
-  {
-    "id": "14127",
-    "name": "Jakobi Meyers",
-    "position": "WR",
-    "team": "JAC",
-    "adp": 136.7,
-    "drafts": 10,
-    "minPick": 77,
-    "maxPick": 175
-  },
-  {
-    "id": "16174",
-    "name": "Chris Rodriguez",
-    "position": "RB",
-    "team": "JAC",
-    "adp": 138.62,
-    "drafts": 8,
-    "minPick": 80,
-    "maxPick": 181
   },
   {
     "id": "16680",
@@ -1998,6 +1988,26 @@
     "drafts": 5,
     "minPick": 48,
     "maxPick": 182
+  },
+  {
+    "id": "13630",
+    "name": "Courtland Sutton",
+    "position": "WR",
+    "team": "DEN",
+    "adp": 142.89,
+    "drafts": 9,
+    "minPick": 98,
+    "maxPick": 197
+  },
+  {
+    "id": "16174",
+    "name": "Chris Rodriguez",
+    "position": "RB",
+    "team": "JAC",
+    "adp": 143.67,
+    "drafts": 9,
+    "minPick": 80,
+    "maxPick": 184
   },
   {
     "id": "15255",
@@ -2050,16 +2060,6 @@
     "maxPick": 202
   },
   {
-    "id": "15889",
-    "name": "Chigoziem Okonkwo",
-    "position": "TE",
-    "team": "WAS",
-    "adp": 152.8,
-    "drafts": 5,
-    "minPick": 113,
-    "maxPick": 208
-  },
-  {
     "id": "15979",
     "name": "Cameron Dicker",
     "position": "K",
@@ -2078,6 +2078,36 @@
     "drafts": 5,
     "minPick": 130,
     "maxPick": 171
+  },
+  {
+    "id": "16212",
+    "name": "Michael Mayer",
+    "position": "TE",
+    "team": "LV",
+    "adp": 157.8,
+    "drafts": 5,
+    "minPick": 60,
+    "maxPick": 195
+  },
+  {
+    "id": "15889",
+    "name": "Chigoziem Okonkwo",
+    "position": "TE",
+    "team": "WAS",
+    "adp": 159.67,
+    "drafts": 6,
+    "minPick": 113,
+    "maxPick": 208
+  },
+  {
+    "id": "16597",
+    "name": "Jonathon Brooks",
+    "position": "RB",
+    "team": "CAR",
+    "adp": 161.6,
+    "drafts": 5,
+    "minPick": 145,
+    "maxPick": 189
   },
   {
     "id": "16846",
@@ -2108,6 +2138,16 @@
     "drafts": 6,
     "minPick": 119,
     "maxPick": 210
+  },
+  {
+    "id": "16757",
+    "name": "Kimani Vidal",
+    "position": "RB",
+    "team": "LAC",
+    "adp": 183.4,
+    "drafts": 5,
+    "minPick": 148,
+    "maxPick": 238
   },
   {
     "id": "11936",
