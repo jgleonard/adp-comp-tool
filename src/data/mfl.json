@@ -1020,16 +1020,6 @@
     "maxPick": 108
   },
   {
-    "id": "17030",
-    "name": "Cam Ward",
-    "position": "QB",
-    "team": "TEN",
-    "adp": 86.5,
-    "drafts": 6,
-    "minPick": 60,
-    "maxPick": 116
-  },
-  {
     "id": "17473",
     "name": "Jadarian Price",
     "position": "RB",
@@ -1038,6 +1028,16 @@
     "drafts": 14,
     "minPick": 21,
     "maxPick": 142
+  },
+  {
+    "id": "17030",
+    "name": "Cam Ward",
+    "position": "QB",
+    "team": "TEN",
+    "adp": 86.5,
+    "drafts": 6,
+    "minPick": 60,
+    "maxPick": 116
   },
   {
     "id": "12186",
@@ -1090,16 +1090,6 @@
     "maxPick": 138
   },
   {
-    "id": "17501",
-    "name": "KC Concepcion",
-    "position": "WR",
-    "team": "CLE",
-    "adp": 89.29,
-    "drafts": 14,
-    "minPick": 8,
-    "maxPick": 168
-  },
-  {
     "id": "16582",
     "name": "Bo Nix",
     "position": "QB",
@@ -1108,6 +1098,16 @@
     "drafts": 14,
     "minPick": 30,
     "maxPick": 165
+  },
+  {
+    "id": "17501",
+    "name": "KC Concepcion",
+    "position": "WR",
+    "team": "CLE",
+    "adp": 89.29,
+    "drafts": 14,
+    "minPick": 8,
+    "maxPick": 168
   },
   {
     "id": "15284",
@@ -1178,16 +1178,6 @@
     "drafts": 12,
     "minPick": 17,
     "maxPick": 160
-  },
-  {
-    "id": "13319",
-    "name": "Aaron Jones",
-    "position": "RB",
-    "team": "MIN",
-    "adp": 93.92,
-    "drafts": 12,
-    "minPick": 26,
-    "maxPick": 190
   },
   {
     "id": "15253",
@@ -1318,6 +1308,16 @@
     "drafts": 11,
     "minPick": 40,
     "maxPick": 186
+  },
+  {
+    "id": "13319",
+    "name": "Aaron Jones",
+    "position": "RB",
+    "team": "MIN",
+    "adp": 102.77,
+    "drafts": 13,
+    "minPick": 26,
+    "maxPick": 209
   },
   {
     "id": "17474",
@@ -1490,16 +1490,6 @@
     "maxPick": 177
   },
   {
-    "id": "16269",
-    "name": "Brenton Strange",
-    "position": "TE",
-    "team": "JAC",
-    "adp": 110,
-    "drafts": 10,
-    "minPick": 67,
-    "maxPick": 134
-  },
-  {
     "id": "16620",
     "name": "Xavier Worthy",
     "position": "WR",
@@ -1550,16 +1540,6 @@
     "maxPick": 185
   },
   {
-    "id": "13772",
-    "name": "Dalton Schultz",
-    "position": "TE",
-    "team": "HOU",
-    "adp": 114,
-    "drafts": 7,
-    "minPick": 86,
-    "maxPick": 158
-  },
-  {
     "id": "15721",
     "name": "Rachaad White",
     "position": "RB",
@@ -1578,6 +1558,16 @@
     "drafts": 10,
     "minPick": 66,
     "maxPick": 160
+  },
+  {
+    "id": "16269",
+    "name": "Brenton Strange",
+    "position": "TE",
+    "team": "JAC",
+    "adp": 116,
+    "drafts": 11,
+    "minPick": 67,
+    "maxPick": 176
   },
   {
     "id": "17654",
@@ -1730,6 +1720,16 @@
     "maxPick": 159
   },
   {
+    "id": "13772",
+    "name": "Dalton Schultz",
+    "position": "TE",
+    "team": "HOU",
+    "adp": 125.38,
+    "drafts": 8,
+    "minPick": 86,
+    "maxPick": 205
+  },
+  {
     "id": "17591",
     "name": "Nate Boerkircher",
     "position": "TE",
@@ -1770,16 +1770,6 @@
     "maxPick": 155
   },
   {
-    "id": "17475",
-    "name": "Seth McGowan",
-    "position": "RB",
-    "team": "IND",
-    "adp": 127.18,
-    "drafts": 11,
-    "minPick": 37,
-    "maxPick": 160
-  },
-  {
     "id": "16187",
     "name": "Josh Downs",
     "position": "WR",
@@ -1788,16 +1778,6 @@
     "drafts": 7,
     "minPick": 85,
     "maxPick": 156
-  },
-  {
-    "id": "13672",
-    "name": "Mike Gesicki",
-    "position": "TE",
-    "team": "CIN",
-    "adp": 128.57,
-    "drafts": 7,
-    "minPick": 31,
-    "maxPick": 198
   },
   {
     "id": "13132",
@@ -1848,6 +1828,16 @@
     "drafts": 7,
     "minPick": 57,
     "maxPick": 192
+  },
+  {
+    "id": "17475",
+    "name": "Seth McGowan",
+    "position": "RB",
+    "team": "IND",
+    "adp": 131.33,
+    "drafts": 12,
+    "minPick": 37,
+    "maxPick": 177
   },
   {
     "id": "14823",
@@ -1960,6 +1950,16 @@
     "maxPick": 195
   },
   {
+    "id": "13672",
+    "name": "Mike Gesicki",
+    "position": "TE",
+    "team": "CIN",
+    "adp": 139.12,
+    "drafts": 8,
+    "minPick": 31,
+    "maxPick": 213
+  },
+  {
     "id": "16680",
     "name": "Cam Little",
     "position": "K",
@@ -2010,16 +2010,6 @@
     "maxPick": 184
   },
   {
-    "id": "15255",
-    "name": "Kenneth Gainwell",
-    "position": "RB",
-    "team": "TB",
-    "adp": 145,
-    "drafts": 9,
-    "minPick": 110,
-    "maxPick": 185
-  },
-  {
     "id": "12437",
     "name": "Jason Myers",
     "position": "K",
@@ -2027,6 +2017,16 @@
     "adp": 146.5,
     "drafts": 8,
     "minPick": 104,
+    "maxPick": 185
+  },
+  {
+    "id": "15255",
+    "name": "Kenneth Gainwell",
+    "position": "RB",
+    "team": "TB",
+    "adp": 147.8,
+    "drafts": 10,
+    "minPick": 110,
     "maxPick": 185
   },
   {
@@ -2058,6 +2058,16 @@
     "drafts": 6,
     "minPick": 76,
     "maxPick": 202
+  },
+  {
+    "id": "14080",
+    "name": "Devin Singletary",
+    "position": "RB",
+    "team": "NYG",
+    "adp": 151.4,
+    "drafts": 5,
+    "minPick": 103,
+    "maxPick": 203
   },
   {
     "id": "15979",
@@ -2120,6 +2130,26 @@
     "maxPick": 191
   },
   {
+    "id": "13163",
+    "name": "Chris Godwin",
+    "position": "WR",
+    "team": "TB",
+    "adp": 170,
+    "drafts": 6,
+    "minPick": 121,
+    "maxPick": 217
+  },
+  {
+    "id": "13133",
+    "name": "Samaje Perine",
+    "position": "RB",
+    "team": "CIN",
+    "adp": 177.8,
+    "drafts": 5,
+    "minPick": 107,
+    "maxPick": 239
+  },
+  {
     "id": "13354",
     "name": "Harrison Butker",
     "position": "K",
@@ -2127,6 +2157,16 @@
     "adp": 180,
     "drafts": 7,
     "minPick": 128,
+    "maxPick": 210
+  },
+  {
+    "id": "16604",
+    "name": "MarShawn Lloyd",
+    "position": "RB",
+    "team": "GB",
+    "adp": 180.8,
+    "drafts": 5,
+    "minPick": 163,
     "maxPick": 210
   },
   {
