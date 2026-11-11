@@ -1113,7 +1113,7 @@
     "id": "10700",
     "name": "Kirk Cousins",
     "position": "QB",
-    "team": "LV",
+    "team": "MIN",
     "adp": 93.58,
     "drafts": 12,
     "minPick": 17,
@@ -1270,16 +1270,6 @@
     "maxPick": 186
   },
   {
-    "id": "13319",
-    "name": "Aaron Jones",
-    "position": "RB",
-    "team": "MIN",
-    "adp": 102.77,
-    "drafts": 13,
-    "minPick": 26,
-    "maxPick": 209
-  },
-  {
     "id": "17474",
     "name": "Emmett Johnson",
     "position": "RB",
@@ -1298,16 +1288,6 @@
     "drafts": 6,
     "minPick": 46,
     "maxPick": 236
-  },
-  {
-    "id": "17507",
-    "name": "Zachariah Branch",
-    "position": "WR",
-    "team": "ATL",
-    "adp": 103.29,
-    "drafts": 7,
-    "minPick": 16,
-    "maxPick": 217
   },
   {
     "id": "14983",
@@ -1460,6 +1440,16 @@
     "maxPick": 152
   },
   {
+    "id": "13319",
+    "name": "Aaron Jones",
+    "position": "RB",
+    "team": "MIN",
+    "adp": 111.21,
+    "drafts": 14,
+    "minPick": 26,
+    "maxPick": 221
+  },
+  {
     "id": "17508",
     "name": "Skyler Bell",
     "position": "WR",
@@ -1550,6 +1540,16 @@
     "maxPick": 218
   },
   {
+    "id": "17507",
+    "name": "Zachariah Branch",
+    "position": "WR",
+    "team": "ATL",
+    "adp": 117.38,
+    "drafts": 8,
+    "minPick": 16,
+    "maxPick": 217
+  },
+  {
     "id": "12616",
     "name": "Jacoby Brissett",
     "position": "QB",
@@ -1617,16 +1617,6 @@
     "adp": 120.54,
     "drafts": 13,
     "minPick": 70,
-    "maxPick": 178
-  },
-  {
-    "id": "12676",
-    "name": "Hunter Henry",
-    "position": "TE",
-    "team": "NE",
-    "adp": 121.17,
-    "drafts": 6,
-    "minPick": 46,
     "maxPick": 178
   },
   {
@@ -1753,21 +1743,11 @@
     "id": "16187",
     "name": "Josh Downs",
     "position": "WR",
-    "team": "IND",
+    "team": "KC",
     "adp": 128.29,
     "drafts": 7,
     "minPick": 85,
     "maxPick": 156
-  },
-  {
-    "id": "13132",
-    "name": "Alvin Kamara",
-    "position": "RB",
-    "team": "NO",
-    "adp": 128.78,
-    "drafts": 9,
-    "minPick": 85,
-    "maxPick": 214
   },
   {
     "id": "16778",
@@ -1788,16 +1768,6 @@
     "drafts": 7,
     "minPick": 57,
     "maxPick": 192
-  },
-  {
-    "id": "17467",
-    "name": "Cade Klubnik",
-    "position": "QB",
-    "team": "NYJ",
-    "adp": 131.29,
-    "drafts": 7,
-    "minPick": 32,
-    "maxPick": 239
   },
   {
     "id": "17475",
@@ -1900,6 +1870,16 @@
     "maxPick": 175
   },
   {
+    "id": "12676",
+    "name": "Hunter Henry",
+    "position": "TE",
+    "team": "NE",
+    "adp": 135,
+    "drafts": 7,
+    "minPick": 46,
+    "maxPick": 218
+  },
+  {
     "id": "15972",
     "name": "Jordan Mason",
     "position": "RB",
@@ -1913,7 +1893,7 @@
     "id": "11222",
     "name": "Keenan Allen",
     "position": "WR",
-    "team": "IND",
+    "team": "SF",
     "adp": 135.86,
     "drafts": 7,
     "minPick": 92,
@@ -1928,6 +1908,16 @@
     "drafts": 10,
     "minPick": 81,
     "maxPick": 195
+  },
+  {
+    "id": "13132",
+    "name": "Alvin Kamara",
+    "position": "RB",
+    "team": "NO",
+    "adp": 137,
+    "drafts": 10,
+    "minPick": 85,
+    "maxPick": 214
   },
   {
     "id": "14109",
@@ -1968,6 +1958,16 @@
     "drafts": 13,
     "minPick": 55,
     "maxPick": 228
+  },
+  {
+    "id": "17467",
+    "name": "Cade Klubnik",
+    "position": "QB",
+    "team": "NYJ",
+    "adp": 142.38,
+    "drafts": 8,
+    "minPick": 32,
+    "maxPick": 239
   },
   {
     "id": "17668",
@@ -2050,16 +2050,6 @@
     "maxPick": 205
   },
   {
-    "id": "15331",
-    "name": "Pat Freiermuth",
-    "position": "TE",
-    "team": "PIT",
-    "adp": 149.17,
-    "drafts": 6,
-    "minPick": 76,
-    "maxPick": 202
-  },
-  {
     "id": "17518",
     "name": "Cyrus Allen",
     "position": "WR",
@@ -2110,14 +2100,14 @@
     "maxPick": 195
   },
   {
-    "id": "15889",
-    "name": "Chigoziem Okonkwo",
+    "id": "15331",
+    "name": "Pat Freiermuth",
     "position": "TE",
-    "team": "WAS",
-    "adp": 159.67,
-    "drafts": 6,
-    "minPick": 113,
-    "maxPick": 208
+    "team": "PIT",
+    "adp": 158.29,
+    "drafts": 7,
+    "minPick": 76,
+    "maxPick": 213
   },
   {
     "id": "14136",
@@ -2158,6 +2148,26 @@
     "drafts": 6,
     "minPick": 145,
     "maxPick": 189
+  },
+  {
+    "id": "15799",
+    "name": "Jake Ferguson",
+    "position": "TE",
+    "team": "DAL",
+    "adp": 166.2,
+    "drafts": 5,
+    "minPick": 49,
+    "maxPick": 219
+  },
+  {
+    "id": "15889",
+    "name": "Chigoziem Okonkwo",
+    "position": "TE",
+    "team": "WAS",
+    "adp": 167.57,
+    "drafts": 7,
+    "minPick": 113,
+    "maxPick": 215
   },
   {
     "id": "13163",
