@@ -1000,16 +1000,6 @@
     "maxPick": 206
   },
   {
-    "id": "17512",
-    "name": "Antonio Williams",
-    "position": "WR",
-    "team": "WAS",
-    "adp": 88,
-    "drafts": 14,
-    "minPick": 28,
-    "maxPick": 170
-  },
-  {
     "id": "17506",
     "name": "Chris Bell",
     "position": "WR",
@@ -1018,6 +1008,16 @@
     "drafts": 8,
     "minPick": 15,
     "maxPick": 147
+  },
+  {
+    "id": "17512",
+    "name": "Antonio Williams",
+    "position": "WR",
+    "team": "WAS",
+    "adp": 88,
+    "drafts": 14,
+    "minPick": 28,
+    "maxPick": 170
   },
   {
     "id": "13592",
@@ -1110,16 +1110,6 @@
     "maxPick": 164
   },
   {
-    "id": "17500",
-    "name": "Denzel Boston",
-    "position": "WR",
-    "team": "CLE",
-    "adp": 91.8,
-    "drafts": 20,
-    "minPick": 7,
-    "maxPick": 158
-  },
-  {
     "id": "16583",
     "name": "Michael Penix Jr.",
     "position": "QB",
@@ -1128,6 +1118,16 @@
     "drafts": 5,
     "minPick": 74,
     "maxPick": 118
+  },
+  {
+    "id": "17500",
+    "name": "Denzel Boston",
+    "position": "WR",
+    "team": "CLE",
+    "adp": 91.8,
+    "drafts": 20,
+    "minPick": 7,
+    "maxPick": 158
   },
   {
     "id": "17685",
@@ -1620,16 +1620,6 @@
     "maxPick": 178
   },
   {
-    "id": "17507",
-    "name": "Zachariah Branch",
-    "position": "WR",
-    "team": "ATL",
-    "adp": 117.38,
-    "drafts": 8,
-    "minPick": 16,
-    "maxPick": 217
-  },
-  {
     "id": "15757",
     "name": "Wan'Dale Robinson",
     "position": "WR",
@@ -1638,6 +1628,16 @@
     "drafts": 8,
     "minPick": 57,
     "maxPick": 172
+  },
+  {
+    "id": "17507",
+    "name": "Zachariah Branch",
+    "position": "WR",
+    "team": "ATL",
+    "adp": 117.38,
+    "drafts": 8,
+    "minPick": 16,
+    "maxPick": 217
   },
   {
     "id": "16620",
