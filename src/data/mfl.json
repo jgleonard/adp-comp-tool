@@ -1000,16 +1000,6 @@
     "maxPick": 206
   },
   {
-    "id": "17506",
-    "name": "Chris Bell",
-    "position": "WR",
-    "team": "MIA",
-    "adp": 88,
-    "drafts": 8,
-    "minPick": 15,
-    "maxPick": 147
-  },
-  {
     "id": "17512",
     "name": "Antonio Williams",
     "position": "WR",
@@ -1018,6 +1008,16 @@
     "drafts": 14,
     "minPick": 28,
     "maxPick": 170
+  },
+  {
+    "id": "17506",
+    "name": "Chris Bell",
+    "position": "WR",
+    "team": "MIA",
+    "adp": 88,
+    "drafts": 8,
+    "minPick": 15,
+    "maxPick": 147
   },
   {
     "id": "13592",
@@ -1070,16 +1070,6 @@
     "maxPick": 186
   },
   {
-    "id": "17473",
-    "name": "Jadarian Price",
-    "position": "RB",
-    "team": "SEA",
-    "adp": 91.06,
-    "drafts": 18,
-    "minPick": 21,
-    "maxPick": 154
-  },
-  {
     "id": "16596",
     "name": "Braelon Allen",
     "position": "RB",
@@ -1088,6 +1078,16 @@
     "drafts": 18,
     "minPick": 41,
     "maxPick": 153
+  },
+  {
+    "id": "17473",
+    "name": "Jadarian Price",
+    "position": "RB",
+    "team": "SEA",
+    "adp": 91.06,
+    "drafts": 18,
+    "minPick": 21,
+    "maxPick": 154
   },
   {
     "id": "15284",
@@ -1950,16 +1950,6 @@
     "maxPick": 182
   },
   {
-    "id": "7836",
-    "name": "Aaron Rodgers",
-    "position": "QB",
-    "team": "PIT",
-    "adp": 139,
-    "drafts": 12,
-    "minPick": 82,
-    "maxPick": 192
-  },
-  {
     "id": "14109",
     "name": "Terry McLaurin",
     "position": "WR",
@@ -1968,6 +1958,16 @@
     "drafts": 7,
     "minPick": 88,
     "maxPick": 213
+  },
+  {
+    "id": "7836",
+    "name": "Aaron Rodgers",
+    "position": "QB",
+    "team": "PIT",
+    "adp": 139,
+    "drafts": 12,
+    "minPick": 82,
+    "maxPick": 192
   },
   {
     "id": "14136",
