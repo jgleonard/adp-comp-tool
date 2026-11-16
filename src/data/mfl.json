@@ -1020,16 +1020,6 @@
     "maxPick": 163
   },
   {
-    "id": "17512",
-    "name": "Antonio Williams",
-    "position": "WR",
-    "team": "WAS",
-    "adp": 88,
-    "drafts": 14,
-    "minPick": 28,
-    "maxPick": 170
-  },
-  {
     "id": "17506",
     "name": "Chris Bell",
     "position": "WR",
@@ -1038,6 +1028,16 @@
     "drafts": 8,
     "minPick": 15,
     "maxPick": 147
+  },
+  {
+    "id": "17512",
+    "name": "Antonio Williams",
+    "position": "WR",
+    "team": "WAS",
+    "adp": 88,
+    "drafts": 14,
+    "minPick": 28,
+    "maxPick": 170
   },
   {
     "id": "17102",
@@ -1600,16 +1600,6 @@
     "maxPick": 176
   },
   {
-    "id": "16186",
-    "name": "Jordan Addison",
-    "position": "WR",
-    "team": "MIN",
-    "adp": 117,
-    "drafts": 13,
-    "minPick": 76,
-    "maxPick": 178
-  },
-  {
     "id": "13590",
     "name": "Baker Mayfield",
     "position": "QB",
@@ -1620,14 +1610,14 @@
     "maxPick": 190
   },
   {
-    "id": "17507",
-    "name": "Zachariah Branch",
+    "id": "16186",
+    "name": "Jordan Addison",
     "position": "WR",
-    "team": "ATL",
-    "adp": 117.38,
-    "drafts": 8,
-    "minPick": 16,
-    "maxPick": 217
+    "team": "MIN",
+    "adp": 117,
+    "drafts": 13,
+    "minPick": 76,
+    "maxPick": 178
   },
   {
     "id": "15757",
@@ -1638,6 +1628,16 @@
     "drafts": 8,
     "minPick": 57,
     "maxPick": 172
+  },
+  {
+    "id": "17507",
+    "name": "Zachariah Branch",
+    "position": "WR",
+    "team": "ATL",
+    "adp": 117.38,
+    "drafts": 8,
+    "minPick": 16,
+    "maxPick": 217
   },
   {
     "id": "16414",
