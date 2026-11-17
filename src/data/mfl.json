@@ -1600,16 +1600,6 @@
     "maxPick": 176
   },
   {
-    "id": "13590",
-    "name": "Baker Mayfield",
-    "position": "QB",
-    "team": "TB",
-    "adp": 117,
-    "drafts": 11,
-    "minPick": 63,
-    "maxPick": 190
-  },
-  {
     "id": "16186",
     "name": "Jordan Addison",
     "position": "WR",
@@ -1618,6 +1608,16 @@
     "drafts": 13,
     "minPick": 76,
     "maxPick": 178
+  },
+  {
+    "id": "13590",
+    "name": "Baker Mayfield",
+    "position": "QB",
+    "team": "TB",
+    "adp": 117,
+    "drafts": 11,
+    "minPick": 63,
+    "maxPick": 190
   },
   {
     "id": "15757",
@@ -1970,16 +1970,6 @@
     "maxPick": 182
   },
   {
-    "id": "14109",
-    "name": "Terry McLaurin",
-    "position": "WR",
-    "team": "WAS",
-    "adp": 139,
-    "drafts": 7,
-    "minPick": 88,
-    "maxPick": 213
-  },
-  {
     "id": "7836",
     "name": "Aaron Rodgers",
     "position": "QB",
@@ -1988,6 +1978,16 @@
     "drafts": 12,
     "minPick": 82,
     "maxPick": 192
+  },
+  {
+    "id": "14109",
+    "name": "Terry McLaurin",
+    "position": "WR",
+    "team": "WAS",
+    "adp": 139,
+    "drafts": 7,
+    "minPick": 88,
+    "maxPick": 213
   },
   {
     "id": "14136",
