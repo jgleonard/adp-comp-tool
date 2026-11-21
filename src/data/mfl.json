@@ -1600,16 +1600,6 @@
     "maxPick": 217
   },
   {
-    "id": "13590",
-    "name": "Baker Mayfield",
-    "position": "QB",
-    "team": "TB",
-    "adp": 119.08,
-    "drafts": 12,
-    "minPick": 63,
-    "maxPick": 190
-  },
-  {
     "id": "16269",
     "name": "Brenton Strange",
     "position": "TE",
@@ -1618,6 +1608,16 @@
     "drafts": 13,
     "minPick": 67,
     "maxPick": 176
+  },
+  {
+    "id": "13590",
+    "name": "Baker Mayfield",
+    "position": "QB",
+    "team": "TB",
+    "adp": 119.08,
+    "drafts": 12,
+    "minPick": 63,
+    "maxPick": 190
   },
   {
     "id": "16186",
