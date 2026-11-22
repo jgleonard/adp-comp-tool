@@ -410,16 +410,6 @@
     "maxPick": 117
   },
   {
-    "id": "15753",
-    "name": "Garrett Wilson",
-    "position": "WR",
-    "team": "NYJ",
-    "adp": 50.52,
-    "drafts": 23,
-    "minPick": 24,
-    "maxPick": 78
-  },
-  {
     "id": "17059",
     "name": "Ollie Gordon II",
     "position": "RB",
@@ -428,6 +418,16 @@
     "drafts": 21,
     "minPick": 14,
     "maxPick": 134
+  },
+  {
+    "id": "15753",
+    "name": "Garrett Wilson",
+    "position": "WR",
+    "team": "NYJ",
+    "adp": 50.52,
+    "drafts": 23,
+    "minPick": 24,
+    "maxPick": 78
   },
   {
     "id": "16167",
@@ -1870,16 +1870,6 @@
     "maxPick": 192
   },
   {
-    "id": "15255",
-    "name": "Kenneth Gainwell",
-    "position": "RB",
-    "team": "TB",
-    "adp": 136,
-    "drafts": 12,
-    "minPick": 89,
-    "maxPick": 185
-  },
-  {
     "id": "13132",
     "name": "Alvin Kamara",
     "position": "RB",
@@ -1888,6 +1878,16 @@
     "drafts": 11,
     "minPick": 82,
     "maxPick": 214
+  },
+  {
+    "id": "15255",
+    "name": "Kenneth Gainwell",
+    "position": "RB",
+    "team": "TB",
+    "adp": 136,
+    "drafts": 12,
+    "minPick": 89,
+    "maxPick": 185
   },
   {
     "id": "7836",
