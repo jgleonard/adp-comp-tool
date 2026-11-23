@@ -1870,16 +1870,6 @@
     "maxPick": 192
   },
   {
-    "id": "13132",
-    "name": "Alvin Kamara",
-    "position": "RB",
-    "team": "NO",
-    "adp": 136,
-    "drafts": 11,
-    "minPick": 82,
-    "maxPick": 214
-  },
-  {
     "id": "15255",
     "name": "Kenneth Gainwell",
     "position": "RB",
@@ -1888,6 +1878,16 @@
     "drafts": 12,
     "minPick": 89,
     "maxPick": 185
+  },
+  {
+    "id": "13132",
+    "name": "Alvin Kamara",
+    "position": "RB",
+    "team": "NO",
+    "adp": 136,
+    "drafts": 11,
+    "minPick": 82,
+    "maxPick": 214
   },
   {
     "id": "7836",
